@@ -2,7 +2,7 @@
 
 	// Schedule
 
-	"spring": "0 Custom_Si_SS_B 3 2 1/620 Custom_Si_SS_BugLand_Full 47 24 0/700 Custom_Si_SS_B 3 2 1",
+	"spring": "0 {{ModId}}_WarpRoom 7 6 0/1300 {{ModId}}_WarpRoom 8 7 3/2100 {{ModId}}_WarpRoom 7 6 0",
 
 
 }

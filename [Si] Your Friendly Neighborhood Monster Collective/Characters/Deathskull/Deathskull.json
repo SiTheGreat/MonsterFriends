@@ -50,9 +50,9 @@
 				"Home": [
 					{
 						"Id": "Default",
-						"Location": "Custom_Deathskull",
-						"Tile": { "X": 3, "Y": 5 },
-						"Direction": "Up"
+						"Location": "{{ModId}}_WarpRoom",
+						"Tile": { "X": 5, "Y": 8 },
+						"Direction": "Down"
 					}
 				]
 			}

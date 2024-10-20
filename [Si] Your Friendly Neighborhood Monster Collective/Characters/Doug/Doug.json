@@ -50,9 +50,9 @@
 				"Home": [
 					{
 						"Id": "Default",
-						"Location": "Custom_Doug",
-						"Tile": { "X": 3, "Y": 5 },
-						"Direction": "Up"
+						"Location": "{{ModId}}_WarpRoom",
+						"Tile": { "X": 6, "Y": 9 },
+						"Direction": "Left"
 					}
 				]
 			}

@@ -50,8 +50,8 @@
 				"Home": [
 					{
 						"Id": "Default",
-						"Location": "Custom_Sasha",
-						"Tile": { "X": 3, "Y": 5 },
+						"Location": "{{ModId}}_WarpRoom",
+						"Tile": { "X": 6, "Y": 6 },
 						"Direction": "Up"
 					}
 				]

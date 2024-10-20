@@ -58,6 +58,29 @@
 				"DefaultArrivalTile": { "X": 4, "Y": 4 }
 			}
 		}
+	},
+
+	// Mine NPC Warp
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Mine",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["MapProperties", "NPCWarp"],
+				"Value": "25 4 {{ModId}}_WarpRoom 4 4",
+				"Delimiter": " "
+			},
+		]
+	},
+
+	// Warp Room NPC Warp
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_WarpRoom",
+		"MapProperties": {
+			"NPCWarp": "4 3 Mine 25 5",
+		}
 	}
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -50,8 +50,8 @@
 				"Home": [
 					{
 						"Id": "Default",
-						"Location": "Custom_Sticky",
-						"Tile": { "X": 3, "Y": 5 },
+						"Location": "{{ModId}}_WarpRoom",
+						"Tile": { "X": 7, "Y": 6 },
 						"Direction": "Up"
 					}
 				]

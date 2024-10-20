@@ -50,8 +50,8 @@
 				"Home": [
 					{
 						"Id": "Default",
-						"Location": "Custom_Bob",
-						"Tile": { "X": 3, "Y": 5 },
+						"Location": "{{ModId}}_WarpRoom",
+						"Tile": { "X": 1, "Y": 5 },
 						"Direction": "Up"
 					}
 				]
