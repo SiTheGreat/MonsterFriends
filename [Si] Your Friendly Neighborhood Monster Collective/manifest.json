@@ -1,0 +1,18 @@
+{
+	"Name": "[Si] Your Friendly Neighborhood Monster Collective",
+	"Author": "SiTheGreat",
+	"Description": "XXX",
+	"Version": "1.0.0",
+	"UniqueID": "Si.YFNMC",
+	"UpdateKeys": [ "" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	},
+	// "Dependencies": [
+	// 	{
+    //     		"UniqueID": "DLX.Bundles",
+    //     		"IsRequired": true
+	// 	},
+	// ]
+
+}

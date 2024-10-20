@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="10" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="6">
+ <properties>
+  <property name="AmbientLight" value="80 80 40"/>
+  <property name="ViewportFollowPlayer" type="bool" value="true"/>
+  <property name="Warp" value="18 14 Mountain 54 5 67 18 Mountain 103 17"/>
+ </properties>
+ <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="mine" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="mine.png" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="353" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <layer id="1" name="Back" width="10" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,203,
+0,0,0,0,0,0,0,0,0,203,
+203,203,283,0,0,0,0,0,0,203,
+283,283,251,283,283,283,283,283,283,203,
+283,299,300,300,237,298,299,299,250,203,
+284,234,203,203,203,234,203,220,203,203,
+284,203,220,203,203,203,203,203,203,203,
+284,218,203,219,203,203,220,203,203,298,
+300,203,203,203,203,203,203,218,203,203,
+203,203,218,203,220,203,204,203,203,203,
+203,220,203,203,203,203,203,203,203,203,
+203,203,203,203,203,220,203,203,203,203
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="10" height="12">
+  <data encoding="csv">
+133,139,140,141,139,140,141,138,158,158,
+149,166,162,154,113,173,130,131,157,174,
+165,182,183,129,161,173,146,147,173,190,
+197,198,199,186,177,188,189,186,189,240,
+213,850,853,0,0,0,734,735,766,256,
+229,0,0,0,0,0,1746,1746,0,272,
+245,0,0,0,0,0,0,0,0,288,
+197,0,0,0,941,942,943,828,0,256,
+213,0,0,0,0,0,0,939,940,272,
+229,1187,0,906,1240,1241,0,971,972,288,
+245,1186,0,0,876,844,0,0,301,185,
+136,0,271,271,271,271,271,271,142,142
+</data>
+ </layer>
+ <layer id="3" name="Front" width="10" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,789,0,0,0,0,0,0,0,
+0,818,821,0,0,0,702,703,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,909,910,911,796,0,0,
+0,0,0,0,0,0,0,907,908,0,
+0,0,0,0,1206,1209,0,0,0,270,
+0,0,0,0,0,0,0,0,285,286,
+262,0,295,296,295,296,295,296,301,142,
+278,279,271,271,271,271,271,271,286,142
+</data>
+ </layer>
+ <layer id="4" name="Paths" width="10" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,9,0,9,0,0,0,0,0,
+0,0,0,0,0,0,9,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,9,0,0,0,0,9,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,9,0,0,0,0,9,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="6" name="Buildings"/>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="8" name="Paths"/>
+</map>

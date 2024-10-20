@@ -1,0 +1,67 @@
+{
+
+	"Format": "2.0.0",
+	"Changes": [
+
+	// Characters ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Include",
+		"FromFile": "Characters/Bob/Bob.json",
+	},
+
+	{
+		"Action": "Include",
+		"FromFile": "Characters/Deathskull/Deathskull.json",
+	},
+
+	{
+		"Action": "Include",
+		"FromFile": "Characters/Doug/Doug.json",
+	},
+
+	{
+		"Action": "Include",
+		"FromFile": "Characters/Sasha/Sasha.json",
+	},
+
+	{
+		"Action": "Include",
+		"FromFile": "Characters/Sticky/Sticky.json",
+	},
+
+	// General ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Events
+	{
+		"Action": "Include",
+		"FromFile": "General/Events.json",
+	},
+
+	// Load warp room
+	{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_WarpRoom",
+		"FromFile": "General/WarpRoom.tmx",
+	},
+	
+	// Make warp room location
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+			"{{ModId}}_WarpRoom": {
+				"DisplayName": "YFNMC Warp Room",						
+				"CreateOnLoad": { 
+					"MapPath": "Maps/{{ModId}}_WarpRoom" 
+				},
+				"DefaultArrivalTile": { "X": 4, "Y": 4 }
+			}
+		}
+	}
+
+	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	],
+
+}

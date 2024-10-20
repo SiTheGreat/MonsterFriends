@@ -1,0 +1,143 @@
+{
+
+	"Changes": [
+
+	// Images ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Load",
+		"Target": "Characters/{{ModId}}_Deathskull",
+		"FromFile": "Characters/Deathskull/DeathskullSprite.png",
+	},
+
+	{
+		"Action": "Load",
+		"Target": "Portraits/{{ModId}}_Deathskull",
+		"FromFile": "Characters/Deathskull/DeathskullPortrait.png",
+	},
+
+	// Disposition ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"{{ModId}}_Deathskull": {
+				// Char
+				"DisplayName": "Deathskull",
+				"Gender": "Male",
+				"Age": "Adult",
+				"BirthSeason": "Fall",
+				"BirthDay": 17,
+				// Attitude
+				"Manner": "Rude",
+				"SocialAnxiety": "Outgoing",
+				"Optimism": "Positive",
+				"CanBeRomanced": false,
+				// Exclusions
+				"PerfectionScore": false,
+				"IntroductionsQuest": false,
+				"ItemDeliveryQuests": false,
+				"CanVisitIsland": false,
+				"WinterStarParticipant": false,
+				"CanCommentOnPurchasedShopItems": false,
+				"CanGreetNearbyCharacters": false,
+				"SocialTab": "HiddenUntilMet",
+				"Calendar": "HiddenUntilMet",
+				"UnlockConditions": "PLAYER_HAS_SEEN_EVENT Host 262205XXX", // UPDATE EVENT
+				// Home
+				"HomeRegion": "Town",
+				"Home": [
+					{
+						"Id": "Default",
+						"Location": "Custom_Deathskull",
+						"Tile": { "X": 3, "Y": 5 },
+						"Direction": "Up"
+					}
+				]
+			}
+		}
+	},
+
+	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	// Loves: bomb, artifact trove, rare disc, solar essence, void essence, diamond, jack o lantern, pumpkin, torch
+	// Likes:
+	// Neuts:
+	// Dislikes:
+	// Hates: bones
+
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"{{ModId}}_Deathskull": "Love it!/424/Like it./423/Dislike it./433/Hate it!/419/Meh./418/",
+		},
+	},
+
+	// Schedules ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Include",
+		"FromFile": "Characters/Deathskull/DeathskullSchedule.json",
+	},
+
+	// Dialogue ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Include",
+		"FromFile": "Characters/Deathskull/DeathskullDialogue.json",
+	},
+
+	// Spirit's Eve ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Dialogue
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"Entries": {
+			"{{ModId}}_Deathskull": "Spirit's Eve Dialogue" // UPDATE
+		},
+	},
+
+	// Regular
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "{{ModId}}_Deathskull 34 73 0",
+				"Delimiter": "/"
+			},
+		],
+		"When": {
+			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+	},
+
+	// SVE
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "{{ModId}}_Deathskull 34 73 0",
+				"Delimiter": "/"
+			},
+		],
+		"When": {
+			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+	},
+
+	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	],
+
+}
