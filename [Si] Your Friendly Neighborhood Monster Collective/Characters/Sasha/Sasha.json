@@ -61,7 +61,7 @@
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	// Loves: cloth, miners treat, solar essence, diamond, pumpkin, jack o lantern, sandstone
+	// Loves: cloth 428, miners treat 243, solar essence, diamond, pumpkin, jack o lantern, sandstone 568, spaghetti 224
 	// Likes:
 	// Neuts:
 	// Dislikes:
@@ -71,7 +71,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"{{ModId}}_Sasha": "Love it!/424/Like it./423/Dislike it./433/Hate it!/419/Meh./418/",
+			"{{ModId}}_Sasha": "Love it!/276 746 72 568 243 768 224/Like it./423/Dislike it./433/Hate it!/93/Meh./418/",
 		},
 	},
 

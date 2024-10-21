@@ -1,13 +1,35 @@
 {
+	"Changes": [
 
-	// Dialogue
+	// eat, drink, ad be scary!
+	// people keep telling me to use trombone in a joke, but that just feels insensitive. skeletons don't have lungs! neither do ghosts. or mummies, for that matter. or mushrooms. ...I just realized Doug is the only member of our party with lungs. i don't know how to feel about that.
+	// you wouldn't happen to know a good necromancer would you?
+	// humans are so marrow-minded when it comes to other species
+	// if you ever need to contact me, use the telebone // can I add a phone call entry to this?
+	// valley fair 'i'd try one of those burgers but I don't have the stomach for it'
 
-	"Mon": "What a fine Monday!",
-	"Tue": "What a fine Tuesday!",
-	"Wed": "What a fine Wednesday!",
-	"Thu": "What a fine Thursday!",
-	"Fri": "What a fine Friday!",
-	"Sat": "What a fine Saturday!",
-	"Sun": "What a fine Sunday!",
+
+	// foss skull 820 (why can't skeletons live in the mines? bc they only go 6 feet under! ...on second thought, that one doesn't really check out), snake skull 825 (hey snake! bone appetit!), prehis skull 581 (hmm, this one doesn't look anywhere as humerus as i am), prehis scapula 579 (this one must have been working with a skeleton crew), foss spine 821 (hmm this poor sap must have been easy to frighten. completely spineless!), skel hand 582 (its too bad this one had to give up their dreams of joining the choir. No organ, you see.), foss leg 823 (what did the skeleton say into the megaphone? may i have your atten-shin please!), prehis vert 584 (oh dear, this one came from a rather grave situation.), foss tail 822 (this one was bone to be wild!), foss ribs 824 (what's a skeleton's least favorite location? the living room!), snake vert 826 (what's a skeleton's favorite fruit? a bone-ana!), skel tail 585 (what type of art do skeletons enjoy? skull-ptures!), prehis rib 583 (what do you call a skeleton that cooks? a skull-inary genius!), prehis tibia 580 (I don't really have a bone to pick with you, tibia honest)
+	// bone fragments 881 (these aren't very funny bones you know)
+	// bone flut 119 (now thats just offensive)
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/{{ModId}}_Deathskull",
+		"Entries": {
+			// Gift Responses
+			"AcceptGift_(O)StardropTea": "",
+			"AcceptGift_(O)432": "I wonder what this is made of...", // Truffle Oil
+			// Regular Dialogue
+			"Mon": "What a fine Monday!",
+			"Tue": "What a fine Tuesday!",
+			"Wed": "What a fine Wednesday!",
+			"Thu": "What a fine Thursday!",
+			"Fri": "What a fine Friday!",
+			"Sat": "What a fine Saturday!",
+			"Sun": "What a fine Sunday!", // '*makes a bad joke* .. well excuse my if I haven't got a single funny bone in my body!'
+		},
+	},
+]
 
 }

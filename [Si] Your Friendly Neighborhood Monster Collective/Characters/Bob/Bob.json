@@ -61,17 +61,17 @@
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	// Loves: slime, radioactive ore, moss, pumpkin, torch, omni geode, gold, solar essence, refined quartz, diamond, jack o lantern
-	// Likes:
-	// Neuts:
-	// Dislikes:
-	// Hates: ginger, ginger ale
+	// Loves: slime 766, radioactive ore 909, radio bar 910, moss, omni geode 749, gold ore 384, gold bar 336, solar essence 768, refined quartz 338, diamond 72, jack o lantern 746, pumpkin 276, torch 93
+	// Likes: slimejack 796
+	// Neuts: clay 330
+	// Dislikes:  cinder shard 848
+	// Hates: ginger 829, ginger ale 903
 
 	{
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"{{ModId}}_Bob": "Love it!/424/Like it./423/Dislike it./433/Hate it!/419/Meh./418/",
+			"{{ModId}}_Bob": "Ooooooh I like it! Bring me more!/276 746 93 72 766 338 909 910 Moss 749 336 384 768/Not bad, kid./796/What's this for?/848/Blegh! What is that?!/829 903/Great, more junk./330/",
 		},
 	},
 

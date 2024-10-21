@@ -61,17 +61,17 @@
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	// Loves: clay, cherry bomb, chewing stick, earth crystal, yam, geode, diamond, jack o lantern, torch, pumpkin
+	// Loves: clay 330, cherry bomb 286, chewing stick 105, earth crystal 86, yam 280, glazed yams 208, geode, diamond, jack o lantern, torch, pumpkin
 	// Likes:
 	// Neuts:
 	// Dislikes:
-	// Hates:
+	// Hates: snow yam 416
 
 	{
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"{{ModId}}_Doug": "Love it!/424/Like it./423/Dislike it./433/Hate it!/419/Meh./418/",
+			"{{ModId}}_Doug": "Love it!/276 746 93 72 286 330 105 86 208 280/Like it./423/Dislike it./433/Hate it!/416/Meh./418/",
 		},
 	},
 

@@ -61,17 +61,17 @@
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	// Loves: bomb, artifact trove, rare disc, solar essence, void essence, diamond, jack o lantern, pumpkin, torch
-	// Likes:
-	// Neuts:
-	// Dislikes:
-	// Hates: bones
-
+	// Loves: diamond, jack o lantern, pumpkin, torch, most bones
+	// Likes: bomb 287, mega bomb 288, artifact trove 275, rare disc 108, solar essence 768, void essence 769
+	// Neuts: bone fragments 881
+	// Dislikes: cloth 428
+	// Hates: bone flute 119
+	
 	{
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"{{ModId}}_Deathskull": "Love it!/424/Like it./423/Dislike it./433/Hate it!/419/Meh./418/",
+			"{{ModId}}_Deathskull": "THIS EARNS MY FAVOR!/276 746 93 72 820 825 581 579 821 582 823 584 822 824 826 585 583 580/YOU ARE SPARED TODAY./769 768 288 287 275 108/WHAT BLIGHT HAVE YOU WROUGHT UPON ME?/428/HOW DARE YOU! A PLAGUE UPON YOUR HOUSE!/119/I HAVE NO USE FOR THIS./881/",
 		},
 	},
 

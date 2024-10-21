@@ -61,17 +61,17 @@
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	// Loves: oil, truffle oil, sap, moss, fiber, wood, hardwood, rotten plant, cinder shard
+	// Loves: oil 247, truffle oil 432, sap 92, moss, fiber 771, wood 388, hardwood 709, rotten plant 747 748, cinder shard 848, pumpkin, torch, jack o lantern, mushroom tree seed 891
 	// Likes:
 	// Neuts:
 	// Dislikes:
-	// Hates: mushrooms
+	// Hates: mushrooms, oil od garlic 772
 
 	{
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"{{ModId}}_Sticky": "Love it!/424/Like it./423/Dislike it./433/Hate it!/419/Meh./418/",
+			"{{ModId}}_Sticky": "Love it!/276 746 747 748 93 72 891 247 432 92 Moss 771 388 709 848/Like it./423/Dislike it./433/Why would you give me this?/205 281 404 420 422 430 851/Meh./418/",
 		},
 	},
 
