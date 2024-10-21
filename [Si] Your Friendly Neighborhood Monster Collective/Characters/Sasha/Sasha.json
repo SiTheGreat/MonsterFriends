@@ -61,17 +61,17 @@
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	// Loves: cloth 428, miners treat 243, solar essence, diamond, pumpkin, jack o lantern, sandstone 568, spaghetti 224
+	// Loves: cloth 428, miners treat 243, solar essence 768, diamond 72, jack o lantern 746, pumpkin 276, sandstone 568, spaghetti 224
 	// Likes:
 	// Neuts:
 	// Dislikes:
-	// Hates: torch
+	// Hates: torch 93
 
 	{
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"{{ModId}}_Sasha": "Love it!/276 746 72 568 243 768 224/Like it./423/Dislike it./433/Hate it!/93/Meh./418/",
+			"{{ModId}}_Sasha": "Cool! I'll keep it in one of my jars./276 746 72 568 243 768 224 428/Sweet, thanks @!/423/Hmm, I don't really have a use for this./433/I'm confused. Is it a human tradition to give others things that they find horrible?/93/Is there a reason you're giving this to me?/418/",
 		},
 	},
 

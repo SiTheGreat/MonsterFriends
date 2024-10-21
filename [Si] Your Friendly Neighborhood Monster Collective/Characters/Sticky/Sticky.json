@@ -71,7 +71,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"{{ModId}}_Sticky": "Love it!/276 746 747 748 93 72 891 247 432 92 Moss 771 388 709 848/Like it./423/Dislike it./433/Why would you give me this?/205 281 404 420 422 430 851/Meh./418/",
+			"{{ModId}}_Sticky": "With this my kind can propogate!/276 746 747 748 93 72 891 247 432 92 Moss 771 388 709 848/Ooooooh I can use this./423/Why would you give me this?/433/I thought we were friends @!/205 281 404 420 422 430 851/Hmm, I can probably compost this./418/",
 		},
 	},
 

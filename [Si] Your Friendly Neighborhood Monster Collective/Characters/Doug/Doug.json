@@ -66,12 +66,15 @@
 	// Neuts:
 	// Dislikes:
 	// Hates: snow yam 416
+	// wiggles/wriggles gleefully
+	// tunnels around
+	// nips at your ankles
 
 	{
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"{{ModId}}_Doug": "Love it!/276 746 93 72 286 330 105 86 208 280/Like it./423/Dislike it./433/Hate it!/416/Meh./418/",
+			"{{ModId}}_Doug": "*Eagerly grabs your gift and dives down into his hole to put it somewhere special.*/276 746 93 72 286 330 105 86 208 280/*Cheerfully accepts your gift.*/423/*Sniffs your gift and blows his tongue at you.*/433/*Spits your gift on the ground and hisses at you.*/416/*Takes your gift but looks confused.*/418/",
 		},
 	},
 
