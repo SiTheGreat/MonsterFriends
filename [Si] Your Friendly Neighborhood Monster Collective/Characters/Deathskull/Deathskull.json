@@ -64,14 +64,14 @@
 	// Loves: diamond, jack o lantern, pumpkin, torch, most bones, bomb 287, mega bomb 288, artifact trove 275, solar essence 768, void essence 769
 	// Likes: rare disc 108
 	// Neuts: bone fragments 881
-	// Dislikes: cloth 428
+	// Dislikes:
 	// Hates: bone flute 119
 	
 	{
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"{{ModId}}_Deathskull": "THIS EARNS MY FAVOR!/276 746 93 72 820 825 581 579 821 582 823 584 822 824 826 585 583 580 769 768 288 287 275/YOU ARE SPARED TODAY./108/WHAT BLIGHT HAVE YOU WROUGHT UPON ME?/428/HOW DARE YOU! A PLAGUE UPON YOUR HOUSE!/119/I HAVE NO USE FOR THIS./881/",
+			"{{ModId}}_Deathskull": "THIS EARNS MY FAVOR!/276 746 93 72 820 825 581 579 821 582 823 584 822 824 826 585 583 580 769 768 288 287 275/YOU ARE SPARED TODAY./108/WHAT BLIGHT HAVE YOU WROUGHT UPON ME?//HOW DARE YOU! A PLAGUE UPON YOUR HOUSE!/119/I HAVE NO USE FOR THIS./881/",
 		},
 	},
 

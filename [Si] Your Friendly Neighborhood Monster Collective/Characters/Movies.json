@@ -1,0 +1,78 @@
+{
+	"Changes": [
+
+	// Movie Tastes
+	{
+		"Action": "EditData",
+		"Target": "Data/MoviesReactions",
+		"Entries": {
+			"namehere": {
+				"NPCName": "namehere",
+				"Reactions": [
+
+				// Mysterium
+				{
+					"Tag": "fall_movie_0",
+					"ID": "reaction_4",
+					"Response": "love",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "Do you know who directed this one?",
+						},
+						"DuringMovie": null,
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "Not particularly memorable, was it?",
+						}
+					},
+				},
+
+				// It Howls In The Rain
+				{
+					"Tag": "fall_movie_1",
+					"ID": "reaction_5",
+					"Response": "love",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "Are you sure this is what we should watch?",
+						},
+						"DuringMovie": null,
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "I'm not going to be able to sleep tonight...",
+						}
+					},
+				},
+				
+				],
+
+			},
+		},
+
+	},
+
+	// Concession Tastes
+	{
+		"Action": "EditData",
+		"Target": "Data/ConcessionTastes",
+		"Entries": {
+			"namehere": {
+				"Name": "namehere",
+				"LovedTags": ["Salted Peanuts", "Stardrop Sorbet", "Panzanella Salad", "Truffle Popcorn", "Salmon Burger", "Cappuccino Mousse Cake", "Joja Cola", "Popcorn", "JojaCorn", "Kale Smoothie", "Jawbreaker", "Fries", "Cotton Candy", "Nachos", "Black Licorice", "Personal Pizza", "Rock Candy", "Apple Slices", "Jasmine Tea", "Chocolate Popcorn", "Star Cookie", "Ice Cream Sandwich", "Hummus Snack Pack", "Sour Slimes"],
+				"LikedTags": [],
+				"DislikedTags": []
+			}
+		}
+	}
+
+	]
+}
+

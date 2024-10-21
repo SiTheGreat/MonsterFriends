@@ -1,13 +1,24 @@
 {
-
-	// Dialogue
-
-	"Mon": "What a fine Monday!",
-	"Tue": "What a fine Tuesday!",
-	"Wed": "What a fine Wednesday!",
-	"Thu": "What a fine Thursday!",
-	"Fri": "What a fine Friday!",
-	"Sat": "What a fine Saturday!",
-	"Sun": "What a fine Sunday!",
+	"Changes": [
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/{{ModId}}_Sticky",
+		"Entries": {
+			// Gift Responses
+			"AcceptGift_(O)StardropTea": "",
+			"AcceptGift_(O)891": "My kind shall rise to conquer the world!#$b#Thank you @. I will make sure this little sporeling thrives.", // Mushroom Tree Seed
+			"AcceptGift_(O)432": "I wonder what this is made of...", // Truffle Oil
+			// Regular Dialogue
+			"Mon": "*Wiggles gleefully.*",
+			"Tue": "*Tunnels around.*",
+			"Wed": "*Nips at your ankles.*",
+			"Thu": "*Wriggles in excitement.*",
+			"Fri": "*Sticks his tongue at you.*",
+			"Sat": "*Twirls in place.*",
+			"Sun": "*Munches on some dirt.*",
+		},
+	},
+]
 
 }

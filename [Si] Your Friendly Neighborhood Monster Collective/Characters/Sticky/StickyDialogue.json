@@ -1,14 +1,21 @@
 {
 	"Changes": [
-
+	
 	{
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/{{ModId}}_Sticky",
 		"Entries": {
 			// Gift Responses
 			"AcceptGift_(O)StardropTea": "",
-			"AcceptGift_(O)891": "My kind shall rise to conquer the world!#$b#Thank you @. I will make sure this spawnling thrives.", // Mushroom Tree Seed
+			"AcceptGift_(O)891": "My kind shall rise to conquer the world!#$b#Thank you @. I will make sure this little sporeling thrives.", // Mushroom Tree Seed
 			"AcceptGift_(O)432": "I wonder what this is made of...", // Truffle Oil
+			"AcceptGift_(O)851": "*Gasp* A smaller me! I shall raise it to be one of my army's top generals.", // Magma Cap
+			"AcceptGift_(O)404": "I shall add this one to my growing army!", // Common Mushroom
+			"AcceptGift_(O)281": "I shall add this one to my growing army!", // Chantarelle
+			"AcceptGift_(O)257": "I shall add this one to my growing army!", // Morel
+			"AcceptGift_(O)430": "I shall add this one to my growing army!", // Truffle
+			"AcceptGift_(O)420": "I shall add this one to my growing army!", // Red Mushroom
+			"AcceptGift_(O)422": "I shall add this one to my growing army!", // Purple Mushroom
 			// Regular Dialogue
 			"Mon": "What a fine Monday!",
 			"Tue": "What a fine Tuesday!",

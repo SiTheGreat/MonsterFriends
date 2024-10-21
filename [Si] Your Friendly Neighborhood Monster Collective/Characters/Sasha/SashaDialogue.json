@@ -1,13 +1,26 @@
 {
+	"Changes": [
+	
+	// common mushroom 404, chantarelle 281, red mushroom 420, purple mushroom 422, morel 257, magma cap 851, truffle 430
 
-	// Dialogue
-
-	"Mon": "What a fine Monday!",
-	"Tue": "What a fine Tuesday!",
-	"Wed": "What a fine Wednesday!",
-	"Thu": "What a fine Thursday!",
-	"Fri": "What a fine Friday!",
-	"Sat": "What a fine Saturday!",
-	"Sun": "What a fine Sunday!",
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/{{ModId}}_Sticky",
+		"Entries": {
+			// Gift Responses
+			"AcceptGift_(O)StardropTea": "",
+			"AcceptGift_(O)891": "My kind shall rise to conquer the world!#$b#Thank you @. I will make sure this little sporeling thrives.", // Mushroom Tree Seed
+			"AcceptGift_(O)432": "I wonder what this is made of...", // Truffle Oil
+			// Regular Dialogue
+			"Mon": "What a fine Monday!",
+			"Tue": "What a fine Tuesday!",
+			"Wed": "What a fine Wednesday!",
+			"Thu": "What a fine Thursday!",
+			"Fri": "What a fine Friday!",
+			"Sat": "What a fine Saturday!",
+			"Sun": "What a fine Sunday!",
+		},
+	},
+]
 
 }

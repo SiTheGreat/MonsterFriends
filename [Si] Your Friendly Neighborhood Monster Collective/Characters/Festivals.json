@@ -1,0 +1,38 @@
+{
+
+	"Changes": [
+
+	// Stardew Valley Fair
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "Si_MR_Morris 39 33 3",
+				"Delimiter": "/"
+			},
+		]
+	},
+
+	// Spirit's Eve
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "Si_MR_Morris 34 73 0",
+				"Delimiter": "/"
+			},
+		]
+	},
+    
+
+	]
+
+}
