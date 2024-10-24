@@ -6,10 +6,15 @@
 		"Target": "Characters/Dialogue/{{ModId}}_Sticky",
 		"Entries": {
 			// Gift Responses
-			"AcceptGift_(O)StardropTea": "",
-			"AcceptGift_(O)891": "My kind shall rise to conquer the world!#$b#Thank you @. I will make sure this little sporeling thrives.", // Mushroom Tree Seed
-			"AcceptGift_(O)432": "I wonder what this is made of...", // Truffle Oil
+			"AcceptGift_(O)StardropTea": "*His eyes light up with joy.*",
+			"AcceptGift_(O)746": "*Plays with the jack o' lantern.*", // Jack O Lantern
+			"AcceptGift_(O)330": "*Burrows his head into the fresh clay.*", // Clay
+			"AcceptGift_(O)105": "*Vigorously chews the stick.*", // Chewing Stick
+			"AcceptGift_(O)280": "*Noms on the yams.*", // Yam
+			"AcceptGift_(O)208": "*Noms on the yams.*", // Glazed Yams
 			// Regular Dialogue
+			"MovieInvitation": "*Sniffs the ticket curiously.*",
+			"rainy": "*Splashes a puddle with his head.*",
 			"Mon": "*Wiggles gleefully.*",
 			"Tue": "*Tunnels around.*",
 			"Wed": "*Nips at your ankles.*",

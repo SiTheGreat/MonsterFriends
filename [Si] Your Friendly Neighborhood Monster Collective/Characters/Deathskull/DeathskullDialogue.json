@@ -6,7 +6,8 @@
 		"Target": "Characters/Dialogue/{{ModId}}_Deathskull",
 		"Entries": {
 			// Gift Responses
-			"AcceptGift_(O)StardropTea": "",
+			"AcceptGift_(O)StardropTea": "BONE-TASTIC!",
+			"AcceptGift_(O)746": "A NEW PET! I SHALL TEACH IT TO BE MORE THAN A ONE-TRICK BONY!", // Jack O Lantern
 			"AcceptGift_(O)119": "OKAY NOW THAT'S JUST OFFENSIVE.", // Bone Flute
 			"AcceptGift_(O)881": "THESE AREN'T VERY FUNNY BONES YOU KNOW.", // Bone Fragments
 			"AcceptGift_(O)820": "WHY CAN'T SKELETONS LIVE IN THE MINES?#$e#BECAUSE THEY ONLY GO SIX FEET UNDER#$e#...ON SECOND THOUGHT, THAT ONE DOESN'T REALLY CHECK OUT.", // Fossilized Skull

@@ -6,23 +6,26 @@
 		"Target": "Characters/Dialogue/{{ModId}}_Sticky",
 		"Entries": {
 			// Gift Responses
-			"AcceptGift_(O)StardropTea": "",
-			"AcceptGift_(O)891": "My kind shall rise to conquer the world!#$b#Thank you @. I will make sure this little sporeling thrives.", // Mushroom Tree Seed
+			"AcceptGift_(O)StardropTea": "It tastes like a rotting log.#$b#I love it!",
+			"AcceptGift_(O)746": "Hmm, a new pet. It shall become a great mushroom companion!", // Jack O Lantern
+			"AcceptGift_(O)891": "My kind shall rise to consume the world!#$b#Thank you @. I will make sure this little sporeling thrives.", // Mushroom Tree Seed
 			"AcceptGift_(O)432": "I wonder what this is made of...", // Truffle Oil
-			"AcceptGift_(O)851": "*Gasp* A smaller me! I shall raise it to be one of my army's top generals.", // Magma Cap
-			"AcceptGift_(O)404": "I shall add this one to my growing army!", // Common Mushroom
-			"AcceptGift_(O)281": "I shall add this one to my growing army!", // Chantarelle
-			"AcceptGift_(O)257": "I shall add this one to my growing army!", // Morel
-			"AcceptGift_(O)430": "I shall add this one to my growing army!", // Truffle
-			"AcceptGift_(O)420": "I shall add this one to my growing army!", // Red Mushroom
-			"AcceptGift_(O)422": "I shall add this one to my growing army!", // Purple Mushroom
+			"AcceptGift_(O)851": "*Gasp* A smaller me! I shall raise it to be a beacon for all of mushroomkind.", // Magma Cap
+			"AcceptGift_(O)404": "I shall teach this one the ways of the mushroom!", // Common Mushroom
+			"AcceptGift_(O)281": "I shall teach this one the ways of the mushroom!", // Chantarelle
+			"AcceptGift_(O)257": "I shall teach this one the ways of the mushroom!", // Morel
+			"AcceptGift_(O)420": "I shall teach this one the ways of the mushroom!", // Red Mushroom
+			"AcceptGift_(O)422": "I shall teach this one the ways of the mushroom!", // Purple Mushroom
+			"AcceptGift_(O)430": "I've never seen a mushroom like this before.#$e#I am excited to learn their ways!", // Truffle
 			// Regular Dialogue
-			"Mon": "What a fine Monday!",
-			"Tue": "What a fine Tuesday!",
-			"Wed": "What a fine Wednesday!",
-			"Thu": "What a fine Thursday!",
+			"MovieInvitation": "Only if you promise to get me some food!",
+			"rainy": "This rain is just what my pustules needed!",
+			"Mon": "The surface is pretty cold. I can't wait to go back to my magma pool.",
+			"Tue": "Humans have been around for a while, but lots of different species have dominated the world over time.#$e#Mushrooms have been here for all of it.#$e#One day the world will be ours again!",
+			"Wed": "Do you think mushrooms grow in space?#$e#I wonder what space mushrooms are like.#$e#Would they have multiple stalks?",
+			"Thu": "Doug keeps getting tangled in my mycelium.#$b#I'm trying to train him out of it, but it's slow going.",
 			"Fri": "What a fine Friday!",
-			"Sat": "What a fine Saturday!",
+			"Sat": "I have discovered that humans will give you food if you enter their homes and look very sad.#$e#I do not intend to use this knowledge responsibly.",
 			"Sun": "What a fine Sunday!",
 		},
 	},

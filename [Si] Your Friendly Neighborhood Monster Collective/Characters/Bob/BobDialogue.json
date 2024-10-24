@@ -1,7 +1,8 @@
 {
 	"Changes": [
 	
-	// common mushroom 404, chantarelle 281, red mushroom 420, purple mushroom 422, morel 257, magma cap 851, truffle 430
+	// slime 766, radioactive ore 909, radio bar 910, moss, omni geode 749, gold ore 384, gold bar 336, solar essence 768, refined quartz 338
+	// hates ginger 829, ginger ale 903
 
 	{
 		"Action": "EditData",
@@ -9,13 +10,15 @@
 		"Entries": {
 			// Gift Responses
 			"AcceptGift_(O)StardropTea": "",
-			"AcceptGift_(O)891": "My kind shall rise to conquer the world!#$b#Thank you @. I will make sure this little sporeling thrives.", // Mushroom Tree Seed
-			"AcceptGift_(O)432": "I wonder what this is made of...", // Truffle Oil
+			"AcceptGift_(O)746": "A new pet? I don't know, I'm not very good at taking care of living things.#$b#I'll give it to Deathskull, he'll like having an audience for his bone jokes.", // Jack O Lantern
+			"AcceptGift_(O)891": "",
 			// Regular Dialogue
+			"MovieInvitation": "Eh, sure, why not?",
+			"rainy": "Ahh, this weather makes me feel nice and slimy.",
 			"Mon": "They call me Bob because I bob up and down.",
 			"Tue": "What a fine Tuesday!",
 			"Wed": "What a fine Wednesday!",
-			"Thu": "What a fine Thursday!",
+			"Thu": "My cousin Angry Roger told me you humans like to wash grime off your skin rather than keep it on.#$e#He's joking, right?",
 			"Fri": "What a fine Friday!",
 			"Sat": "What a fine Saturday!",
 			"Sun": "What a fine Sunday!",

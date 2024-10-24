@@ -1,18 +1,22 @@
 {
 	"Changes": [
-	
-	// common mushroom 404, chantarelle 281, red mushroom 420, purple mushroom 422, morel 257, magma cap 851, truffle 430
 
 	{
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/{{ModId}}_Sticky",
 		"Entries": {
 			// Gift Responses
-			"AcceptGift_(O)StardropTea": "",
-			"AcceptGift_(O)891": "My kind shall rise to conquer the world!#$b#Thank you @. I will make sure this little sporeling thrives.", // Mushroom Tree Seed
-			"AcceptGift_(O)432": "I wonder what this is made of...", // Truffle Oil
+			"AcceptGift_(O)StardropTea": "Ahh, this reminds me of embalming fluid. Tangy and sweet!",
+			"AcceptGift_(O)746": "Sweet, a new pet! Thanks @.", // Jack O Lantern
+			"AcceptGift_(O)428": "Hey, thanks! My wrappings have been getting pretty tattered lately.", // Cloth
+			"AcceptGift_(O)568": "Ahh, nice and friction-y. I love it!", // Sandstone
+			"AcceptGift_(O)828": "Aww, it's so cute! I'm going to give it its very own canopic jar.", // Mummified Frog
+			"AcceptGift_(O)827": "Aww, it's so cute! I'm going to give it its very own canopic jar.", // Mummified Bat
+			"AcceptGift_(O)93": "Are you trying to set me on fire?", // Torch
 			// Regular Dialogue
-			"Mon": "What a fine Monday!",
+			"MovieInvitation": "",
+			"rainy": "Ah! My wrappings are getting wet!#$e#I need to find a place to dry off.",
+			"Mon": "My girlfriend looted this scarf from an adventurer for me.#$e#It matches my eyes!",
 			"Tue": "What a fine Tuesday!",
 			"Wed": "What a fine Wednesday!",
 			"Thu": "What a fine Thursday!",
