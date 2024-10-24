@@ -71,7 +71,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"{{ModId}}_Sticky": "With this my kind can propogate!/276 746 747 748 93 72 891 247 432 92 Moss 771 388 709 848 281 404 420 422 430 851/Ooooooh I can use this.//Why would you give me this?//I thought we were friends @!/205 772/Hmm, I can probably compost this.//",
+			"{{ModId}}_Sticky": "With this my people can propogate!/276 746 747 748 93 72 891 247 432 92 Moss 771 388 709 848 281 404 420 422 430 851/Ooooooh I can use this.//Why would you give me this?//I thought we were friends @!/205 772/Hmm, I can probably compost this.//",
 		},
 	},
 
@@ -89,51 +89,16 @@
 		"FromFile": "Characters/Sticky/StickyDialogue.json",
 	},
 
-	// Spirit's Eve ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Fests & Movies ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	// Dialogue
 	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"Entries": {
-			"{{ModId}}_Sticky": "Spirit's Eve Dialogue" // UPDATE
-		},
+		"Action": "Include",
+		"FromFile": "Characters/Deathskull/DeathskullMovies.json",
 	},
 
-	// Regular
 	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Sticky 34 73 0",
-				"Delimiter": "/"
-			},
-		],
-		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		},
-	},
-
-	// SVE
-	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Sticky 34 73 0",
-				"Delimiter": "/"
-			},
-		],
-		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-		},
+		"Action": "Include",
+		"FromFile": "Characters/Deathskull/DeathskullFestivals.json",
 	},
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -89,51 +89,16 @@
 		"FromFile": "Characters/Bob/BobDialogue.json",
 	},
 
-	// Spirit's Eve ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Fests & Movies ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	// Dialogue
 	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"Entries": {
-			"{{ModId}}_Bob": "Spirit's Eve Dialogue" // UPDATE
-		},
+		"Action": "Include",
+		"FromFile": "Characters/Bob/BobMovies.json",
 	},
 
-	// Regular
 	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Bob 34 73 0",
-				"Delimiter": "/"
-			},
-		],
-		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		},
-	},
-
-	// SVE
-	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Bob 34 73 0",
-				"Delimiter": "/"
-			},
-		],
-		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-		},
+		"Action": "Include",
+		"FromFile": "Characters/Bob/BobFestivals.json",
 	},
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

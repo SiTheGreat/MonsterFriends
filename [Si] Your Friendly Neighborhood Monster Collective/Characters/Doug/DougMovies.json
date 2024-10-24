@@ -1,0 +1,78 @@
+{
+	"Changes": [
+
+	// Movie Tastes
+	{
+		"Action": "EditData",
+		"Target": "Data/MoviesReactions",
+		"Entries": {
+			"{{ModId}}_Doug": {
+				"NPCName": "{{ModId}}_Doug",
+				"Reactions": [
+
+				// Mysterium
+				{
+					"Tag": "fall_movie_0",
+					"ID": "reaction_4",
+					"Response": "love",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "*Wiggles in excitement.*",
+						},
+						"DuringMovie": null,
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "*Gives you a starry-eyed look.*",
+						}
+					},
+				},
+
+				// It Howls In The Rain
+				{
+					"Tag": "fall_movie_1",
+					"ID": "reaction_5",
+					"Response": "love",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "*Wiggles in excitement.*",
+						},
+						"DuringMovie": null,
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "*Gives you a starry-eyed look.*",
+						}
+					},
+				},
+				
+				],
+
+			},
+		},
+
+	},
+
+	// Concession Tastes
+	{
+		"Action": "EditData",
+		"Target": "Data/ConcessionTastes",
+		"Entries": {
+			"{{ModId}}_Doug": {
+				"Name": "{{ModId}}_Doug",
+				"LovedTags": ["Salted Peanuts", "Stardrop Sorbet", "Panzanella Salad", "Truffle Popcorn", "Salmon Burger", "Cappuccino Mousse Cake", "Joja Cola", "Popcorn", "JojaCorn", "Kale Smoothie", "Jawbreaker", "Fries", "Cotton Candy", "Nachos", "Black Licorice", "Personal Pizza", "Rock Candy", "Apple Slices", "Jasmine Tea", "Chocolate Popcorn", "Star Cookie", "Ice Cream Sandwich", "Hummus Snack Pack", "Sour Slimes"],
+				"LikedTags": [],
+				"DislikedTags": []
+			}
+		}
+	}
+
+	]
+}
+

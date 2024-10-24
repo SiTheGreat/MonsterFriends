@@ -1,0 +1,117 @@
+{
+
+	"Changes": [
+
+	// Stardew Valley Fair ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Dialogue
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"Entries": {
+			"{{ModId}}_Sticky": "So much food!#$b#Spread, my mycelium, spread!"
+		},
+	},
+
+	// Regular
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "{{ModId}}_Sticky 34 73 0",
+				"Delimiter": "/"
+			},
+		],
+		"When": {
+			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+	},
+
+	// SVE
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "{{ModId}}_Sticky 34 73 0",
+				"Delimiter": "/"
+			},
+		],
+		"When": {
+			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+	},
+
+	// Spirit's Eve ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Dialogue
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"Entries": {
+			"{{ModId}}_Sticky": "There's so many treats here! You can have some too!#$action AddItem (O)848 10"
+		},
+		"When": {
+			"HasSeenEvent:hostPlayer |contains=262213012": false, // UPDATE
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"Entries": {
+			"{{ModId}}_Sticky": "There's so many treats here! You can have some too!#$action AddItem (O)891 10"
+		},
+		"When": {
+			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+		},
+	},
+
+	// Regular
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "{{ModId}}_Sticky 34 73 0",
+				"Delimiter": "/"
+			},
+		],
+		"When": {
+			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+	},
+
+	// SVE
+	{
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "{{ModId}}_Sticky 34 73 0",
+				"Delimiter": "/"
+			},
+		],
+		"When": {
+			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+	},
+
+    
+
+	]
+
+}

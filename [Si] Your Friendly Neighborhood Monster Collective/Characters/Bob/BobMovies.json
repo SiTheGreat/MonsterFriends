@@ -6,8 +6,8 @@
 		"Action": "EditData",
 		"Target": "Data/MoviesReactions",
 		"Entries": {
-			"namehere": {
-				"NPCName": "namehere",
+			"{{ModId}}_Bob": {
+				"NPCName": "{{ModId}}_Bob",
 				"Reactions": [
 
 				// Mysterium
@@ -20,13 +20,13 @@
 						"BeforeMovie": {
 							"ResponsePoint": null,
 							"Script": "",
-							"Text": "Do you know who directed this one?",
+							"Text": "I better get a decent snack out of this.",
 						},
 						"DuringMovie": null,
 						"AfterMovie": {
 							"ResponsePoint": null,
 							"Script": "",
-							"Text": "Not particularly memorable, was it?",
+							"Text": "Oooooh those chairs felt nice to ooze into!",
 						}
 					},
 				},
@@ -41,13 +41,13 @@
 						"BeforeMovie": {
 							"ResponsePoint": null,
 							"Script": "",
-							"Text": "Are you sure this is what we should watch?",
+							"Text": "I better get a decent snack out of this.",
 						},
 						"DuringMovie": null,
 						"AfterMovie": {
 							"ResponsePoint": null,
 							"Script": "",
-							"Text": "I'm not going to be able to sleep tonight...",
+							"Text": "Oooooh those chairs felt nice to ooze into!",
 						}
 					},
 				},
@@ -64,8 +64,8 @@
 		"Action": "EditData",
 		"Target": "Data/ConcessionTastes",
 		"Entries": {
-			"namehere": {
-				"Name": "namehere",
+			"{{ModId}}_Bob": {
+				"Name": "{{ModId}}_Bob",
 				"LovedTags": ["Salted Peanuts", "Stardrop Sorbet", "Panzanella Salad", "Truffle Popcorn", "Salmon Burger", "Cappuccino Mousse Cake", "Joja Cola", "Popcorn", "JojaCorn", "Kale Smoothie", "Jawbreaker", "Fries", "Cotton Candy", "Nachos", "Black Licorice", "Personal Pizza", "Rock Candy", "Apple Slices", "Jasmine Tea", "Chocolate Popcorn", "Star Cookie", "Ice Cream Sandwich", "Hummus Snack Pack", "Sour Slimes"],
 				"LikedTags": [],
 				"DislikedTags": []

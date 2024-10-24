@@ -89,51 +89,21 @@
 		"FromFile": "Characters/Deathskull/DeathskullDialogue.json",
 	},
 
-	// Spirit's Eve ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	// Dialogue
 	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"Entries": {
-			"{{ModId}}_Deathskull": "Spirit's Eve Dialogue" // UPDATE
-		},
+		"Action": "Include",
+		"FromFile": "Characters/Deathskull/DeathskullCalls.json",
 	},
 
-	// Regular
+	// Fests & Movies ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Deathskull 34 73 0",
-				"Delimiter": "/"
-			},
-		],
-		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		},
+		"Action": "Include",
+		"FromFile": "Characters/Deathskull/DeathskullMovies.json",
 	},
 
-	// SVE
 	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Deathskull 34 73 0",
-				"Delimiter": "/"
-			},
-		],
-		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-		},
+		"Action": "Include",
+		"FromFile": "Characters/Deathskull/DeathskullFestivals.json",
 	},
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

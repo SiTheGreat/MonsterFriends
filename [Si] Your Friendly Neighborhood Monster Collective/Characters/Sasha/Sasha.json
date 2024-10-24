@@ -71,7 +71,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"{{ModId}}_Sasha": "Cool! I'll keep it in one of my jars./276 746 72 568 243 768 224 428 828 827/Sweet, thanks @!//Hmm, I don't really have a use for this.//I'm confused. Is it a human tradition to give others things that they find horrible?/93/Is there a reason you're giving this to me?//",
+			"{{ModId}}_Sasha": "Cool! I'll keep it in one of my canopic jars./276 746 72 568 243 768 224 428 828 827/Sweet, thanks @!//Hmm, I don't really have a use for this.//I'm confused. Is it a human tradition to give others things that they find horrible?/93/Is there a reason you're giving this to me?//",
 		},
 	},
 
@@ -89,51 +89,16 @@
 		"FromFile": "Characters/Sasha/SashaDialogue.json",
 	},
 
-	// Spirit's Eve ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Fests & Movies ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	// Dialogue
 	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"Entries": {
-			"{{ModId}}_Sasha": "Spirit's Eve Dialogue" // UPDATE
-		},
+		"Action": "Include",
+		"FromFile": "Characters/Deathskull/DeathskullMovies.json",
 	},
 
-	// Regular
 	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Sasha 34 73 0",
-				"Delimiter": "/"
-			},
-		],
-		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		},
-	},
-
-	// SVE
-	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Sasha 34 73 0",
-				"Delimiter": "/"
-			},
-		],
-		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-		},
+		"Action": "Include",
+		"FromFile": "Characters/Deathskull/DeathskullFestivals.json",
 	},
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -1,10 +1,6 @@
 {
 	"Changes": [
 
-	// SPIRITS EVE eat, drink, ad be scary!
-	// if you ever need to contact me, use the telebone // can I add a phone call entry to this?
-	// valley fair 'i'd try one of those burgers but I don't have the stomach for it'
-
 	{
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/{{ModId}}_Deathskull",
@@ -28,13 +24,15 @@
 			"AcceptGift_(O)583": "WHAT DO YOU CALL A SKELETON THAT COOKS?#$e#A SKULL-INARY GENIUS!", // Prehistoric Rib
 			"AcceptGift_(O)580": "I DON'T REALLY HAVE A BONE TO PICK WITH YOU, TIBIA HONEST.", // Prehistoric Tibia
 			// Regular Dialogue
+			"MovieInvitation": "THIS WILL BE A BONE-ANZA!",
+			"rainy": "THIS WEATHER SENDS A CHILL DOWN MY SPINE!#$e#WHAT I WOULD GIVE FOR A NICE, WARM BONE-FIRE.",
 			"Mon": "PEOPLE KEEP TELLING ME TO USE TROMBONE IN ONE OF MY JOKES, BUT THAT JUST FEELS INSENSITIVE.#$e#SKELETONS DON'T HAVE LUNGS!#$e#NEITHER DO GHOSTS.#$e#OR MUMMIES, FOR THAT MATTER.#$e#OR MUSHROOMS.#$e#...I JUST REALIZED DOUG IS THE ONLY MEMBER OF OUR PARTY WITH LUNGS. I DON'T KNOW HOW TO FEEL ABOUT THAT.",
 			"Tue": "HEY, WHY DIDN'T THE SKELETON GO TO THE PARTY?#$e#THEY HAD NO BODY TO GO WITH!#$e#...#$e#WELL EXCUSE ME IF I HAVEN'T GOT A SINGLE FUNNY BONE IN MY BODY!",
-			"Wed": "HUMANS ARE SO MARROW-MINDED ABOUT OTHER SPECIES.#$e#I SHOULDN'T NEED AN AMULET TO FLOAT AROUND YOUR KIND.#$e#I'VE BEEN IN THIS VALLEY LONGER THAN ALL OF YOU COMBINED!",
+			"Wed": "HUMANS ARE SO MARROW-MINDED ABOUT OTHER SPECIES.#$e#I SHOULD NOT NEED AN AMULET TO FLOAT AROUND YOUR KIND.#$e#I'VE BEEN IN THIS VALLEY LONGER THAN ALL OF YOU COMBINED!",
 			"Thu": "IF YOU EVER NEED TO CONTACT ME, USE A TELE-BONE!",
 			"Fri": "YOU WOULDN'T HAPPEN TO KNOW A GOOD NECROMANCER, WOULD YOU?",
-			"Sat": "What a fine Saturday!",
-			"Sun": "What a fine Sunday!",
+			"Sat": "BE CAREFUL!#$e#I'M BAD TO THE BONE!",
+			"Sun": "DO NOT TELL ME ANY FIB-ULAS.#$e#I WASN'T BONE YESTERDAY!",
 		},
 	},
 ]

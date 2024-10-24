@@ -1,0 +1,78 @@
+{
+	"Changes": [
+
+	// Movie Tastes
+	{
+		"Action": "EditData",
+		"Target": "Data/MoviesReactions",
+		"Entries": {
+			"{{ModId}}_Deathskull": {
+				"NPCName": "{{ModId}}_Deathskull",
+				"Reactions": [
+
+				// Mysterium
+				{
+					"Tag": "fall_movie_0",
+					"ID": "reaction_4",
+					"Response": "love",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "I CAN'T WAIT TO WATCH SOME SKELE-TOONS!",
+						},
+						"DuringMovie": null,
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "I DIDN'T HAVE THE GUTS FOR HOW SCARY THAT WAS!",
+						}
+					},
+				},
+
+				// It Howls In The Rain
+				{
+					"Tag": "fall_movie_1",
+					"ID": "reaction_5",
+					"Response": "love",
+					"Whitelist": [],
+					"SpecialResponses": {
+						"BeforeMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "THIS WILL BE A GOOD ONE! I CAN FEEL IT IN MY BONES!",
+						},
+						"DuringMovie": null,
+						"AfterMovie": {
+							"ResponsePoint": null,
+							"Script": "",
+							"Text": "A BONE-AFIDE HORROR!",
+						}
+					},
+				},
+				
+				],
+
+			},
+		},
+
+	},
+
+	// Concession Tastes
+	{
+		"Action": "EditData",
+		"Target": "Data/ConcessionTastes",
+		"Entries": {
+			"{{ModId}}_Deathskull": {
+				"Name": "{{ModId}}_Deathskull",
+				"LovedTags": ["Salted Peanuts", "Stardrop Sorbet", "Panzanella Salad", "Truffle Popcorn", "Salmon Burger", "Cappuccino Mousse Cake", "Joja Cola", "Popcorn", "JojaCorn", "Kale Smoothie", "Jawbreaker", "Fries", "Cotton Candy", "Nachos", "Black Licorice", "Personal Pizza", "Rock Candy", "Apple Slices", "Jasmine Tea", "Chocolate Popcorn", "Star Cookie", "Ice Cream Sandwich", "Hummus Snack Pack", "Sour Slimes"],
+				"LikedTags": [],
+				"DislikedTags": []
+			}
+		}
+	}
+
+	]
+}
+

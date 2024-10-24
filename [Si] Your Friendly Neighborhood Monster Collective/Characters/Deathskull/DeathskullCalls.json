@@ -1,0 +1,52 @@
+{
+
+	"Changes": [
+
+	{
+		"Action": "EditData",
+		"Target": "Data/IncomingPhoneCalls",
+		"{{ModId}}_Deathskull1": {
+			"TriggerCondition": null,
+			"RingCondition": null,
+			"FromNpc": "{{ModId}}_Deathskull",
+			"FromPortrait": null,
+			"FromDisplayName": null,
+			"Dialogue": "WHAT WAS THE SKELETON DOING AT THE HOCKEY GAME?#$b#DRIVING THE ZAM-BONY!",
+			"IgnoreBaseChance": false,
+			"SimpleDialogueSplitBy": null,
+			"MaxCalls": -1,
+			"CustomFields": null
+		},
+		"{{ModId}}_Deathskull2": {
+			"TriggerCondition": null,
+			"RingCondition": null,
+			"FromNpc": "{{ModId}}_Deathskull",
+			"FromPortrait": null,
+			"FromDisplayName": null,
+			"Dialogue": "WHY ARE SKELETONS SO CALM?#$b#BECAUSE NOTHING GETS UNDER THEIR SKIN!",
+			"IgnoreBaseChance": false,
+			"SimpleDialogueSplitBy": null,
+			"MaxCalls": -1,
+			"CustomFields": null
+		},
+		"{{ModId}}_Deathskull3": {
+			"TriggerCondition": null,
+			"RingCondition": null,
+			"FromNpc": "{{ModId}}_Deathskull",
+			"FromPortrait": null,
+			"FromDisplayName": null,
+			"Dialogue": "WHAT PLANT IS MADE UP OF TINY SKELETONS?#$b#A BONE-SAI TREE!",
+			"IgnoreBaseChance": false,
+			"SimpleDialogueSplitBy": null,
+			"MaxCalls": -1,
+			"CustomFields": null
+		},
+		"When": {
+			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+		},
+
+	}
+
+	]
+
+}

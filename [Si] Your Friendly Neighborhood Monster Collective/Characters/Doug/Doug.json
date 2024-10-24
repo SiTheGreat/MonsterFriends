@@ -61,7 +61,7 @@
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	// Loves: clay 330, cherry bomb 286, chewing stick 105, earth crystal 86, yam 280, glazed yams 208, geode, diamond, jack o lantern, torch, pumpkin
+	// Loves: clay 330, cherry bomb 286, chewing stick 105, earth crystal 86, yam 280, glazed yams 208, diamond, jack o lantern, torch, pumpkin
 	// Likes:
 	// Neuts:
 	// Dislikes:
@@ -89,51 +89,16 @@
 		"FromFile": "Characters/Doug/DougDialogue.json",
 	},
 
-	// Spirit's Eve ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Fests & Movies ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	// Dialogue
 	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"Entries": {
-			"{{ModId}}_Doug": "Spirit's Eve Dialogue" // UPDATE
-		},
+		"Action": "Include",
+		"FromFile": "Characters/Doug/DougMovies.json",
 	},
 
-	// Regular
 	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Doug 34 73 0",
-				"Delimiter": "/"
-			},
-		],
-		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		},
-	},
-
-	// SVE
-	{
-		"Action": "EditData",
-		"Target": "Data/Festivals/fall27",
-		"TextOperations": [
-			{
-				"Operation": "Append",
-				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Doug 34 73 0",
-				"Delimiter": "/"
-			},
-		],
-		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-		},
+		"Action": "Include",
+		"FromFile": "Characters/Doug/DougFestivals.json",
 	},
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
