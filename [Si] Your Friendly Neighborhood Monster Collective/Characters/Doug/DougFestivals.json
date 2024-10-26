@@ -67,7 +67,7 @@
 		"Action": "EditData",
 		"Target": "Data/Festivals/fall27",
 		"Entries": {
-			"{{ModId}}_Doug": "*Bares his sharp teeth.*#$action AddItem (O)286 10"
+			"{{ModId}}_Doug": "*Bares his sharp teefs.*#$action AddItem (O)286 10"
 		},
 		"When": {
 			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE

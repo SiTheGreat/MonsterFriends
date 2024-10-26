@@ -3,14 +3,14 @@
 	
 	{
 		"Action": "EditData",
-		"Target": "Characters/Dialogue/{{ModId}}_Sticky",
+		"Target": "Characters/Dialogue/{{ModId}}_Doug",
 		"Entries": {
 			// Gift Responses
 			"AcceptGift_(O)StardropTea": "*His eyes light up with joy.*",
 			"AcceptGift_(O)746": "*Plays with the jack o' lantern.*", // Jack O Lantern
 			"AcceptGift_(O)330": "*Burrows his head into the fresh clay.*", // Clay
 			"AcceptGift_(O)105": "*Vigorously chews the stick.*", // Chewing Stick
-			"AcceptGift_(O)280": "*Noms on the yams.*", // Yam
+			"AcceptGift_(O)280": "*Noms on the yam.*", // Yam
 			"AcceptGift_(O)208": "*Noms on the yams.*", // Glazed Yams
 			// Regular Dialogue
 			"MovieInvitation": "*Sniffs the ticket curiously.*",

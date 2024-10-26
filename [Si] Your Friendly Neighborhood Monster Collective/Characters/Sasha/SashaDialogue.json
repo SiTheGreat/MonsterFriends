@@ -3,26 +3,26 @@
 
 	{
 		"Action": "EditData",
-		"Target": "Characters/Dialogue/{{ModId}}_Sticky",
+		"Target": "Characters/Dialogue/{{ModId}}_Sasha",
 		"Entries": {
 			// Gift Responses
 			"AcceptGift_(O)StardropTea": "Ahh, this reminds me of embalming fluid. Tangy and sweet!",
-			"AcceptGift_(O)746": "Sweet, a new pet! Thanks @.", // Jack O Lantern
+			"AcceptGift_(O)746": "Sweet, a new pet! Thanks @, I promise to take good care of it.", // Jack O Lantern
 			"AcceptGift_(O)428": "Hey, thanks! My wrappings have been getting pretty tattered lately.", // Cloth
 			"AcceptGift_(O)568": "Ahh, nice and friction-y. I love it!", // Sandstone
 			"AcceptGift_(O)828": "Aww, it's so cute! I'm going to give it its very own canopic jar.", // Mummified Frog
 			"AcceptGift_(O)827": "Aww, it's so cute! I'm going to give it its very own canopic jar.", // Mummified Bat
 			"AcceptGift_(O)93": "Are you trying to set me on fire?", // Torch
 			// Regular Dialogue
-			"MovieInvitation": "",
+			"MovieInvitation": "Sure! Let me finish re-wrapping my organs and then we'll go.",
 			"rainy": "Ah! My wrappings are getting wet!#$e#I need to find a place to dry off.",
 			"Mon": "My girlfriend looted this scarf from an adventurer for me.#$e#It matches my eyes!",
-			"Tue": "What a fine Tuesday!",
-			"Wed": "What a fine Wednesday!",
-			"Thu": "What a fine Thursday!",
-			"Fri": "What a fine Friday!",
-			"Sat": "What a fine Saturday!",
-			"Sun": "What a fine Sunday!",
+			"Tue": "I wonder if any of the townspeople would be interested in becoming mummies one day.",
+			"Wed": "I used to work in a pyramid.#$e#I should go back and visit sometime.",
+			"Thu": "I always thought trees on the surface were green, but they're actually really colorful.#$e#Huh? They change color around this time of year?#$e#That's so cool!",
+			"Fri": "I need to get my wrappings re-embalmed, some of them are starting to fray.",
+			"Sat": "Do you know any good mages?#$e#My pharaoh cursed me to keep stubbing my toes on nearby objects, and I've been trying to have it removed for ages now.",
+			"Sun": "My favorite human invention is flashlights.#$e#I don't have to risk setting myself on fire just to see in the dark anymore.",
 		},
 	},
 ]

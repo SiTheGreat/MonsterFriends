@@ -1,27 +1,30 @@
 {
 	"Changes": [
-	
-	// slime 766, radioactive ore 909, radio bar 910, moss, omni geode 749, gold ore 384, gold bar 336, solar essence 768, refined quartz 338
-	// hates ginger 829, ginger ale 903
 
 	{
 		"Action": "EditData",
-		"Target": "Characters/Dialogue/{{ModId}}_Sticky",
+		"Target": "Characters/Dialogue/{{ModId}}_Bob",
 		"Entries": {
 			// Gift Responses
-			"AcceptGift_(O)StardropTea": "",
+			"AcceptGift_(O)StardropTea": "Mmm, that really hits the spot. What's it made of? Slime?",
 			"AcceptGift_(O)746": "A new pet? I don't know, I'm not very good at taking care of living things.#$b#I'll give it to Deathskull, he'll like having an audience for his bone jokes.", // Jack O Lantern
-			"AcceptGift_(O)891": "",
+			"AcceptGift_(O)766": "Now that's the good stuff.",
+			"AcceptGift_(O)Moss": "Now that's the good stuff.",
+			"AcceptGift_(O)909": "Hey, it's my favorite thing! Perfect for rubbing all over my sores.", // Radioactive Ore
+			"AcceptGift_(O)910": "Hey, it's my favorite thing! Perfect for rubbing all over my sores.", // Radioactive Bar
+			"AcceptGift_(O)384": "Ooooooh shiny! Bring me more!", // Gold Ore
+			"AcceptGift_(O)336": "Ooooooh shiny! Bring me more!", // Gold Bar
+			"AcceptGift_(O)749": "You know, these things have lotsa cool stuff in them.", // Omni Geode
 			// Regular Dialogue
 			"MovieInvitation": "Eh, sure, why not?",
 			"rainy": "Ahh, this weather makes me feel nice and slimy.",
 			"Mon": "They call me Bob because I bob up and down.",
-			"Tue": "What a fine Tuesday!",
-			"Wed": "What a fine Wednesday!",
+			"Tue": "Ahh I love the scent of toxic waste in the morning.",
+			"Wed": "What I would give for a damp cave to moisten up in.",
 			"Thu": "My cousin Angry Roger told me you humans like to wash grime off your skin rather than keep it on.#$e#He's joking, right?",
-			"Fri": "What a fine Friday!",
-			"Sat": "What a fine Saturday!",
-			"Sun": "What a fine Sunday!",
+			"Fri": "That building on the docks smells marvelously putrid.#$e#What do they keep in there?",
+			"Sat": "It's so windy up here on the surface.#$e#My mucus layer keeps drying out!",
+			"Sun": "Ugh, Doug splashed some soapy water on me and now I feel CLEAN.#$e#I'll never get this citrus smell out of my glands.",
 		},
 	},
 ]
