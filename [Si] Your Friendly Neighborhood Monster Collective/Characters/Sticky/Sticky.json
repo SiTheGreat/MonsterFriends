@@ -44,7 +44,7 @@
 				"CanGreetNearbyCharacters": false,
 				"SocialTab": "HiddenUntilMet",
 				"Calendar": "HiddenUntilMet",
-				"UnlockConditions": "PLAYER_HAS_SEEN_EVENT Host 262205XXX", // UPDATE EVENT
+				"UnlockConditions": "PLAYER_HAS_SEEN_EVENT Host {{ModId}}_E1",
 				// Home
 				"HomeRegion": "Town",
 				"Home": [

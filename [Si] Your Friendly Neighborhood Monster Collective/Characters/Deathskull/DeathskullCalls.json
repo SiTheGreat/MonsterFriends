@@ -42,7 +42,7 @@
 			"CustomFields": null
 		},
 		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E1": true,
 		},
 
 	}
