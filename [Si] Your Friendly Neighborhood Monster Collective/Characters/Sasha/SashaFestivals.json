@@ -21,7 +21,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Sasha 34 73 0",
+				"Value": "{{ModId}}_Sasha 57 65 2",
 				"Delimiter": "/"
 			},
 		],
@@ -39,7 +39,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Sasha 34 73 0",
+				"Value": "{{ModId}}_Sasha 57 65 2",
 				"Delimiter": "/"
 			},
 		],
@@ -82,7 +82,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Sasha 34 73 0",
+				"Value": "{{ModId}}_Sasha 28 73 0",
 				"Delimiter": "/"
 			},
 		],
@@ -100,7 +100,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Sasha 34 73 0",
+				"Value": "{{ModId}}_Sasha 28 73 0",
 				"Delimiter": "/"
 			},
 		],

@@ -1,0 +1,30 @@
+{
+	"Changes": [
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Krobus",
+		"Entries": {
+			"SiMonsterFriends1": "A group of monsters with human disguise talismans stopped by earlier.#$b#I told them to be careful but they're really curious about your people.#$b#Could you keep an eye on them please?#$b#I don't think they mean any harm, but they could be in danger up there.",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pierre",
+		"Entries": {
+			"SiMonsterFriends1": "I heard we have some new faces in town.#$e#You know what that means, right?#$e#New customers!$1",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lewis",
+		"Entries": {
+			"SiMonsterFriends1": "Looks like the falltime tourists have started arriving early this year!#$b#Please do what you can to help them feel welcome @.",
+		},
+	},
+
+]
+
+}

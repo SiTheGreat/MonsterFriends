@@ -38,6 +38,12 @@
 		"FromFile": "General/Events.json",
 	},
 
+	// Conversation Topics
+	{
+		"Action": "Include",
+		"FromFile": "General/TownDialogue.json",
+	},
+
 	// Load warp room
 	{
 		"Action": "Load",
