@@ -21,7 +21,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Bob 58 64 2",
+				"Value": "{{ModId}}_Bob 50 65 3",
 				"Delimiter": "/"
 			},
 		],
@@ -39,7 +39,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Bob 58 64 2",
+				"Value": "{{ModId}}_Bob 50 65 3",
 				"Delimiter": "/"
 			},
 		],

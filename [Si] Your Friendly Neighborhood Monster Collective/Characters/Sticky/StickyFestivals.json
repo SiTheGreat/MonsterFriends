@@ -21,7 +21,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Sticky 58 65 2",
+				"Value": "{{ModId}}_Sticky 50 69 0",
 				"Delimiter": "/"
 			},
 		],
@@ -39,7 +39,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Sticky 58 65 2",
+				"Value": "{{ModId}}_Sticky 50 69 0",
 				"Delimiter": "/"
 			},
 		],
