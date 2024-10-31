@@ -80,6 +80,9 @@
 	{
 		"Action": "Include",
 		"FromFile": "Characters/Doug/DougSchedule.json",
+		"When": {
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E1": true,
+		},
 	},
 
 	// Dialogue ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

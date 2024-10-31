@@ -9,7 +9,7 @@
 		"Action": "EditData",
 		"Target": "Data/Festivals/fall16",
 		"Entries": {
-			"{{ModId}}_Bob": "Hmm, that cheese looks nice and gloopy..."
+			"{{ModId}}_Blob": "Hmm, that cheese looks nice and gloopy..."
 		},
 	},
 
@@ -21,7 +21,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Bob 50 65 3",
+				"Value": "{{ModId}}_Blob 50 65 3",
 				"Delimiter": "/"
 			},
 		],
@@ -39,7 +39,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Bob 50 65 3",
+				"Value": "{{ModId}}_Blob 50 65 3",
 				"Delimiter": "/"
 			},
 		],
@@ -56,10 +56,10 @@
 		"Action": "EditData",
 		"Target": "Data/Festivals/fall27",
 		"Entries": {
-			"{{ModId}}_Bob": "Pick your poison!#$action AddItem (O)749 10"
+			"{{ModId}}_Blob": "Is there a reason you humans have a bunch of monsters in cages?!#$action AddItem (O)749 10"
 		},
 		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": false, // UPDATE
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E12": false,
 		},
 	},
 
@@ -67,10 +67,10 @@
 		"Action": "EditData",
 		"Target": "Data/Festivals/fall27",
 		"Entries": {
-			"{{ModId}}_Bob": "Pick your poison!#$action AddItem (O)909 10"
+			"{{ModId}}_Blob": "Pick your poison!#$action AddItem (O)909 10"
 		},
 		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E12": true,
 		},
 	},
 
@@ -82,7 +82,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Bob 30 73 0",
+				"Value": "{{ModId}}_Blob 30 73 0",
 				"Delimiter": "/"
 			},
 		],
@@ -100,7 +100,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Bob 30 73 0",
+				"Value": "{{ModId}}_Blob 30 73 0",
 				"Delimiter": "/"
 			},
 		],

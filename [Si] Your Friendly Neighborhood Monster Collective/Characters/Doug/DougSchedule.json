@@ -2,6 +2,7 @@
 
 	// Schedule
 
+	"fall": "0 Town 47 93 0/a1050 Town 16 11 2/a1520 Town 23 12 0/a1940 CommunityCenter 39 10 0",
 	"spring": "0 {{ModId}}_WarpRoom 6 9 3/1300 {{ModId}}_WarpRoom 5 5 1/2000 {{ModId}}_WarpRoom 6 9 3",
 
 

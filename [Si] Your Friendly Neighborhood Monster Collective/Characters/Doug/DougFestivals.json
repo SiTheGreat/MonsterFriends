@@ -59,7 +59,7 @@
 			"{{ModId}}_Doug": "*Bares his sharp teeth.*#$action AddItem (O)86 10"
 		},
 		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": false, // UPDATE
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E12": false,
 		},
 	},
 
@@ -70,7 +70,7 @@
 			"{{ModId}}_Doug": "*Bares his sharp teefs.*#$action AddItem (O)286 10"
 		},
 		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E12": true,
 		},
 	},
 

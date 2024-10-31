@@ -7,7 +7,7 @@
 
 	{
 		"Action": "Include",
-		"FromFile": "Characters/Bob/Bob.json",
+		"FromFile": "Characters/Blob/Blob.json",
 	},
 
 	{

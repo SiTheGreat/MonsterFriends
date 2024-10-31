@@ -59,7 +59,7 @@
 			"{{ModId}}_Sasha": "Of course our human disguises are still on.#$b#Why do you think we should take them off?#$action AddItem (O)428 10"
 		},
 		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": false, // UPDATE
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E12": false,
 		},
 	},
 
@@ -70,7 +70,7 @@
 			"{{ModId}}_Sasha": "Beware the mummy's curse!#$b#Am I doing this right?#$action AddItem (O)243 10"
 		},
 		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E12": true,
 		},
 	},
 

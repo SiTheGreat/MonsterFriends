@@ -56,10 +56,10 @@
 		"Action": "EditData",
 		"Target": "Data/Festivals/fall27",
 		"Entries": {
-			"{{ModId}}_Sticky": "There's so many treats here! You can have some too!#$action AddItem (O)848 10"
+			"{{ModId}}_Sticky": "The can-dee here is tastier than the ones I tried before!#$action AddItem (O)848 10"
 		},
 		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": false, // UPDATE
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E12": false,
 		},
 	},
 
@@ -70,7 +70,7 @@
 			"{{ModId}}_Sticky": "There's so many treats here! You can have some too!#$action AddItem (O)891 10"
 		},
 		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E12": true,
 		},
 	},
 

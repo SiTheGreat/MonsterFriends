@@ -6,14 +6,14 @@
 
 	{
 		"Action": "Load",
-		"Target": "Characters/{{ModId}}_Bob",
-		"FromFile": "Characters/Bob/BobSprite.png",
+		"Target": "Characters/{{ModId}}_Blob",
+		"FromFile": "Characters/Blob/BlobSprite.png",
 	},
 
 	{
 		"Action": "Load",
-		"Target": "Portraits/{{ModId}}_Bob",
-		"FromFile": "Characters/Bob/BobPortrait.png",
+		"Target": "Portraits/{{ModId}}_Blob",
+		"FromFile": "Characters/Blob/BlobPortrait.png",
 	},
 
 	// Disposition ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -22,9 +22,9 @@
 		"Action": "EditData",
 		"Target": "Data/Characters",
 		"Entries": {
-			"{{ModId}}_Bob": {
+			"{{ModId}}_Blob": {
 				// Char
-				"DisplayName": "Bob",
+				"DisplayName": "Blob",
 				"Gender": "Male",
 				"Age": "Adult",
 				"BirthSeason": "Fall",
@@ -71,7 +71,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"{{ModId}}_Bob": "Ooooooh I like it! Bring me more!/276 746 93 72 766 338 909 910 Moss 749 336 384 768/Not bad, kid./796/What's this for?//Blegh! What is that?!/829 903/Great, more junk.//",
+			"{{ModId}}_Blob": "Ooooooh I like it! Bring me more!/276 746 93 72 766 338 909 910 Moss 749 336 384 768/Not bad, kid./796/What's this for?//Blegh! What is that?!/829 903/Great, more junk.//",
 		},
 	},
 
@@ -79,26 +79,29 @@
 
 	{
 		"Action": "Include",
-		"FromFile": "Characters/Bob/BobSchedule.json",
+		"FromFile": "Characters/Blob/BlobSchedule.json",
+		"When": {
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E1": true,
+		},
 	},
 
 	// Dialogue ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	{
 		"Action": "Include",
-		"FromFile": "Characters/Bob/BobDialogue.json",
+		"FromFile": "Characters/Blob/BlobDialogue.json",
 	},
 
 	// Fests & Movies ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	{
 		"Action": "Include",
-		"FromFile": "Characters/Bob/BobMovies.json",
+		"FromFile": "Characters/Blob/BlobMovies.json",
 	},
 
 	{
 		"Action": "Include",
-		"FromFile": "Characters/Bob/BobFestivals.json",
+		"FromFile": "Characters/Blob/BlobFestivals.json",
 	},
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

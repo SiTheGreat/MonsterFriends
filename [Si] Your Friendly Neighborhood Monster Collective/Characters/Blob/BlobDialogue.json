@@ -3,7 +3,7 @@
 
 	{
 		"Action": "EditData",
-		"Target": "Characters/Dialogue/{{ModId}}_Bob",
+		"Target": "Characters/Dialogue/{{ModId}}_Blob",
 		"Entries": {
 			// Gift Responses
 			"AcceptGift_(O)StardropTea": "Mmm, that really hits the spot. What's it made of? Slime?",
@@ -18,7 +18,7 @@
 			// Regular Dialogue
 			"MovieInvitation": "Eh, sure, why not?",
 			"rainy": "Ahh, this weather makes me feel nice and slimy.",
-			"Mon": "They call me Bob because I bob up and down.",
+			"Mon": "They call me Blob because I blob up and down.",
 			"Tue": "Ahh I love the scent of toxic waste in the morning.",
 			"Wed": "What I would give for a damp cave to moisten up in.",
 			"Thu": "My cousin Angry Roger told me you humans like to wash grime off your skin rather than keep it on.#$e#He's joking, right?",

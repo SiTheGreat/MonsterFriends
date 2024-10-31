@@ -80,6 +80,9 @@
 	{
 		"Action": "Include",
 		"FromFile": "Characters/Deathskull/DeathskullSchedule.json",
+		"When": {
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E1": true,
+		},
 	},
 
 	// Dialogue ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

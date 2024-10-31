@@ -56,10 +56,10 @@
 		"Action": "EditData",
 		"Target": "Data/Festivals/fall27",
 		"Entries": {
-			"{{ModId}}_Deathskull": "EAT, DRNK, AND BE SCARY!#$action AddItem (O)288 10"
+			"{{ModId}}_Deathskull": "WHY ARE SOME OF THE MONSTERS OUTSIDE THE CAGES AND SOME OF THE MONSTERS INSIDE THE CAGES?!#$action AddItem (O)288 10"
 		},
 		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": false, // UPDATE
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E12": false,
 		},
 	},
 
@@ -70,7 +70,7 @@
 			"{{ModId}}_Deathskull": "EAT, DRNK, AND BE SCARY!#$action AddItem (O)275 10"
 		},
 		"When": {
-			"HasSeenEvent:hostPlayer |contains=262213012": true, // UPDATE
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E12": true,
 		},
 	},
 
