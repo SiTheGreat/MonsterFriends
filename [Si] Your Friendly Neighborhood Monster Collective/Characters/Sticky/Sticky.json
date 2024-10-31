@@ -75,6 +75,15 @@
 		},
 	},
 
+	// Blank Loads ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Load",
+		"Priority": "Low",
+		"Target": "Characters/Dialogue/{{ModId}}_Sticky, Characters/schedules/{{ModId}}_Sticky",
+		"FromFile": "General/blank.json",
+	},
+
 	// Schedules ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	{
@@ -96,12 +105,12 @@
 
 	{
 		"Action": "Include",
-		"FromFile": "Characters/Deathskull/DeathskullMovies.json",
+		"FromFile": "Characters/Sticky/StickyMovies.json",
 	},
 
 	{
 		"Action": "Include",
-		"FromFile": "Characters/Deathskull/DeathskullFestivals.json",
+		"FromFile": "Characters/Sticky/StickyFestivals.json",
 	},
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

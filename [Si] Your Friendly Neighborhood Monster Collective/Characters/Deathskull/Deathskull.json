@@ -75,6 +75,15 @@
 		},
 	},
 
+	// Blank Loads ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Load",
+		"Priority": "Low",
+		"Target": "Characters/Dialogue/{{ModId}}_Deathskull, Characters/schedules/{{ModId}}_Deathskull",
+		"FromFile": "General/blank.json",
+	},
+
 	// Schedules ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	{
@@ -92,10 +101,10 @@
 		"FromFile": "Characters/Deathskull/DeathskullDialogue.json",
 	},
 
-	{
-		"Action": "Include",
-		"FromFile": "Characters/Deathskull/DeathskullCalls.json",
-	},
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Characters/Deathskull/DeathskullCalls.json", // Need to debug, save for later
+	// },
 
 	// Fests & Movies ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

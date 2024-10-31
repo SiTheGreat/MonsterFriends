@@ -1,9 +1,16 @@
 {
 
-	// Schedule
+	"Changes": [
 
-	"fall": "0 Town 47 89 2/a1050 Beach 38 33 3/a1520 Town 95 55 0/a1940 CommunityCenter 40 11 3",
-	"spring": "0 {{ModId}}_WarpRoom 1 5 0/1100 {{ModId}}_WarpRoom 2 5 0/1800 {{ModId}}_WarpRoom 1 5 0",
+	{
+	"Action": "EditData",
+	"Target": "Characters/schedules/{{ModId}}_Blob",
+	"Entries": {
+		"fall": "0 Town 47 89 2/a1050 Beach 38 33 3/a1520 Town 95 55 0/a1940 CommunityCenter 40 11 3",
+		"spring": "0 {{ModId}}_WarpRoom 1 5 0/1100 {{ModId}}_WarpRoom 2 5 0/1800 {{ModId}}_WarpRoom 1 5 0",
+		},
+	},
 
+	]
 
 }

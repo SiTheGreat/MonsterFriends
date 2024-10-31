@@ -1,9 +1,16 @@
 {
 
-	// Schedule
+	"Changes": [
 
-	"fall": "0 Town 48 89 2/a1050 Beach 43 35 2/a1520 Town 96 55 0/a1940 CommunityCenter 40 12 3",
-	"spring": "0 {{ModId}}_WarpRoom 5 8 2/1000 {{ModId}}_WarpRoom 3 5 3/1700 {{ModId}}_WarpRoom 5 8 2",
+	{
+	"Action": "EditData",
+	"Target": "Characters/schedules/{{ModId}}_Deathskull",
+	"Entries": {
+		"fall": "0 Town 48 89 2/a1050 Beach 43 35 2/a1520 Town 96 55 0/a1940 CommunityCenter 40 12 3",
+		"spring": "0 {{ModId}}_WarpRoom 5 8 2/1000 {{ModId}}_WarpRoom 3 5 3/1700 {{ModId}}_WarpRoom 5 8 2",
+		},
+	},
 
+	]
 
 }

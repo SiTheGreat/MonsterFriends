@@ -1,9 +1,16 @@
 {
 
-	// Schedule
+	"Changes": [
 
-	"fall": "0 Town 46 91 1/a1050 Forest 98 23 0/a1520 ArchaeologyHouse 35 13 3/a1940 CommunityCenter 38 11 1",
-	"spring": "0 {{ModId}}_WarpRoom 6 6 0/1400 {{ModId}}_WarpRoom 3 8 1/1600 {{ModId}}_WarpRoom 6 6 0",
+	{
+	"Action": "EditData",
+	"Target": "Characters/schedules/{{ModId}}_Sasha",
+	"Entries": {
+		"fall": "0 Town 46 91 1/a1050 Forest 98 23 0/a1520 ArchaeologyHouse 35 13 3/a1940 CommunityCenter 38 11 1",
+		"spring": "0 {{ModId}}_WarpRoom 6 6 0/1400 {{ModId}}_WarpRoom 3 8 1/1600 {{ModId}}_WarpRoom 6 6 0",
+		},
+	},
 
+	]
 
 }

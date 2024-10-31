@@ -75,6 +75,15 @@
 		},
 	},
 
+	// Blank Loads ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Load",
+		"Priority": "Low",
+		"Target": "Characters/Dialogue/{{ModId}}_Sasha, Characters/schedules/{{ModId}}_Sasha",
+		"FromFile": "General/blank.json",
+	},
+
 	// Schedules ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	{
@@ -96,12 +105,12 @@
 
 	{
 		"Action": "Include",
-		"FromFile": "Characters/Deathskull/DeathskullMovies.json",
+		"FromFile": "Characters/Sasha/SashaMovies.json",
 	},
 
 	{
 		"Action": "Include",
-		"FromFile": "Characters/Deathskull/DeathskullFestivals.json",
+		"FromFile": "Characters/Sasha/SashaFestivals.json",
 	},
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
