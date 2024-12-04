@@ -6,7 +6,7 @@
 		"Target": "Characters/Dialogue/{{ModId}}_Sticky",
 		"Entries": {
 			// Gift Responses
-			"AcceptGift_(O)StardropTea": "It tastes like a rotting log.#$b#I love it!",
+			"AcceptGift_(O)StardropTea": "It tastes like a rotting log.#$b#I love it!$1",
 			"AcceptGift_(O)746": "Hmm, a new pet. It shall become a great mushroom companion!", // Jack O Lantern
 			"AcceptGift_(O)891": "My kind shall rise to consume the world!#$b#Thank you @. I will make sure this little sporeling thrives.", // Mushroom Tree Seed
 			"AcceptGift_(O)432": "I wonder what this is made of...", // Truffle Oil
@@ -18,7 +18,7 @@
 			"AcceptGift_(O)422": "I shall teach this one the ways of the mushroom!", // Purple Mushroom
 			"AcceptGift_(O)430": "I've never seen a mushroom like this before.#$e#I am excited to learn their ways!", // Truffle
 			// Regular Dialogue
-			"AcceptBirthdayGift_Positive": "My spore day! Thank you @.",
+			"AcceptBirthdayGift_Positive": "My spore day! Thank you @.$1",
 			"DumpsterDiveComment": "You know, those cans are great places for us mushrooms to thrive. Please be gentle if you find any.",
 			"HitBySlingshot": "What'd you do that for? I thought we were friends!",
 			"MovieInvitation": "Only if you promise to get me some food!",
