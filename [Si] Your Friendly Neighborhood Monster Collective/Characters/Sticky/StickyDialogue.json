@@ -18,6 +18,9 @@
 			"AcceptGift_(O)422": "I shall teach this one the ways of the mushroom!", // Purple Mushroom
 			"AcceptGift_(O)430": "I've never seen a mushroom like this before.#$e#I am excited to learn their ways!", // Truffle
 			// Regular Dialogue
+			"AcceptBirthdayGift_Positive": "My spore day! Thank you @.",
+			"DumpsterDiveComment": "You know, those cans are great places for us mushrooms to thrive. Please be gentle if you find any.",
+			"HitBySlingshot": "What'd you do that for? I thought we were friends!",
 			"MovieInvitation": "Only if you promise to get me some food!",
 			"rainy": "This rain is just what my pustules needed!",
 			"Mon": "The surface is pretty cold. I can't wait to go back to my magma pool.",
@@ -26,7 +29,7 @@
 			"Thu": "I've noticed humans collect a lot of mushrooms.#$e#What do they need them for?",
 			"Fri": "Doug keeps getting tangled in my mycelium.#$b#I'm trying to train him out of it, but it's slow going.",
 			"Sat": "I have discovered that humans will give you food if you enter their homes and look very sad.#$e#I do not intend to use this knowledge responsibly.",
-			"Sun": "*Squish* *squish* I fell in a puddle and now I'm all soggy.",
+			"Sun": "*Squish* *squish*#$e#I fell in a puddle and now I'm all soggy.",
 		},
 	},
 ]

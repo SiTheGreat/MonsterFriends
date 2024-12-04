@@ -13,6 +13,10 @@
 			"AcceptGift_(O)280": "*Noms on the yam.*", // Yam
 			"AcceptGift_(O)208": "*Noms on the yams.*", // Glazed Yams
 			// Regular Dialogue
+			"YFNMCDoug": "*Spins excitedly in memory of the time you two spent together.*",
+			"AcceptBirthdayGift_Positive": "*Does the worm.*",
+			"DumpsterDiveComment": "*Headbutts the trash can.*",
+			"HitBySlingshot": "*Bobs up and down in indignation.*",
 			"MovieInvitation": "*Sniffs the ticket curiously.*",
 			"rainy": "*Splashes a puddle with his head.*",
 			"Mon": "*Wiggles gleefully.*",

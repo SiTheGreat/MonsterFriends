@@ -16,6 +16,9 @@
 			"AcceptGift_(O)336": "Ooooooh shiny! Bring me more!", // Gold Bar
 			"AcceptGift_(O)749": "You know, these things have lotsa cool stuff in them.", // Omni Geode
 			// Regular Dialogue
+			"AcceptBirthdayGift_Positive": "Hey, how'd you figure out what day I rose from the grave?",
+			"DumpsterDiveComment": "Ooooooh, anything rotting in there?",
+			"HitBySlingshot": "Hey hey, cut that out!",
 			"MovieInvitation": "Eh, sure, why not?",
 			"rainy": "Ahh, this weather makes me feel nice and slimy.",
 			"Mon": "They call me Blob because I blob up and down.",

@@ -14,6 +14,9 @@
 			"AcceptGift_(O)827": "Aww, it's so cute! I'm going to give it its very own canopic jar.", // Mummified Bat
 			"AcceptGift_(O)93": "Are you trying to set me on fire?", // Torch
 			// Regular Dialogue
+			"AcceptBirthdayGift_Positive": "An offering to commemorate my mummification day! Thank you, I will keep it inside my heart's canopic jar.",
+			"DumpsterDiveComment": "Are you looking for fresh loot?",
+			"HitBySlingshot": "Hey, we already promised not to hurt you!",
 			"MovieInvitation": "Sure! Let me finish re-wrapping my organs and then we'll go.",
 			"rainy": "Ah! My wrappings are getting wet!#$e#I need to find a place to dry off.",
 			"Mon": "My girlfriend looted this scarf from an adventurer for me.#$e#It matches my eyes!",
