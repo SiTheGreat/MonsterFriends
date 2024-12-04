@@ -2,7 +2,7 @@
 	"Name": "[Si] Your Friendly Neighborhood Monster Collective",
 	"Author": "SiTheGreat",
 	"Description": "Befriend a group of monsters who only appear in fall!",
-	"Version": "1.0.0",
+	"Version": "1.1.0",
 	"UniqueID": "Si.YFNMC",
 	"UpdateKeys": [ "Nexus:28973" ],
 	"ContentPackFor": {
