@@ -24,6 +24,12 @@
 				"Value": "{{ModId}}_Blob 50 65 3",
 				"Delimiter": "/"
 			},
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+				"Value": "{{ModId}}_Blob 50 65 3",
+				"Delimiter": "/"
+			},
 		],
 		"When": {
 			"HasSeenEvent:hostPlayer |contains={{ModId}}_E1": true,
@@ -39,6 +45,12 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "{{ModId}}_Blob 50 65 3",
+				"Delimiter": "/"
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
 				"Value": "{{ModId}}_Blob 50 65 3",
 				"Delimiter": "/"
 			},
@@ -85,6 +97,12 @@
 				"Value": "{{ModId}}_Blob 30 73 0",
 				"Delimiter": "/"
 			},
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
+				"Value": "{{ModId}}_Blob 30 73 0",
+				"Delimiter": "/"
+			},
 		],
 		"When": {
 			"HasSeenEvent:hostPlayer |contains={{ModId}}_E1": true,
@@ -100,6 +118,12 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
+				"Value": "{{ModId}}_Blob 30 73 0",
+				"Delimiter": "/"
+			},
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
 				"Value": "{{ModId}}_Blob 30 73 0",
 				"Delimiter": "/"
 			},
