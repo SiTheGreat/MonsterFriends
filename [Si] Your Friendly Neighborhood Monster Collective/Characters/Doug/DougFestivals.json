@@ -134,7 +134,21 @@
 		},
 	},
 
-    
+    // Festival of the Mundane ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/schedules/{{ModId}}_Doug",
+		"Entries": {
+			"fall_27": "0 Sewer 19 31 2",
+			},
+		"When": {
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_E12": true,
+			"HasMod: |contains=MouseyPounds.ShadowFestival": true,
+			// "EvenYear": true,
+		},
+	},
+
 
 	]
 
