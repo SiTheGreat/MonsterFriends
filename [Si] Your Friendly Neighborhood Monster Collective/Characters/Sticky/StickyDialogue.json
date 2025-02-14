@@ -7,27 +7,29 @@
 		"Entries": {
 			// Gift Responses
 			"AcceptGift_(O)StardropTea": "It tastes like a rotting log.#$b#I love it!$1",
-			"AcceptGift_(O)746": "Hmm, a new pet. It shall become a great mushroom companion!", // Jack O Lantern
-			"AcceptGift_(O)891": "My kind shall rise to consume the world!#$b#Thank you @. I will make sure this little sporeling thrives.", // Mushroom Tree Seed
+			"AcceptGift_(O)746": "Hmm, a new pet. It shall become a great mushroom companion!$1", // Jack O Lantern
+			"AcceptGift_(O)891": "My kind shall rise to consume the world!$1#$b#Thank you @. I will make sure this little sporeling thrives.", // Mushroom Tree Seed
 			"AcceptGift_(O)432": "I wonder what this is made of...", // Truffle Oil
-			"AcceptGift_(O)851": "*Gasp* A smaller me! I shall raise it to be a beacon for all of mushroomkind.", // Magma Cap
-			"AcceptGift_(O)404": "I shall teach this one the ways of the mushroom!", // Common Mushroom
-			"AcceptGift_(O)281": "I shall teach this one the ways of the mushroom!", // Chantarelle
-			"AcceptGift_(O)257": "I shall teach this one the ways of the mushroom!", // Morel
-			"AcceptGift_(O)420": "I shall teach this one the ways of the mushroom!", // Red Mushroom
-			"AcceptGift_(O)422": "I shall teach this one the ways of the mushroom!", // Purple Mushroom
-			"AcceptGift_(O)430": "I've never seen a mushroom like this before.#$e#I am excited to learn their ways!", // Truffle
+			"AcceptGift_(O)851": "*Gasp* A smaller me! I shall raise it to be a beacon for all of mushroomkind.$1", // Magma Cap
+			"AcceptGift_(O)404": "I shall teach this one the ways of the mushrooms!", // Common Mushroom
+			"AcceptGift_(O)281": "I shall teach this one the ways of the mushrooms!", // Chantarelle
+			"AcceptGift_(O)257": "I shall teach this one the ways of the mushrooms!", // Morel
+			"AcceptGift_(O)420": "I shall teach this one the ways of the mushrooms!", // Red Mushroom
+			"AcceptGift_(O)422": "I shall teach this one the ways of the mushrooms!", // Purple Mushroom
+			"AcceptGift_(O)430": "I've never seen a mushroom like this before.#$e#I am excited to learn their ways!$1", // Truffle
 			// Regular Dialogue
 			"AcceptBirthdayGift_Positive": "My spore day! Thank you @.$1",
 			"DumpsterDiveComment": "You know, those cans are great places for us mushrooms to thrive. Please be gentle if you find any.",
 			"HitBySlingshot": "What'd you do that for? I thought we were friends!",
 			"MovieInvitation": "Only if you promise to get me some food!",
-			"rainy": "This rain is just what my pustules needed!",
+			"rainy": "This rain is just what my pustules needed!$1",
+			"fall_24": "You know there's enough mushrooms up here on the surface to raise an army.#$e#They seem to be at peace though, I don't want to disturb them.$2",
+			"fall_28": "I need a nice, long soak in some fresh magma.",
 			"Mon": "The surface is pretty cold. I can't wait to go back to my magma pool.",
 			"Tue": "Humans have been around for a while, but lots of different species have dominated the world over time.#$e#Mushrooms have been here for all of it.#$e#One day the world will be ours again!",
 			"Wed": "Do you think mushrooms grow in space?#$e#I wonder what space mushrooms are like.#$e#Would they have multiple stalks?",
 			"Thu": "I've noticed humans collect a lot of mushrooms.#$e#What do they need them for?",
-			"Fri": "Doug keeps getting tangled in my mycelium.#$b#I'm trying to train him out of it, but it's slow going.",
+			"Fri": "Doug keeps getting tangled in my mycelium.#$b#I'm trying to train him out of it, but it's slow going.$2",
 			"Sat": "I have discovered that humans will give you food if you enter their homes and look very sad.#$e#I do not intend to use this knowledge responsibly.",
 			"Sun": "*Squish* *squish*#$e#I fell in a puddle and now I'm all soggy.",
 		},
