@@ -45,13 +45,13 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Blob 50 65 3",
+				"Value": "{{ModId}}_Blob 50 52 2",
 				"Delimiter": "/"
 			},
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-				"Value": "{{ModId}}_Blob 50 65 3",
+				"Value": "{{ModId}}_Blob 50 52 2",
 				"Delimiter": "/"
 			},
 		],
@@ -118,13 +118,13 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Blob 30 73 0",
+				"Value": "{{ModId}}_Blob 45 58 2",
 				"Delimiter": "/"
 			},
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-				"Value": "{{ModId}}_Blob 30 73 0",
+				"Value": "{{ModId}}_Blob 45 58 2",
 				"Delimiter": "/"
 			},
 		],

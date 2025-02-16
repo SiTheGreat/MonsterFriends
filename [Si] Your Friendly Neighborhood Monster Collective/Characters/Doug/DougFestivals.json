@@ -45,13 +45,13 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Doug 50 71 1",
+				"Value": "{{ModId}}_Doug 52 69 1",
 				"Delimiter": "/"
 			},
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-				"Value": "{{ModId}}_Doug 50 71 1",
+				"Value": "{{ModId}}_Doug 52 69 1",
 				"Delimiter": "/"
 			},
 		],
@@ -118,13 +118,13 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Doug 29 72 0",
+				"Value": "{{ModId}}_Doug 46 61 3",
 				"Delimiter": "/"
 			},
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-				"Value": "{{ModId}}_Doug 29 72 0",
+				"Value": "{{ModId}}_Doug 46 61 3",
 				"Delimiter": "/"
 			},
 		],

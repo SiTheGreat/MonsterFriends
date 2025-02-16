@@ -45,13 +45,13 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Deathskull 50 66 1",
+				"Value": "{{ModId}}_Deathskull 51 52 2",
 				"Delimiter": "/"
 			},
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-				"Value": "{{ModId}}_Deathskull 50 66 1",
+				"Value": "{{ModId}}_Deathskull 51 52 2",
 				"Delimiter": "/"
 			},
 		],
@@ -118,13 +118,13 @@
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters"],
-				"Value": "{{ModId}}_Deathskull 31 73 0",
+				"Value": "{{ModId}}_Deathskull 46 58 2",
 				"Delimiter": "/"
 			},
 			{
 				"Operation": "Append",
 				"Target": ["Entries", "Set-Up_additionalCharacters_y2"],
-				"Value": "{{ModId}}_Deathskull 31 73 0",
+				"Value": "{{ModId}}_Deathskull 46 58 2",
 				"Delimiter": "/"
 			},
 		],
