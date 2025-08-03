@@ -1,0 +1,149 @@
+{
+
+	"Changes": [
+
+	// Images ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Load",
+		"Target": "Characters/{{ModId}}_Sounder",
+		"FromFile": "Chars/Sounder/SounderSprite.png",
+	},
+
+	{
+		"Action": "Load",
+		"Target": "Portraits/{{ModId}}_Sounder",
+		"FromFile": "Chars/Sounder/SounderPortrait.png",
+	},
+
+	// Includes ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Include",
+		"FromFile": "Chars/Sounder/SounderSchedule.json",
+	},
+
+	{
+		"Action": "Include",
+		"FromFile": "Chars/Sounder/SounderDialogue.json",
+	},
+
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Sounder/SounderEvents.json",
+	// },
+
+	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	// Loves: truffle oil, frozen tear
+	// Likes: 
+	// Neuts:
+	// Dislikes:
+	// Hates:
+
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"{{ModId}}_Sounder": "Love it!/424/Like it./423/Dislike it./433/Hate it!/419/Meh./418/",
+		},
+	},
+
+	// Disposition ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"{{ModId}}_Sounder": {
+				// Char
+				"DisplayName": "Sounder",
+				"Gender": "Undefined",
+				"Age": "Adult",
+				"BirthSeason": "Winter",
+				"BirthDay": 7,
+				// Attitude
+				"Manner": "Polite",
+				"SocialAnxiety": "Outgoing",
+				"Optimism": "Positive",
+				"CanBeRomanced": false,
+				"CanSocialize": false,
+				// Exclusions
+				"PerfectionScore": false,
+				"IntroductionsQuest": false,
+				"ItemDeliveryQuests": false,
+				"CanVisitIsland": false,
+				"WinterStarParticipant": false,
+				"CanCommentOnPurchasedShopItems": false,
+				"CanGreetNearbyCharacters": true,
+				"SocialTab": "HiddenUntilMet",
+				"Calendar": "HiddenUntilMet",
+				// Home
+				"HomeRegion": "Other",
+				"Home": [
+					{
+						"Id": "Default",
+						"Location": "{{ModId}}_SounderHouse",
+						"Tile": { "X": 3, "Y": 5 },
+						"Direction": "Down"
+					}
+				]
+			}
+		}
+	},
+
+	// Maps ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Add home map
+	{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_SounderHouse",
+		"FromFile": "Maps/SounderHouse.tmx",
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+			"{{ModId}}_SounderHouse": {
+				"DisplayName": "Sounder's House",
+				"CreateOnLoad": {
+					"MapPath": "{{ModId}}_Maps/SounderHouse"
+				},
+				"DefaultArrivalTile": {
+					"X": 5,
+					"Y": 2
+				}
+			}
+		}
+	},
+
+	// Add home warps
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_StalacTown",
+		"AddWarps": [
+			"29 40 {{ModId}}_SounderHouse 6 3"
+		],
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_SounderHouse",
+		"AddWarps": [
+			"6 2 {{ModId}}_StalacTown 28 41"
+		],
+	},
+
+	// Add home events file
+	{
+		"Action": "Load",
+		"Target": "Data/Events/{{ModId}}_SounderHouse",
+		"FromFile": "Other/blank.json",
+	},
+
+	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	],
+
+}

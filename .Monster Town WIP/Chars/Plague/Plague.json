@@ -1,0 +1,149 @@
+{
+
+	"Changes": [
+
+	// Images ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Load",
+		"Target": "Characters/{{ModId}}_Plague",
+		"FromFile": "Chars/Plague/PlagueSprite.png",
+	},
+
+	{
+		"Action": "Load",
+		"Target": "Portraits/{{ModId}}_Plague",
+		"FromFile": "Chars/Plague/PlaguePortrait.png",
+	},
+
+	// Includes ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Include",
+		"FromFile": "Chars/Plague/PlagueSchedule.json",
+	},
+
+	{
+		"Action": "Include",
+		"FromFile": "Chars/Plague/PlagueDialogue.json",
+	},
+
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Plague/PlagueEvents.json",
+	// },
+
+	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	// Loves: truffle oil, frozen tear
+	// Likes: 
+	// Neuts:
+	// Dislikes:
+	// Hates:
+
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"{{ModId}}_Plague": "Love it!/424/Like it./423/Dislike it./433/Hate it!/419/Meh./418/",
+		},
+	},
+
+	// Disposition ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"{{ModId}}_Plague": {
+				// Char
+				"DisplayName": "Dr. Plague",
+				"Gender": "Undefined",
+				"Age": "Adult",
+				"BirthSeason": "Winter",
+				"BirthDay": 7,
+				// Attitude
+				"Manner": "Polite",
+				"SocialAnxiety": "Outgoing",
+				"Optimism": "Positive",
+				"CanBeRomanced": false,
+				"CanSocialize": false,
+				// Exclusions
+				"PerfectionScore": false,
+				"IntroductionsQuest": false,
+				"ItemDeliveryQuests": false,
+				"CanVisitIsland": false,
+				"WinterStarParticipant": false,
+				"CanCommentOnPurchasedShopItems": false,
+				"CanGreetNearbyCharacters": true,
+				"SocialTab": "HiddenUntilMet",
+				"Calendar": "HiddenUntilMet",
+				// Home
+				"HomeRegion": "Other",
+				"Home": [
+					{
+						"Id": "Default",
+						"Location": "{{ModId}}_PlagueHouse",
+						"Tile": { "X": 3, "Y": 5 },
+						"Direction": "Down"
+					}
+				]
+			}
+		}
+	},
+
+	// Maps ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Add home map
+	{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_PlagueHouse",
+		"FromFile": "Maps/PlagueHouse.tmx",
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+			"{{ModId}}_PlagueHouse": {
+				"DisplayName": "Dr. Plague's House",
+				"CreateOnLoad": {
+					"MapPath": "{{ModId}}_Maps/PlagueHouse"
+				},
+				"DefaultArrivalTile": {
+					"X": 5,
+					"Y": 2
+				}
+			}
+		}
+	},
+
+	// Add home warps
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_StalacTown",
+		"AddWarps": [
+			"29 40 {{ModId}}_PlagueHouse 6 3"
+		],
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_PlagueHouse",
+		"AddWarps": [
+			"6 2 {{ModId}}_StalacTown 28 41"
+		],
+	},
+
+	// Add home events file
+	{
+		"Action": "Load",
+		"Target": "Data/Events/{{ModId}}_PlagueHouse",
+		"FromFile": "Other/blank.json",
+	},
+
+	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	],
+
+}

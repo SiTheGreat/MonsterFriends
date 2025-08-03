@@ -6,31 +6,31 @@
 
 	{
 		"Action": "Load",
-		"Target": "Characters/{{ModId}}_Eyeball",
-		"FromFile": "Chars/Eyeball/EyeballSprite.png",
+		"Target": "Characters/{{ModId}}_Griddle",
+		"FromFile": "Chars/Griddle/GriddleSprite.png",
 	},
 
 	{
 		"Action": "Load",
-		"Target": "Portraits/{{ModId}}_Eyeball",
-		"FromFile": "Chars/Eyeball/EyeballPortrait.png",
+		"Target": "Portraits/{{ModId}}_Griddle",
+		"FromFile": "Chars/Griddle/GriddlePortrait.png",
 	},
 
 	// Includes ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	{
 		"Action": "Include",
-		"FromFile": "Chars/Eyeball/EyeballSchedule.json",
+		"FromFile": "Chars/Griddle/GriddleSchedule.json",
 	},
 
 	{
 		"Action": "Include",
-		"FromFile": "Chars/Eyeball/EyeballDialogue.json",
+		"FromFile": "Chars/Griddle/GriddleDialogue.json",
 	},
 
 	// {
 	// 	"Action": "Include",
-	// 	"FromFile": "Chars/Eyeball/EyeballEvents.json",
+	// 	"FromFile": "Chars/Griddle/GriddleEvents.json",
 	// },
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -45,7 +45,7 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"{{ModId}}_Eyeball": "Love it!/424/Like it./423/Dislike it./433/Hate it!/419/Meh./418/",
+			"{{ModId}}_Griddle": "Love it!/424/Like it./423/Dislike it./433/Hate it!/419/Meh./418/",
 		},
 	},
 
@@ -55,9 +55,9 @@
 		"Action": "EditData",
 		"Target": "Data/Characters",
 		"Entries": {
-			"{{ModId}}_Eyeball": {
+			"{{ModId}}_Griddle": {
 				// Char
-				"DisplayName": "Giant Eyeball",
+				"DisplayName": "Griddle",
 				"Gender": "Undefined",
 				"Age": "Adult",
 				"BirthSeason": "Winter",
@@ -83,7 +83,7 @@
 				"Home": [
 					{
 						"Id": "Default",
-						"Location": "{{ModId}}_EyeballHouse",
+						"Location": "{{ModId}}_GriddleHouse",
 						"Tile": { "X": 3, "Y": 5 },
 						"Direction": "Down"
 					}
@@ -97,18 +97,18 @@
 	// Add home map
 	{
 		"Action": "Load",
-		"Target": "Maps/{{ModId}}_EyeballHouse",
-		"FromFile": "Maps/EyeballHouse.tmx",
+		"Target": "Maps/{{ModId}}_GriddleHouse",
+		"FromFile": "Maps/GriddleHouse.tmx",
 	},
 
 	{
 		"Action": "EditData",
 		"Target": "Data/Locations",
 		"Entries": {
-			"{{ModId}}_EyeballHouse": {
-				"DisplayName": "Giant Eyeball's House",
+			"{{ModId}}_GriddleHouse": {
+				"DisplayName": "Griddle's House",
 				"CreateOnLoad": {
-					"MapPath": "{{ModId}}_Maps/EyeballHouse"
+					"MapPath": "{{ModId}}_Maps/GriddleHouse"
 				},
 				"DefaultArrivalTile": {
 					"X": 5,
@@ -123,13 +123,13 @@
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_StalacTown",
 		"AddWarps": [
-			"29 40 {{ModId}}_EyeballHouse 6 3"
+			"29 40 {{ModId}}_GriddleHouse 6 3"
 		],
 	},
 
 	{
 		"Action": "EditMap",
-		"Target": "Maps/{{ModId}}_EyeballHouse",
+		"Target": "Maps/{{ModId}}_GriddleHouse",
 		"AddWarps": [
 			"6 2 {{ModId}}_StalacTown 28 41"
 		],
@@ -138,7 +138,7 @@
 	// Add home events file
 	{
 		"Action": "Load",
-		"Target": "Data/Events/{{ModId}}_EyeballHouse",
+		"Target": "Data/Events/{{ModId}}_GriddleHouse",
 		"FromFile": "Other/blank.json",
 	},
 

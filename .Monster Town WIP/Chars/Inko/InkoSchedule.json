@@ -1,0 +1,37 @@
+{
+
+	// All Nib schedules
+
+	"Changes": [
+
+	// Schedules ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Everyday schedule
+
+	{
+		"LogName": "Si ST Inko Everyday Schedule",
+		"Action": "EditData",
+		"Target": "Characters/schedules/{{ModId}}_Inko",
+		"Entries": {
+
+			"spring": "0 Town 7 3 3/650 Town 47 19 2",
+
+		},
+	},
+
+	// Blank schedule load
+
+	{
+		"LogName": "Si ST Inko Blank Dialogue",
+		"Action": "Load",
+		"Target": "Characters/schedules/{{ModId}}_Inko",
+		"FromFile": "Other/blank.json",
+	},
+
+	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	]
+
+
+
+}

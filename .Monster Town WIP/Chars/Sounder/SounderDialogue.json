@@ -7,9 +7,9 @@
 	// Everyday dialogue
 
 	{
-		"LogName": "Si ST Eyeball Everyday Dialogue",
+		"LogName": "Si ST Sounder Everyday Dialogue",
 		"Action": "EditData",
-		"Target": "Characters/Dialogue/{{ModId}}_Eyeball",
+		"Target": "Characters/Dialogue/{{ModId}}_Sounder",
 		"Entries": {
 
 			"Mon": "ADD WORDS HERE",
@@ -27,9 +27,9 @@
 	// Blank dialogue load
 
 	{
-		"LogName": "Si ST Eyeball Blank Dialogue",
+		"LogName": "Si ST Sounder Blank Dialogue",
 		"Action": "Load",
-		"Target": "Characters/Dialogue/{{ModId}}_Eyeball",
+		"Target": "Characters/Dialogue/{{ModId}}_Sounder",
 		"FromFile": "Other/blank.json",
 	},
 
