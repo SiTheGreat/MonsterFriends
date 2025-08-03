@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="11" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="6">
+ <properties>
+  <property name="AmbientLight" value="80 80 40"/>
+  <property name="ViewportFollowPlayer" type="bool" value="true"/>
+  <property name="Warp" value=""/>
+ </properties>
+ <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="Content/paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="Sheet" tilewidth="16" tileheight="16" tilecount="936" columns="26">
+  <image source="Sheet.png" width="416" height="576"/>
+ </tileset>
+ <tileset firstgid="1001" name="furniture" tilewidth="16" tileheight="16" tilecount="2976" columns="32">
+  <image source="Content/TileSheets/furniture.png" width="512" height="1488"/>
+ </tileset>
+ <tileset firstgid="3977" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="Content/townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="6153" name="mine_frost_dangerous" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Content/Maps/Mines/mine_frost_dangerous.png" width="256" height="288"/>
+ </tileset>
+ <layer id="1" name="Back" width="11" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+6290,6291,6307,6290,6291,6307,6290,6291,6307,6290,0,
+6322,6323,6324,6322,6323,6324,6322,6323,6324,6322,0,
+6290,6291,6308,6290,6291,6307,6290,6291,6307,6290,0,
+6322,6323,6324,6322,6323,6324,6322,6323,6324,6322,0,
+6290,6291,6306,6290,6291,6292,6290,6291,6307,6290,0,
+6322,6323,6324,6322,6323,6324,6322,6323,6324,6322,0,
+6290,6291,6393,6394,6395,6308,6290,6291,6307,6290,0,
+6322,6323,6409,6410,6411,6324,6322,6323,6324,6322,0
+</data>
+ </layer>
+ <layer id="13" name="Back1" width="11" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,5044,5045,0,0,
+2219,0,0,0,0,0,0,0,5112,0,0,
+2251,0,0,0,0,0,0,0,5144,0,0,
+0,0,0,0,0,0,0,0,5176,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="15" name="Back2" width="11" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="11" height="9">
+  <data encoding="csv">
+2147489895,2147489894,6227,6228,6283,6284,6227,6228,6246,6247,6232,
+2147489911,6266,6258,6259,6299,6300,6251,6260,6250,6263,6232,
+6237,6271,6274,6208,6315,6316,6267,6276,6294,6280,6232,
+6269,6287,0,1742,1743,5078,0,0,0,6296,6232,
+6285,2220,0,0,0,5110,0,5076,5077,6328,6232,
+6301,2252,4433,0,0,5142,0,0,0,0,6232,
+6333,0,0,0,0,5174,5175,5175,0,0,6232,
+6349,6350,0,0,0,0,0,0,0,0,6232,
+6232,6366,6367,6367,6368,6367,6368,2147490015,2147490014,6232,6232
+</data>
+ </layer>
+ <layer id="4" name="Paths" width="11" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Front" width="11" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1710,1711,5014,0,5012,5013,0,0,
+0,0,0,0,0,0,0,5044,5045,0,0,
+0,4626,4401,0,0,0,5111,5111,0,0,0,
+0,0,0,0,0,0,5143,5143,0,2147489949,0,
+0,0,0,0,0,0,0,0,0,2147489981,0,
+0,0,0,0,0,0,0,0,2147489998,2147489997,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="Front1" width="11" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,2147488276,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="AlwaysFront" width="11" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="14" name="Back1"/>
+ <objectgroup id="16" name="Back2"/>
+ <objectgroup id="6" name="Buildings"/>
+ <objectgroup id="8" name="Paths"/>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="12" name="Front1"/>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>
