@@ -6,9 +6,7 @@
 	// Character houses load from character jsons
 	// Clinic, Nightclub, and Movie Night map/patch entries are in Plague, Sounder, and Eyeball's jsons respectively
 
-	// Main Warps ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	// Minecart Entries
+	// Minecart Entries ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	// {
 	// 	"Action": "EditData",
@@ -50,7 +48,10 @@
 	// 		},
 	// },
 
-	// Mine NPC Warps
+	// Main Warps ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Mine Exits
+
 	// {
 	// 	"Action": "EditMap",
 	// 	"Target": "Maps/Mine",
@@ -58,24 +59,78 @@
 	// 		{
 	// 			"Operation": "Append",
 	// 			"Target": ["MapProperties", "NPCWarp"],
-	// 			"Value": "25 4 {{ModId}}_WarpRoom 4 4",
+	// 			"Value": "11 9 {{ModId}}_Maimber 3 44",
 	// 			"Delimiter": " "
 	// 		},
 	// 	]
 	// },
+	
+	// Maimber Exits
 
-	// Warp Room NPC Warps
+	// {
+	// 	"Action": "EditMap",
+	// 	"Target": "Maps/{{ModId}}_Maimber",
+	// 	"MapProperties": {
+	// 		"Warp": "39 4 {{ModId}}_Crevasse 31 38 40 4 {{ModId}}_Crevasse 33 38 2 21 {{ModId}}_Grotto 104 20 2 22 {{ModId}}_Grotto 104 21 28 66 {{ModId}}_LavaTubes x y 29 66 {{ModId}}_LavaTubes x y 46 37 {{ModId}}_Labyrinth 2 40 46 38 {{ModId}}_Labyrinth 2 41",
+	// 		"NPCWarp": "2 44 Mine 12 9 2 46 {{ModId}}_StalagMap 17 6",
+	// 	}
+	// },
+
+	// Crevasse Exits
+
+	// {
+	// 	"Action": "EditMap",
+	// 	"Target": "Maps/{{ModId}}_Crevasse",
+	// 	"MapProperties": {
+	// 		"Warp": "31 39 {{ModId}}_Maimber 39 5 33 39 {{ModId}}_Maimber 40 5",
+	// 	}
+	// },
+
+	// Grotto Exits
+
+	// {
+	// 	"Action": "EditMap",
+	// 	"Target": "Maps/{{ModId}}_Grotto",
+	// 	"MapProperties": {
+	// 		"Warp": "105 20 {{ModId}}_Maimber 3 21 105 21 {{ModId}}_Maimber 3 22",
+	// 	}
+	// },
+
+	// Lava Tubes Exits
+
+	// {
+	// 	"Action": "EditMap",
+	// 	"Target": "Maps/{{ModId}}_LavaTubes",
+	// 	"MapProperties": {
+	// 		"Warp": "x y {{ModId}}_Maimber 28 65 x y {{ModId}}_Maimber 29 65",
+	// 	}
+	// },
+
+	// Labyrinth Exits
+
+	// {
+	// 	"Action": "EditMap",
+	// 	"Target": "Maps/{{ModId}}_Labyrinth",
+	// 	"MapProperties": {
+	// 		"Warp": "1 40 {{ModId}}_Maimber 45 37 1 41 {{ModId}}_Maimber 45 38",
+	// 	}
+	// },
+
+	// Warp Room Exits
+
 	// {
 	// 	"Action": "EditMap",
 	// 	"Target": "Maps/{{ModId}}_StalagMap",
 	// 	"MapProperties": {
-	// 		"NPCWarp": "4 3 Mine 25 5",
+	// 		"NPCWarp": "18 6 {{ModId}}_Maimber 3 46",
 	// 	}
-	// }
+	// },
 	
 	// Main Maps ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	// Maimber, Crevasse, Grotto, Lava Tubes, Labyrinth, StalagMap (warp room)
+
+	// Map Loads
 
 	// Maimber
 	// {
@@ -83,118 +138,92 @@
 	// 	"Target": "Maps/{{ModId}}_Maimber",
 	// 	"FromFile": "Maps/Maimber.tmx",
 	// },
+	// // Crevasse
+	// {
+	// 	"Action": "Load",
+	// 	"Target": "Maps/{{ModId}}_Crevasse",
+	// 	"FromFile": "Maps/Crevasse.tmx",
+	// },
+	// // Grotto
+	// {
+	// 	"Action": "Load",
+	// 	"Target": "Maps/{{ModId}}_Grotto",
+	// 	"FromFile": "Maps/Grotto.tmx",
+	// },
+	// // Lava Tubes
+	// {
+	// 	"Action": "Load",
+	// 	"Target": "Maps/{{ModId}}_LavaTubes",
+	// 	"FromFile": "Maps/Lava Tubes.tmx",
+	// },
+	// // Labyrinth
+	// {
+	// 	"Action": "Load",
+	// 	"Target": "Maps/{{ModId}}_Labyrinth",
+	// 	"FromFile": "Maps/Labyrinth.tmx",
+	// },
+	// // Stalag-Map Warp Room
+	// {
+	// 	"Action": "Load",
+	// 	"Target": "Maps/{{ModId}}_StalagMap",
+	// 	"FromFile": "Maps/StalagMap.tmx",
+	// },
+
+	// Location Loads
+
 	// {
 	// 	"Action": "EditData",
 	// 	"Target": "Data/Locations",
 	// 	"Entries": {
+	// 		// Maimber
 	// 		"{{ModId}}_Maimber": {
 	// 			"DisplayName": "Maimber",						
 	// 			"CreateOnLoad": { 
 	// 				"MapPath": "Maps/{{ModId}}_Maimber" 
 	// 			},
 	// 			"DefaultArrivalTile": { "X": 5, "Y": 44 }
-	// 		}
-	// 	}
-	// },
-
-	// Crevasse
-	// {
-	// 	"Action": "Load",
-	// 	"Target": "Maps/{{ModId}}_Crevasse",
-	// 	"FromFile": "Maps/Crevasse.tmx",
-	// },
-	// {
-	// 	"Action": "EditData",
-	// 	"Target": "Data/Locations",
-	// 	"Entries": {
+	// 		},
+	// 		// Crevasse
 	// 		"{{ModId}}_Crevasse": {
 	// 			"DisplayName": "Crevasse",						
 	// 			"CreateOnLoad": { 
 	// 				"MapPath": "Maps/{{ModId}}_Crevasse" 
 	// 			},
 	// 			"DefaultArrivalTile": { "X": 32, "Y": 38 }
-	// 		}
-	// 	}
-	// },
-
-	// Grotto
-	// {
-	// 	"Action": "Load",
-	// 	"Target": "Maps/{{ModId}}_Grotto",
-	// 	"FromFile": "Maps/Grotto.tmx",
-	// },
-	// {
-	// 	"Action": "EditData",
-	// 	"Target": "Data/Locations",
-	// 	"Entries": {
+	// 		},
+	// 		// Grotto
 	// 		"{{ModId}}_Grotto": {
 	// 			"DisplayName": "Grotto",						
 	// 			"CreateOnLoad": { 
 	// 				"MapPath": "Maps/{{ModId}}_Grotto" 
 	// 			},
 	// 			"DefaultArrivalTile": { "X": 105, "Y": 21 }
-	// 		}
-	// 	}
-	// },
-
-	// Lava Tubes
-	// {
-	// 	"Action": "Load",
-	// 	"Target": "Maps/{{ModId}}_LavaTubes",
-	// 	"FromFile": "Maps/Lava Tubes.tmx",
-	// },
-	// {
-	// 	"Action": "EditData",
-	// 	"Target": "Data/Locations",
-	// 	"Entries": {
+	// 		},
+	// 		// Lava Tubes
 	// 		"{{ModId}}_LavaTubes": {
 	// 			"DisplayName": "Lava Tubes",						
 	// 			"CreateOnLoad": { 
 	// 				"MapPath": "Maps/{{ModId}}_LavaTubes" 
 	// 			},
-	// 			"DefaultArrivalTile": { "X": 17, "Y": 6 }
-	// 		}
-	// 	}
-	// },
-
-	// Labyrinth
-	// {
-	// 	"Action": "Load",
-	// 	"Target": "Maps/{{ModId}}_Labyrinth",
-	// 	"FromFile": "Maps/Labyrinth.tmx",
-	// },
-	// {
-	// 	"Action": "EditData",
-	// 	"Target": "Data/Locations",
-	// 	"Entries": {
+	// 			"DefaultArrivalTile": { "X": x, "Y": y }
+	// 		},
+	//		// Labyrinth
 	// 		"{{ModId}}_Labyrinth": {
 	// 			"DisplayName": "Labyrinth",						
 	// 			"CreateOnLoad": { 
 	// 				"MapPath": "Maps/{{ModId}}_Labyrinth" 
 	// 			},
 	// 			"DefaultArrivalTile": { "X": 2, "Y": 41 }
-	// 		}
-	// 	}
-	// },
-
-	// Stalag-Map Warp Room
-	// {
-	// 	"Action": "Load",
-	// 	"Target": "Maps/{{ModId}}_StalagMap",
-	// 	"FromFile": "Maps/StalagMap.tmx",
-	// },
-	// {
-	// 	"Action": "EditData",
-	// 	"Target": "Data/Locations",
-	// 	"Entries": {
+	// 		},
+	// 		// Stalag-Map Warp Room
 	// 		"{{ModId}}_StalagMap": {
 	// 			"DisplayName": "Stalag-Map - Stalac-Town's Premier Warp Room!",						
 	// 			"CreateOnLoad": { 
 	// 				"MapPath": "Maps/{{ModId}}_StalagMap" 
 	// 			},
 	// 			"DefaultArrivalTile": { "X": 17, "Y": 6 }
-	// 		}
-	// 	}
+	// 		},
+	// 	},
 	// },
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
