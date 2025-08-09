@@ -4,91 +4,47 @@
 
 	"Changes": [
 
-	// Characters ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	// {
-	// 	"Action": "Include",
-	// 	"FromFile": "Characters/Blob/Blob.json",
-	// },
-
-	// {
-	// 	"Action": "Include",
-	// 	"FromFile": "Characters/Deathskull/Deathskull.json",
-	// },
-
-	// {
-	// 	"Action": "Include",
-	// 	"FromFile": "Characters/Doug/Doug.json",
-	// },
-
-	// {
-	// 	"Action": "Include",
-	// 	"FromFile": "Characters/Sasha/Sasha.json",
-	// },
-
-	// {
-	// 	"Action": "Include",
-	// 	"FromFile": "Characters/Sticky/Sticky.json",
-	// },
-
 	// General ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	// Events
 	// {
 	// 	"Action": "Include",
-	// 	"FromFile": "General/Events.json",
+	// 	"FromFile": "Other/Events.json",
 	// },
 
-	// Conversation Topics
+	// Maps
 	// {
 	// 	"Action": "Include",
-	// 	"FromFile": "General/TownDialogue.json",
+	// 	"FromFile": "Maps/Maps.json",
 	// },
 
-	// Load warp room
+	// Characters ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 	// {
-	// 	"Action": "Load",
-	// 	"Target": "Maps/{{ModId}}_WarpRoom",
-	// 	"FromFile": "General/WarpRoom.tmx",
-	// },
-	
-	// Make warp room location
-	// {
-	// 	"Action": "EditData",
-	// 	"Target": "Data/Locations",
-	// 	"Entries": {
-	// 		"{{ModId}}_WarpRoom": {
-	// 			"DisplayName": "YFNMC Warp Room",						
-	// 			"CreateOnLoad": { 
-	// 				"MapPath": "Maps/{{ModId}}_WarpRoom" 
-	// 			},
-	// 			"DefaultArrivalTile": { "X": 4, "Y": 4 }
-	// 		}
-	// 	}
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Eyeball/Eyeball.json",
 	// },
 
-	// Mine NPC Warp
 	// {
-	// 	"Action": "EditMap",
-	// 	"Target": "Maps/Mine",
-	// 	"TextOperations": [
-	// 		{
-	// 			"Operation": "Append",
-	// 			"Target": ["MapProperties", "NPCWarp"],
-	// 			"Value": "25 4 {{ModId}}_WarpRoom 4 4",
-	// 			"Delimiter": " "
-	// 		},
-	// 	]
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Griddle/Griddle.json",
 	// },
 
-	// Warp Room NPC Warp
 	// {
-	// 	"Action": "EditMap",
-	// 	"Target": "Maps/{{ModId}}_StalagMap",
-	// 	"MapProperties": {
-	// 		"NPCWarp": "4 3 Mine 25 5",
-	// 	}
-	// }
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Inko/Inko.json",
+	// },
+
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Plague/Plague.json",
+	// },
+
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Sounder/Sounder.json",
+	// },
+
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
