@@ -133,11 +133,11 @@
 	// Map Loads
 
 	// Maimber
-	// {
-	// 	"Action": "Load",
-	// 	"Target": "Maps/{{ModId}}_Maimber",
-	// 	"FromFile": "Maps/Maimber.tmx",
-	// },
+	{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_Maimber",
+		"FromFile": "Maps/Maimber.tmx",
+	},
 	// // Crevasse
 	// {
 	// 	"Action": "Load",
@@ -171,18 +171,18 @@
 
 	// Location Loads
 
-	// {
-	// 	"Action": "EditData",
-	// 	"Target": "Data/Locations",
-	// 	"Entries": {
-	// 		// Maimber
-	// 		"{{ModId}}_Maimber": {
-	// 			"DisplayName": "Maimber",						
-	// 			"CreateOnLoad": { 
-	// 				"MapPath": "Maps/{{ModId}}_Maimber" 
-	// 			},
-	// 			"DefaultArrivalTile": { "X": 5, "Y": 44 }
-	// 		},
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+			// Maimber
+			"{{ModId}}_Maimber": {
+				"DisplayName": "Maimber",						
+				"CreateOnLoad": { 
+					"MapPath": "Maps/{{ModId}}_Maimber" 
+				},
+				"DefaultArrivalTile": { "X": 48, "Y": 47 }
+			},
 	// 		// Crevasse
 	// 		"{{ModId}}_Crevasse": {
 	// 			"DisplayName": "Crevasse",						
@@ -223,8 +223,8 @@
 	// 			},
 	// 			"DefaultArrivalTile": { "X": 17, "Y": 6 }
 	// 		},
-	// 	},
-	// },
+		},
+	},
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

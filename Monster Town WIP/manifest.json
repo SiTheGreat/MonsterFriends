@@ -2,10 +2,16 @@
 	"Name": "[Si] Stalac-Town",
 	"Author": "SiTheGreat",
 	"Description": "A town for monsters!",
-	"Version": "0.0.0",
+	"Version": "0.0.1",
 	"UniqueID": "Si.ST",
 	"UpdateKeys": [ "Nexus:" ],
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher",
 	},
+	"Dependencies": [
+		{
+		"UniqueID": "Spiderbuttons.ArbitraryTilesheetAccess",
+		"IsRequired": true
+		},		
+	]
 }
