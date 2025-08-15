@@ -6,6 +6,11 @@
 
 	// Schedules ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+	// Tuesdays and saturdays - help Eyeball set up for movie night, and stick aruond for one of them (have a 'club is closed' string at the mixing board on those days
+	// Save a day for pun outs with Deathskull
+	// bday winter 8, also do something for fizzy bday spring 24
+	// Clinic days for both sounder sum 8 and fizzy fall 24; possibly extra clinic days for sounder for trans care while fizzy runs the club?
+
 	// Everyday schedule
 
 	{
@@ -14,6 +19,8 @@
 		"Target": "Characters/schedules/{{ModId}}_Sounder",
 		"Entries": {
 
+			"Tue": "", // 0 {{ModId}}_LavaTubes 62 48 3/910 {{ModId}}_LavaTubes 61 40 2/950 {{ModId}}_LavaTubes 62 45 2/1030 {{ModId}}_LavaTubes 62 48 3/1140 {{ModId}}_LavaTubes 58 41 3/1210 {{ModId}}_Maimber 75 54 3/1420 leave
+			"Sat": "", // like above but diff leave sched
 			"spring": "0 Town 7 3 3/650 Town 47 19 2",
 
 		},
