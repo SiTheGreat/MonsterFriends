@@ -35,7 +35,7 @@
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	// Loves: truffle oil, frozen tear
+	// Loves:  truffle oil, frozen tear
 	// Likes: 
 	// Neuts:
 	// Dislikes:
@@ -84,8 +84,8 @@
 					{
 						"Id": "Default",
 						"Location": "{{ModId}}_EyeballHouse",
-						"Tile": { "X": 3, "Y": 5 },
-						"Direction": "Down"
+						"Tile": { "X": 5, "Y": 4 },
+						"Direction": "Up"
 					}
 				]
 			}
@@ -108,11 +108,11 @@
 			"{{ModId}}_EyeballHouse": {
 				"DisplayName": "Giant Eyeball's House",
 				"CreateOnLoad": {
-					"MapPath": "{{ModId}}_Maps/EyeballHouse"
+					"MapPath": "Maps/{{ModId}}_EyeballHouse"
 				},
 				"DefaultArrivalTile": {
-					"X": 5,
-					"Y": 2
+					"X": 4,
+					"Y": 5
 				}
 			}
 		}
@@ -121,9 +121,9 @@
 	// Add home warps
 	{
 		"Action": "EditMap",
-		"Target": "Maps/{{ModId}}_StalacTown",
+		"Target": "Maps/{{ModId}}_LavaTubes",
 		"AddWarps": [
-			"29 40 {{ModId}}_EyeballHouse 6 3"
+			"69 4 {{ModId}}_EyeballHouse 4 6"
 		],
 	},
 
@@ -131,7 +131,7 @@
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_EyeballHouse",
 		"AddWarps": [
-			"6 2 {{ModId}}_StalacTown 28 41"
+			"4 7 {{ModId}}_LavaTubes 69 5 5 7 {{ModId}}_LavaTubes 69 5"
 		],
 	},
 
@@ -140,6 +140,20 @@
 		"Action": "Load",
 		"Target": "Data/Events/{{ModId}}_EyeballHouse",
 		"FromFile": "Other/blank.json",
+	},
+
+	// Movie Night patch
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_LavaTubes",
+		"FromFile": "Maps/MovieNight.tmx",
+		"ToArea": { "X": 59, "Y": 40, "Width": 5, "Height": 9 },
+		"PatchMode": "Overlay",
+		// "When": {
+		// 		"Season": "spring",
+		// 		"Day": 9,
+		// 	},
 	},
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

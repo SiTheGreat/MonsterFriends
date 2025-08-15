@@ -35,7 +35,7 @@
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	// Loves: truffle oil, frozen tear
+	// Loves:
 	// Likes: 
 	// Neuts:
 	// Dislikes:
@@ -84,8 +84,8 @@
 					{
 						"Id": "Default",
 						"Location": "{{ModId}}_GriddleHouse",
-						"Tile": { "X": 3, "Y": 5 },
-						"Direction": "Down"
+						"Tile": { "X": 3, "Y": 4 },
+						"Direction": "Up"
 					}
 				]
 			}
@@ -108,11 +108,11 @@
 			"{{ModId}}_GriddleHouse": {
 				"DisplayName": "Griddle's House",
 				"CreateOnLoad": {
-					"MapPath": "{{ModId}}_Maps/GriddleHouse"
+					"MapPath": "Maps/{{ModId}}_GriddleHouse"
 				},
 				"DefaultArrivalTile": {
 					"X": 5,
-					"Y": 2
+					"Y": 5
 				}
 			}
 		}
@@ -121,9 +121,9 @@
 	// Add home warps
 	{
 		"Action": "EditMap",
-		"Target": "Maps/{{ModId}}_StalacTown",
+		"Target": "Maps/{{ModId}}_Maimber",
 		"AddWarps": [
-			"29 40 {{ModId}}_GriddleHouse 6 3"
+			"61 42 {{ModId}}_GriddleHouse 4 6"
 		],
 	},
 
@@ -131,7 +131,7 @@
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_GriddleHouse",
 		"AddWarps": [
-			"6 2 {{ModId}}_StalacTown 28 41"
+			"4 7 {{ModId}}_Maimber 61 43 5 7 {{ModId}}_Maimber 61 43"
 		],
 	},
 

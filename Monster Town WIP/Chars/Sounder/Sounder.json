@@ -35,7 +35,7 @@
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	// Loves: truffle oil, frozen tear
+	// Loves: fish
 	// Likes: 
 	// Neuts:
 	// Dislikes:
@@ -84,7 +84,7 @@
 					{
 						"Id": "Default",
 						"Location": "{{ModId}}_SounderHouse",
-						"Tile": { "X": 3, "Y": 5 },
+						"Tile": { "X": 6, "Y": 3 },
 						"Direction": "Down"
 					}
 				]
@@ -108,11 +108,11 @@
 			"{{ModId}}_SounderHouse": {
 				"DisplayName": "Sounder's House",
 				"CreateOnLoad": {
-					"MapPath": "{{ModId}}_Maps/SounderHouse"
+					"MapPath": "Maps/{{ModId}}_SounderHouse"
 				},
 				"DefaultArrivalTile": {
 					"X": 5,
-					"Y": 2
+					"Y": 5
 				}
 			}
 		}
@@ -121,9 +121,9 @@
 	// Add home warps
 	{
 		"Action": "EditMap",
-		"Target": "Maps/{{ModId}}_StalacTown",
+		"Target": "Maps/{{ModId}}_Crevasse",
 		"AddWarps": [
-			"29 40 {{ModId}}_SounderHouse 6 3"
+			"1 1 {{ModId}}_SounderHouse 4 6"
 		],
 	},
 
@@ -131,7 +131,7 @@
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_SounderHouse",
 		"AddWarps": [
-			"6 2 {{ModId}}_StalacTown 28 41"
+			"4 7 {{ModId}}_Crevasse 1 1 5 7 {{ModId}}_Crevasse 1 1"
 		],
 	},
 
@@ -139,6 +139,58 @@
 	{
 		"Action": "Load",
 		"Target": "Data/Events/{{ModId}}_SounderHouse",
+		"FromFile": "Other/blank.json",
+	},
+
+	// Add Floe map
+
+	{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_Floe",
+		"FromFile": "Maps/Floe.tmx",
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+			"{{ModId}}_Floe": {
+				"DisplayName": "The Floe Nightclub",
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_Floe"
+				},
+				"DefaultArrivalTile": {
+					"X": 20,
+					"Y": 4
+				}
+			}
+		}
+	},
+
+	// Add Floe warps
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_Crevasse",
+		"AddWarps": [
+			"1 1 {{ModId}}_Floe 20 3 1 1 {{ModId}}_Floe 21 3"
+		],
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_Floe",
+		"AddWarps": [
+			"20 2 {{ModId}}_Crevasse 1 1 21 2 {{ModId}}_Crevasse 1 1"
+		],
+	},
+
+
+	// Add Floe events file
+
+	{
+		"Action": "Load",
+		"Target": "Data/Events/{{ModId}}_Floe",
 		"FromFile": "Other/blank.json",
 	},
 

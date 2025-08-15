@@ -35,7 +35,7 @@
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	// Loves: truffle oil, frozen tear
+	// Loves:
 	// Likes: 
 	// Neuts:
 	// Dislikes:
@@ -84,8 +84,8 @@
 					{
 						"Id": "Default",
 						"Location": "{{ModId}}_PlagueHouse",
-						"Tile": { "X": 3, "Y": 5 },
-						"Direction": "Down"
+						"Tile": { "X": 2, "Y": 4 },
+						"Direction": "Left"
 					}
 				]
 			}
@@ -108,11 +108,11 @@
 			"{{ModId}}_PlagueHouse": {
 				"DisplayName": "Dr. Plague's House",
 				"CreateOnLoad": {
-					"MapPath": "{{ModId}}_Maps/PlagueHouse"
+					"MapPath": "Maps/{{ModId}}_PlagueHouse"
 				},
 				"DefaultArrivalTile": {
-					"X": 5,
-					"Y": 2
+					"X": 4,
+					"Y": 6
 				}
 			}
 		}
@@ -121,9 +121,9 @@
 	// Add home warps
 	{
 		"Action": "EditMap",
-		"Target": "Maps/{{ModId}}_StalacTown",
+		"Target": "Maps/{{ModId}}_Grotto",
 		"AddWarps": [
-			"29 40 {{ModId}}_PlagueHouse 6 3"
+			"1 1 {{ModId}}_PlagueHouse 3 6"
 		],
 	},
 
@@ -131,7 +131,7 @@
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_PlagueHouse",
 		"AddWarps": [
-			"6 2 {{ModId}}_StalacTown 28 41"
+			"2 7 {{ModId}}_Grotto 1 1 3 7 {{ModId}}_Grotto 1 1"
 		],
 	},
 
@@ -141,6 +141,57 @@
 		"Target": "Data/Events/{{ModId}}_PlagueHouse",
 		"FromFile": "Other/blank.json",
 	},
+
+	// Add Clinic map
+
+	// {
+	// 	"Action": "Load",
+	// 	"Target": "Maps/{{ModId}}_Clinic",
+	// 	"FromFile": "Maps/Clinic.tmx",
+	// },
+
+	// {
+	// 	"Action": "EditData",
+	// 	"Target": "Data/Locations",
+	// 	"Entries": {
+	// 		"{{ModId}}_Clinic": {
+	// 			"DisplayName": "Dr. Plague's Clinic",
+	// 			"CreateOnLoad": {
+	// 				"MapPath": "Maps/{{ModId}}_Clinic"
+	// 			},
+	// 			"DefaultArrivalTile": {
+	// 				"X": 4,
+	// 				"Y": 6
+	// 			}
+	// 		}
+	// 	}
+	// },
+
+	// Add Clinic warps
+
+	// {
+	// 	"Action": "EditMap",
+	// 	"Target": "Maps/{{ModId}}_Grotto",
+	// 	"AddWarps": [
+	// 		"1 1 {{ModId}}_Clinic 3 6"
+	// 	],
+	// },
+
+	// {
+	// 	"Action": "EditMap",
+	// 	"Target": "Maps/{{ModId}}_Clinic",
+	// 	"AddWarps": [
+	// 		"2 7 {{ModId}}_Grotto 1 1 3 7 {{ModId}}_Grotto 1 1"
+	// 	],
+	// },
+
+	// Add Clinic events file
+
+	// {
+	// 	"Action": "Load",
+	// 	"Target": "Data/Events/{{ModId}}_Clinic",
+	// 	"FromFile": "Other/blank.json",
+	// },
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

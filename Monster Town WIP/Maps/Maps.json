@@ -53,29 +53,30 @@
 
 	// Mine Exits
 
-	// {
-	// 	"Action": "EditMap",
-	// 	"Target": "Maps/Mine",
-	// 	"TextOperations": [
-	// 		{
-	// 			"Operation": "Append",
-	// 			"Target": ["MapProperties", "NPCWarp"],
-	// 			"Value": "11 9 {{ModId}}_Maimber 3 44",
-	// 			"Delimiter": " "
-	// 		},
-	// 	]
-	// },
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Mine",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["MapProperties", "NPCWarp"],
+				"Value": "11 9 {{ModId}}_Maimber 47 47",
+				"Delimiter": " "
+			},
+		]
+	},
 	
 	// Maimber Exits
 
-	// {
-	// 	"Action": "EditMap",
-	// 	"Target": "Maps/{{ModId}}_Maimber",
-	// 	"MapProperties": {
-	// 		"Warp": "39 4 {{ModId}}_Crevasse 31 38 40 4 {{ModId}}_Crevasse 33 38 2 21 {{ModId}}_Grotto 104 20 2 22 {{ModId}}_Grotto 104 21 28 66 {{ModId}}_LavaTubes x y 29 66 {{ModId}}_LavaTubes x y 46 37 {{ModId}}_Labyrinth 2 40 46 38 {{ModId}}_Labyrinth 2 41",
-	// 		"NPCWarp": "2 44 Mine 12 9 2 46 {{ModId}}_StalagMap 17 6",
-	// 	}
-	// },
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_Maimber",
+		"MapProperties": {
+			"Warp": "72 69 {{ModId}}_LavaTubes 47 6 73 69 {{ModId}}_LavaTubes 48 6",
+			// "Warp": "39 4 {{ModId}}_Crevasse 31 38 40 4 {{ModId}}_Crevasse 33 38 2 21 {{ModId}}_Grotto 104 20 2 22 {{ModId}}_Grotto 104 21 28 66 {{ModId}}_LavaTubes x y 29 66 {{ModId}}_LavaTubes x y 46 37 {{ModId}}_Labyrinth 2 40 46 38 {{ModId}}_Labyrinth 2 41",
+			"NPCWarp": "46 47 Mine 12 9 46 49 {{ModId}}_StalagMap 17 6",
+		}
+	},
 
 	// Crevasse Exits
 
@@ -99,13 +100,13 @@
 
 	// Lava Tubes Exits
 
-	// {
-	// 	"Action": "EditMap",
-	// 	"Target": "Maps/{{ModId}}_LavaTubes",
-	// 	"MapProperties": {
-	// 		"Warp": "x y {{ModId}}_Maimber 28 65 x y {{ModId}}_Maimber 29 65",
-	// 	}
-	// },
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_LavaTubes",
+		"MapProperties": {
+			"Warp": "47 5 {{ModId}}_Maimber 72 68 48 5 {{ModId}}_Maimber 73 68",
+		}
+	},
 
 	// Labyrinth Exits
 
@@ -119,13 +120,13 @@
 
 	// Warp Room Exits
 
-	// {
-	// 	"Action": "EditMap",
-	// 	"Target": "Maps/{{ModId}}_StalagMap",
-	// 	"MapProperties": {
-	// 		"NPCWarp": "18 6 {{ModId}}_Maimber 3 46",
-	// 	}
-	// },
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_StalagMap",
+		"MapProperties": {
+			"NPCWarp": "18 6 {{ModId}}_Maimber 47 49",
+		}
+	},
 	
 	// Main Maps ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

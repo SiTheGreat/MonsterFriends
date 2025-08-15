@@ -35,7 +35,7 @@
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	// Loves: truffle oil, frozen tear
+	// Loves:
 	// Likes: 
 	// Neuts:
 	// Dislikes:
@@ -84,8 +84,8 @@
 					{
 						"Id": "Default",
 						"Location": "{{ModId}}_InkoHouse",
-						"Tile": { "X": 3, "Y": 5 },
-						"Direction": "Down"
+						"Tile": { "X": 7, "Y": 4 },
+						"Direction": "Right"
 					}
 				]
 			}
@@ -108,11 +108,11 @@
 			"{{ModId}}_InkoHouse": {
 				"DisplayName": "Inko's House",
 				"CreateOnLoad": {
-					"MapPath": "{{ModId}}_Maps/InkoHouse"
+					"MapPath": "Maps/{{ModId}}_InkoHouse"
 				},
 				"DefaultArrivalTile": {
-					"X": 5,
-					"Y": 2
+					"X": 6,
+					"Y": 6
 				}
 			}
 		}
@@ -121,9 +121,9 @@
 	// Add home warps
 	{
 		"Action": "EditMap",
-		"Target": "Maps/{{ModId}}_StalacTown",
+		"Target": "Maps/{{ModId}}_Maimber",
 		"AddWarps": [
-			"29 40 {{ModId}}_InkoHouse 6 3"
+			"53 7 {{ModId}}_InkoHouse 4 6"
 		],
 	},
 
@@ -131,7 +131,7 @@
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_InkoHouse",
 		"AddWarps": [
-			"6 2 {{ModId}}_StalacTown 28 41"
+			"4 7 {{ModId}}_Maimber 53 8 5 7 {{ModId}}_Maimber 53 8"
 		],
 	},
 
