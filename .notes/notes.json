@@ -1,10 +1,4 @@
-Monster collective expanded
-Twilight Caverns?
-Town of Crepuscule?
-Stalac-Town
-Talus Caverns
--green (mossy), blue (icy), yellow (sandy), red (magma-y) floors leading off from main floor, each like a neighborhood
--open restaurant kitchen area in the middle of main, chef is a dwarf or something; cauldron surrounded by bar tops; dwarf cooks what you bring them (eg bring fish get sashimi, bring egg get omelette (add a variety of forage omelettes? And mushroom omelette ofc)); forage quests unlock the spevialty 'stone soup', recipe is x forage items plus stone - hearty, filling, communal
+Open restaurant kitchen area in the middle of main, chef is a dwarf or something; cauldron surrounded by bar tops; dwarf cooks what you bring them (eg bring fish get sashimi, bring egg get omelette (add a variety of forage omelettes? And mushroom omelette ofc)); forage quests unlock the spevialty 'stone soup', recipe is x forage items plus stone - hearty, filling, communal
 -also quests of ocean and river jelly for jellies, and maybe someone has a magma jelly quest to revitalize the magma falls)
 -mushroom bread loaf and various sandwiches (grilled dino mayo, carrot butter and (cave) jelly)
 -sweet carrot cake using cave carrots and flowers
@@ -12,24 +6,16 @@ Talus Caverns
 -ginger is also very valuable
 -open shop stalls that are like little nooks, sell things like mushrooms and ore and artifacts (rusty swords, dwarf helmets) and cave carrots
 -weapons hawker 'freshly fallen adventurers' (Sasha's gf runs this, that's how she got the scarf lol)
--dr plague sells elixirs etc maybe
 -store that sells human disguise talismans and outfits
 -pepper rex farm, they eat fiddleheads instead of hay; managed by angry roger?
 -trade rather than coins. Surface forage has high value
--A festival called Crepuscule where they do weapon dances around flickering torches and eat lots of food, esp crepes, and do sparring demonstrations. Marks the beginning of hibernation season for some. Body paint (face mask perhaps, 'shirt' w designs, w fs packs maybe). Also drawing on cave walls and floors, and games like rock balancing/jenga and hopscotch
--the cart pig shows up to sell books with a snort that sounds suspiciously like 'everyone should have access to books'
--Main Chamber = the maimber
--green = the grotto, blue = the crevasse, yellow = the labyrinth, grey = the dungeon, darkness = the void, red = the lava tubes or the pyroducts or the vents
 -trinket for player to survive the pools maybe
 -one of the dinos will be chewing on a bc book, that you slowly pry out of their mouth
--sasha gf sells bc book 'close encounters of the human kind'
--thingamabobs museum for human or weird (even for monsters) objects, that other mods can add to (probably if museum framework becomes a thing) (maybe thingamablobs, managed by blob (who likes to hoard stuff) and sasha (good at artifacts); maybe put in the crevasse
 -movie nights set in mainber lower level against wall, managed by giant eyeball 'angry roger gets ahold of movies for me, i don't ask how' (the joke is that the pirate pirated them)
 -also make angry roger very piratey
 -add a grand library somewhere in the labyrinth. Include ladders for going up and down shelf levels to make an additional maze and more locations for bc books XD
 -an outcrop that leads to an exposed ledge in the mountain for outdoorsy npcs, maybe includes some trails for walking
 -everyone calls the pot dwarf Griddle, they jist go along with it rather than teaching people to pronounce their name
--also add a warp room. possibly called the stalag-map
 
 Also special club drink called the Palelia or based on club penguin names lol
 Pot has a quest board 'ingredients being requested/in short supply'
@@ -97,6 +83,7 @@ Also monthly movie schedule map string in Eyeball's house
 24 sitcom
 
 Fests
+-A festival called Crepuscule where they do weapon dances around flickering torches and eat lots of food, esp crepes, and do sparring demonstrations. Marks the beginning of hibernation season for some. Body paint (face mask perhaps, 'shirt' w designs, w fs packs maybe). Also drawing on cave walls and floors, and games like rock balancing/jenga and hopscotch
 WINTER 19 Crepuscule: also exchange explosives for good luck, also tell stories rather than spar. Get a prize for the mpst crepuscular tale! Use dialogue switch events to come up sith stories lol (maybe make a ransomizd theme?)
 SUMMER 7 Another festival, the annual celebratory mud fight, where you sling mud, snow, sand, and moss (lava was banned after a particularly rowdy year) and then exchange towels to clean off with to commemorate the Stalac- Town Truce. Get a prize for collecting all the towels (a prismatic towel)! Mechanic to pick a side?
 Also encourage residents to come up with their own fests the town can set up for
@@ -106,3 +93,4 @@ Thingamablobs museum set: millennium ('centurial') items themed donateables hidd
 Centurial Walking Stick, Centurial Hoop Earring, Centurial Bangle etc; possibly hiddrn as custom map tiles around town that change after the item is found
 One set of museum items per map: centurials in library, glow sticks in crevasse, vhs tapes/dvds in lava tubes, med equipmenr in grotto (stethoscope, scalpel, reflex hammer, mask etc), kitchsn tools in maimber (spatula, butcher knife, sieve, salad tongs, cast iron skillet etc)
 Leaf collecting xover - add prehistoric leaves to grotto when leaf collecting is installed
+-inko sells bc book 'close encounters of the human kind'
