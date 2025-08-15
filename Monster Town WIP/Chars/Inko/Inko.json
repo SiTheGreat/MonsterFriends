@@ -40,9 +40,9 @@
 
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
-	// Loves:
+	// Loves: supplies
 	// Likes: 
-	// Neuts:
+	// Neuts: squid ink ('...where did you get this?')
 	// Dislikes:
 	// Hates:
 
@@ -63,10 +63,10 @@
 			"{{ModId}}_Inko": {
 				// Char
 				"DisplayName": "Inko",
-				"Gender": "Undefined",
+				"Gender": "Female",
 				"Age": "Adult",
-				"BirthSeason": "Winter",
-				"BirthDay": 7,
+				"BirthSeason": "Spring",
+				"BirthDay": 13,
 				// Attitude
 				"Manner": "Polite",
 				"SocialAnxiety": "Outgoing",

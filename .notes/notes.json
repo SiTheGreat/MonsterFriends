@@ -1,23 +1,14 @@
-Floe hosted by DJ Sound (or Palelia) and their dust sprite Fizzy
-Purple penguin, white belly, blue scarf and headset, sunglasses optional
 Also special club drink called the Palelia or based on club penguin names lol
 Pot has a quest board 'ingredients being requested/in short supply'
 If modder wants to add multiple npcs, recommend they have one doorway that leads to another room/cave system for them all
 Free coffee machine in library (one coffee per day, chance to give espresso; use random chance on dynamic token object id?)
 Entry into magma pools, mons (sticky) can enter, but see if can damage player on entry until/unless they get trinket/potion that lets them survive in there
-Thingamablobs museum set: millennium ('centurial') items themed donateables hidden in the library
-Crepuscule: also exchange explosives for good luck, also tell stories rather than spar. Get a prize for the mpst crepuscular tale! Use dialogue switch events to come up sith stories lol (maybe make a ransomizd theme?)
-Another festival, the annual celebratory mud fight, where you sling mud, snow, sand, and moss (lava was banned after a particularly rowdy year) and then exchange towels to clean off with to commemorate the Stalac- Town Truce. Get a prize for collecting all the towels (a prismatic towel)! Mechanic to pick a side?
-Also encourage residents to come up with their own fests the town can set up for
 Griddle's daily quests are a shop where you bring stuff in exchange for rewards like bombs, ore, and diamonds. Track hpw many done to unlocl recipes etc
-Put monster bdays on town festival days
 In library labyrinth, section where you run behind a bookshelf
 A ccouple of book stacks act as steps to the top of a shelf
 Library: add some empty/emptier shelves and some lanterns and mugs around the shelves
 At the end of the library is the Legendary Expresso Machine
 Get onto bookshelves to get to enclosed areas, which lead to paths through giant shelves, which lead to path on more small shelves, which lead to giant shelves again
-Centurial Walking Stick, Centurial Hoop Earring, Centurial Bangle etc; possibly hiddrn as custom map tiles around town that change after the item is found
-One set of museum items per map: centurials in library, glow sticks in crevasse, vhs tapes/dvds in lava tubes, med equipmenr in grotto (stethoscope, scalpel, reflex hammer, mask etc), kitchsn tools in maimber (spatula, butcher knife, sieve, salad tongs, cast iron skillet etc)
 Config: whether town shows up in minecart menu initially or after intro scene
 Get intro event depending on whether you get dwarf or monsters to 10h first (or secondary config?)
 Inky: Griddle's the closest we have to a leader, they're always around, don't like fighting around food, and will whack you with a saucepan if you get too riled up
@@ -29,13 +20,24 @@ Trans Sounder - Palelia?
 Sounder maintains Giant Eyeball's movie night equipment
 Sounder dial about igloos being bigger on the inside due to digging downwards? Also have bed be on elevated area to allow for cold sink
 Need a market stalls area open daily with vatious shops: inko supplies, roger slime products, sasha books/scrolls, maybe doug w root veggies and clay
-Should I move movie nights to the laba tubes? The ambiance is pretty good down there
-Add black edging around maps so people can add map patches there
+Should I move movie nights to the laba tubes? The ambiance is pretty good down there - eyeball quote
 Set entrance to magma pools w building tile blocker and walkontile action on tile eight before it, player gets hirt walking on that tile, trigger mail, then event at clinic where you get treated for burn and given quest for magma resistant spell so you can enter it - probably a later feature
 Marketplace: a stall selling human disguises
 Cat tree for Fizzy
-Leaf collecting xover - add prehistoric leaves to grotto when leaf collecting is installed
 Add desert fest mystery seller to marketplace when not at fest (account for twice a year fest mod too)
 Argil sells stuff too if LoS also installed
 Sounder and Deathskull have regular meet ups to bounce pun ideas off each other 'i guess you could say he's my soundboard!'
+
+Portant days
 Bdays: Inko spr 13 Sounder win 8 Roger sum 28 Griddle sum 11 Eyeball win 25 Fizzy spr 24 Plague spr 15
+
+Fests
+Crepuscule: also exchange explosives for good luck, also tell stories rather than spar. Get a prize for the mpst crepuscular tale! Use dialogue switch events to come up sith stories lol (maybe make a ransomizd theme?)
+Another festival, the annual celebratory mud fight, where you sling mud, snow, sand, and moss (lava was banned after a particularly rowdy year) and then exchange towels to clean off with to commemorate the Stalac- Town Truce. Get a prize for collecting all the towels (a prismatic towel)! Mechanic to pick a side?
+Also encourage residents to come up with their own fests the town can set up for
+
+Collectibles
+Thingamablobs museum set: millennium ('centurial') items themed donateables hidden in the library
+Centurial Walking Stick, Centurial Hoop Earring, Centurial Bangle etc; possibly hiddrn as custom map tiles around town that change after the item is found
+One set of museum items per map: centurials in library, glow sticks in crevasse, vhs tapes/dvds in lava tubes, med equipmenr in grotto (stethoscope, scalpel, reflex hammer, mask etc), kitchsn tools in maimber (spatula, butcher knife, sieve, salad tongs, cast iron skillet etc)
+Leaf collecting xover - add prehistoric leaves to grotto when leaf collecting is installed

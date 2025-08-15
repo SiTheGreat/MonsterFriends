@@ -19,9 +19,9 @@
 		"Action": "EditData",
 		"Target": "Characters/schedules/{{ModId}}_Inko",
 		"Entries": {
-			// "spring_13": "", // Birthday
-			"Mon": "720 {{ModId}}_Maimber 59 56 1/1040 {{ModId}}_StalagMap 12 6 0/1610 {{ModId}}_Maimber 59 56 1/2210 {{ModId}}_InkoHouse 3 3 1", // add hobby
-			"spring": "720 {{ModId}}_Maimber 68 28 2/1200 {{ModId}}_Maimber 59 56 1/1310 {{ModId}}_Maimber 68 28 2/1810 {{ModId}}_Maimber 59 56 1/2110 {{ModId}}_InkoHouse 3 3 1",
+			"spring_13": "920 {{ModId}}_Maimber 59 56 1/2210 {{ModId}}_InkoHouse 3 3 1", // Birthday, saturday; add club, movie night
+			"Mon": "720 {{ModId}}_Maimber 59 56 1/1040 {{ModId}}_StalagMap 12 6 0/1610 {{ModId}}_Maimber 59 56 1/2210 {{ModId}}_InkoHouse 3 3 1", // add hobby - read in library, club
+			"spring": "720 {{ModId}}_Maimber 68 28 2/1200 {{ModId}}_Maimber 59 56 1/1310 {{ModId}}_Maimber 68 28 2/1810 {{ModId}}_Maimber 59 56 1/2110 {{ModId}}_InkoHouse 3 3 1", // add movie night variants
 
 		},
 	},
