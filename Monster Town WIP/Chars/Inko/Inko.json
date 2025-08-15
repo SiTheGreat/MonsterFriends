@@ -7,7 +7,7 @@
 	{
 		"Action": "Load",
 		"Target": "Characters/{{ModId}}_Inko",
-		"FromFile": "Chars/Inko/InkoSprite.png",
+		"FromFile": "Chars/Inko/InkoSprites.png",
 	},
 
 	{
@@ -131,7 +131,8 @@
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_InkoHouse",
 		"AddWarps": [
-			"4 7 {{ModId}}_Maimber 53 8 5 7 {{ModId}}_Maimber 53 8"
+			"4 7 {{ModId}}_Maimber 53 8",
+			"5 7 {{ModId}}_Maimber 53 8",
 		],
 	},
 

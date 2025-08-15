@@ -7,7 +7,7 @@
 	{
 		"Action": "Load",
 		"Target": "Characters/{{ModId}}_Eyeball",
-		"FromFile": "Chars/Eyeball/EyeballSprite.png",
+		"FromFile": "Chars/Eyeball/EyeballSprites.png",
 	},
 
 	{
@@ -131,7 +131,8 @@
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_EyeballHouse",
 		"AddWarps": [
-			"4 7 {{ModId}}_LavaTubes 69 5 5 7 {{ModId}}_LavaTubes 69 5"
+			"4 7 {{ModId}}_LavaTubes 69 5",
+			"5 7 {{ModId}}_LavaTubes 69 5",
 		],
 	},
 

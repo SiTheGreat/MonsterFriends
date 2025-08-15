@@ -7,7 +7,7 @@
 	{
 		"Action": "Load",
 		"Target": "Characters/{{ModId}}_Plague",
-		"FromFile": "Chars/Plague/PlagueSprite.png",
+		"FromFile": "Chars/Plague/PlagueSprites.png",
 	},
 
 	{
@@ -131,7 +131,8 @@
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_PlagueHouse",
 		"AddWarps": [
-			"2 7 {{ModId}}_Grotto 1 1 3 7 {{ModId}}_Grotto 1 1"
+			"2 7 {{ModId}}_Grotto 1 1",
+			"3 7 {{ModId}}_Grotto 1 1",
 		],
 	},
 
@@ -181,7 +182,8 @@
 	// 	"Action": "EditMap",
 	// 	"Target": "Maps/{{ModId}}_Clinic",
 	// 	"AddWarps": [
-	// 		"2 7 {{ModId}}_Grotto 1 1 3 7 {{ModId}}_Grotto 1 1"
+	// 		"2 7 {{ModId}}_Grotto 1 1",
+	// 		"3 7 {{ModId}}_Grotto 1 1",
 	// 	],
 	// },
 

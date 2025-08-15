@@ -7,7 +7,7 @@
 	{
 		"Action": "Load",
 		"Target": "Characters/{{ModId}}_Griddle",
-		"FromFile": "Chars/Griddle/GriddleSprite.png",
+		"FromFile": "Chars/Griddle/GriddleSprites.png",
 	},
 
 	{
@@ -131,7 +131,8 @@
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_GriddleHouse",
 		"AddWarps": [
-			"4 7 {{ModId}}_Maimber 61 43 5 7 {{ModId}}_Maimber 61 43"
+			"4 7 {{ModId}}_Maimber 61 43",
+			"5 7 {{ModId}}_Maimber 61 43",
 		],
 	},
 

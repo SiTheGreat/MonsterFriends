@@ -20,20 +20,20 @@
 
 	// Characters ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	// {
-	// 	"Action": "Include",
-	// 	"FromFile": "Chars/Eyeball/Eyeball.json",
-	// },
+	{
+		"Action": "Include",
+		"FromFile": "Chars/Eyeball/Eyeball.json",
+	},
 
-	// {
-	// 	"Action": "Include",
-	// 	"FromFile": "Chars/Griddle/Griddle.json",
-	// },
+	{
+		"Action": "Include",
+		"FromFile": "Chars/Griddle/Griddle.json",
+	},
 
-	// {
-	// 	"Action": "Include",
-	// 	"FromFile": "Chars/Inko/Inko.json",
-	// },
+	{
+		"Action": "Include",
+		"FromFile": "Chars/Inko/Inko.json",
+	},
 
 	// {
 	// 	"Action": "Include",
