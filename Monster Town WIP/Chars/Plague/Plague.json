@@ -58,14 +58,14 @@
 			"{{ModId}}_Plague": {
 				// Char
 				"DisplayName": "Dr. Plague",
-				"Gender": "Undefined",
+				"Gender": "Female",
 				"Age": "Adult",
-				"BirthSeason": "Winter",
-				"BirthDay": 7,
+				"BirthSeason": "Spring",
+				"BirthDay": 15,
 				// Attitude
 				"Manner": "Polite",
-				"SocialAnxiety": "Outgoing",
-				"Optimism": "Positive",
+				"SocialAnxiety": "Neutral",
+				"Optimism": "Negative",
 				"CanBeRomanced": false,
 				"CanSocialize": false,
 				// Exclusions

@@ -61,7 +61,7 @@
 				"Gender": "Undefined",
 				"Age": "Adult",
 				"BirthSeason": "Winter",
-				"BirthDay": 7,
+				"BirthDay": 25,
 				// Attitude
 				"Manner": "Polite",
 				"SocialAnxiety": "Outgoing",
@@ -151,10 +151,9 @@
 		"FromFile": "Maps/MovieNight.tmx",
 		"ToArea": { "X": 59, "Y": 40, "Width": 5, "Height": 9 },
 		"PatchMode": "Overlay",
-		// "When": {
-		// 		"Season": "spring",
-		// 		"Day": 9,
-		// 	},
+		"When": {
+				"DayOfWeek |contains=Tuesday, Saturday": true,
+		},
 	},
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -58,13 +58,13 @@
 			"{{ModId}}_Sounder": {
 				// Char
 				"DisplayName": "Sounder",
-				"Gender": "Undefined",
+				"Gender": "Male",
 				"Age": "Adult",
 				"BirthSeason": "Winter",
-				"BirthDay": 7,
+				"BirthDay": 8,
 				// Attitude
 				"Manner": "Polite",
-				"SocialAnxiety": "Outgoing",
+				"SocialAnxiety": "Neutral",
 				"Optimism": "Positive",
 				"CanBeRomanced": false,
 				"CanSocialize": false,

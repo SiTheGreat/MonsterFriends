@@ -58,10 +58,10 @@
 			"{{ModId}}_Fizzy": {
 				// Char
 				"DisplayName": "Fizzy",
-				"Gender": "Undefined",
+				"Gender": "Female",
 				"Age": "Adult",
-				"BirthSeason": "Winter",
-				"BirthDay": 7,
+				"BirthSeason": "Spring",
+				"BirthDay": 24,
 				// Attitude
 				"Manner": "Polite",
 				"SocialAnxiety": "Outgoing",
