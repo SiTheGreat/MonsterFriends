@@ -6,6 +6,11 @@
 
 	// Schedules ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+	// Generally just works at the restaurant lol
+	// Maybe I'll get them an assistant in the future so they have time for other things
+	// Part of character arc maybe?
+	// Bday is summer 11, also need a clinic day
+
 	// Everyday schedule
 
 	{
@@ -14,7 +19,7 @@
 		"Target": "Characters/schedules/{{ModId}}_Griddle",
 		"Entries": {
 
-			"spring": "0 Town 7 3 3/650 Town 47 19 2",
+			"spring": "620 {{ModId}}_Maimber 69 55 1/920 {{ModId}}_Maimber 66 54 0/1140 {{ModId}}_Maimber 62 53 1/1320 {{ModId}}_Maimber 61 51 3/1540 {{ModId}}_Maimber 67 51 2/1720 {{ModId}}_Maimber 65 54 0/1910 {{ModId}}_Maimber 63 55 3/2020 {{ModId}}_Maimber 70 56 1/2140 {{ModId}}_Maimber 66 54 0/2220 {{ModId}}_Maimber 61 51 3/2250 {{ModId}}_GriddleHouse 8 4 1",
 
 		},
 	},

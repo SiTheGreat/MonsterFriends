@@ -60,12 +60,12 @@
 				"DisplayName": "Griddle",
 				"Gender": "Undefined",
 				"Age": "Adult",
-				"BirthSeason": "Winter",
-				"BirthDay": 7,
+				"BirthSeason": "Summer",
+				"BirthDay": 11,
 				// Attitude
 				"Manner": "Polite",
-				"SocialAnxiety": "Outgoing",
-				"Optimism": "Positive",
+				"SocialAnxiety": "Neutral",
+				"Optimism": "Neutral",
 				"CanBeRomanced": false,
 				"CanSocialize": false,
 				// Exclusions
