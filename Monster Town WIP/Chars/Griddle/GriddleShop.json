@@ -1,0 +1,118 @@
+{
+
+	"Changes": [
+
+	// Griddle's Restaurant //////////////////////////////////////////////////////////
+
+	// Add shop actions
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_Maimber",
+		"MapTiles": [
+			{
+				"Position": { "X": 68, "Y": 29 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_InkoShop none 600 2600 68 29 1 1"
+				}
+			},
+			{
+				"Position": { "X": 69, "Y": 29 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_InkoShop none 600 2600 69 29 1 1"
+				}
+			},
+		],
+	},
+
+	// Create shop content
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"Entries": {
+			"{{ModId}}_InkoShop": {
+				"Id": "{{ModId}}_InkoShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_InkoOpen",
+						"Name": "AnyOrNone",
+						"Portrait": "Portraits/{{ModId}}_Inko",
+						"Dialogues": [],
+						"Condition": "TIME 800 1200, !DAY_OF_WEEK Monday",
+					},
+					{
+						"Id": "{{ModId}}_InkoOpen",
+						"Name": "AnyOrNone",
+						"Portrait": "Portraits/{{ModId}}_Inko",
+						"Dialogues": [],
+						"Condition": "TIME 1330 1800, !DAY_OF_WEEK Monday",
+					},
+					{
+						"Id": "{{ModId}}_InkoClosed1",
+						"Name": "None",
+						"Condition": "TIME 600 800, !DAY_OF_WEEK Monday",
+						"ClosedMessage": "This shop opens at 8 AM.",
+					},
+					{
+						"Id": "{{ModId}}_InkoClosed2",
+						"Name": "None",
+						"Condition": "TIME 1200 1330, !DAY_OF_WEEK Monday",
+						"ClosedMessage": "Out to lunch! Back at 1:30 PM.",
+					},
+					{
+						"Id": "{{ModId}}_InkoClosed3",
+						"Name": "None",
+						"Condition": "TIME 1800 2600, !DAY_OF_WEEK Monday",
+						"ClosedMessage": "Sorry, we're closed for the day!",
+					},
+					{
+						"Id": "{{ModId}}_InkoClosed4",
+						"Name": "None",
+						"Condition": "DAY_OF_WEEK Monday",
+						"ClosedMessage": "Sorry, we're closed on Mondays!",
+					},
+				],
+				"Items": [
+					{
+						"Id": "{{ModId}}_InkoShop_FieldSnack",
+						"ItemId": "(O)403",
+                		"AvailableStock": 5,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_InkoShop_Bomb",
+						"ItemId": "(O)287",
+                		"AvailableStock": 5,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_InkoShop_ExploAmmo",
+						"ItemId": "(O)441",
+                		"AvailableStock": 20,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_InkoShop_Supplies",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": "12",
+						"AvailableStock": 1,
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target category_ring\" \"ITEM_CONTEXT_TAG Target category_boots\" \"ITEM_CONTEXT_TAG Target category_weapon\" \"ITEM_CONTEXT_TAG Target Si_InkoShop_Hat\" \"ITEM_CONTEXT_TAG Target Si_InkoShop_Armor\" \"ITEM_CONTEXT_TAG Target Si_InkoShop_Potions\" \"ITEM_CONTEXT_TAG Target Si_InkoShop_Explosives\" \"ITEM_CONTEXT_TAG Target category_monster_loot\"",
+					},
+					{
+						"Id": "{{ModId}}_InkoShop_BoneSword",
+						"ItemId": "(W)5",
+                		"AvailableStock": 5,
+						"AvailableStockLimit": "Player",
+					},
+				],
+			},
+		},
+	},
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}

@@ -18,6 +18,22 @@
 		"FromFile": "Maps/Maps.json",
 	},
 
+	// Festivals
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Other/MudFight.json",
+	// 	"When": {
+	// 			"HasSeenEvent:hostPlayer |contains=XYZ": true, // trigger event first time player enters stalac-town
+	// 	},
+	// },
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Other/Crepuscule.json",
+	// 	"When": {
+	// 			"HasSeenEvent:hostPlayer |contains=XYZ": true, // trigger event first time player enters stalac-town
+	// 	},
+	// },
+
 	// Characters ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	{

@@ -33,6 +33,16 @@
 	// 	"FromFile": "Chars/Griddle/GriddleEvents.json",
 	// },
 
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Griddle/GriddleShop.json",
+	// },
+
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Griddle/GriddleQuests.json",
+	// },
+
 	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	
 	// Loves:
