@@ -1,0 +1,328 @@
+{
+
+	"Changes": [
+
+	// Inko's Supplies //////////////////////////////////////////////////////////
+
+	// Add shop actions
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_Maimber",
+		"MapTiles": [
+			{
+				"Position": { "X": 68, "Y": 29 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_InkoShop none 600 2600 68 29 1 1"
+				}
+			},
+			{
+				"Position": { "X": 69, "Y": 29 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_InkoShop none 600 2600 69 29 1 1"
+				}
+			},
+		],
+	},
+
+	// Create shop content
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"Entries": {
+			"{{ModId}}_InkoShop": {
+				"Id": "{{ModId}}_InkoShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_InkoOpen",
+						"Name": "AnyOrNone",
+						"Portrait": "Portraits/{{ModId}}_Inko",
+						"Dialogues": [],
+						"Condition": "TIME 800 1200, !DAY_OF_WEEK Monday",
+					},
+					{
+						"Id": "{{ModId}}_InkoOpen",
+						"Name": "AnyOrNone",
+						"Portrait": "Portraits/{{ModId}}_Inko",
+						"Dialogues": [],
+						"Condition": "TIME 1330 1800, !DAY_OF_WEEK Monday",
+					},
+					{
+						"Id": "{{ModId}}_InkoClosed1",
+						"Name": "None",
+						"Condition": "TIME 600 800, !DAY_OF_WEEK Monday",
+						"ClosedMessage": "This shop opens at 8 AM.",
+					},
+					{
+						"Id": "{{ModId}}_InkoClosed2",
+						"Name": "None",
+						"Condition": "TIME 1200 1330, !DAY_OF_WEEK Monday",
+						"ClosedMessage": "Out to lunch! Back at 1:30 PM.",
+					},
+					{
+						"Id": "{{ModId}}_InkoClosed3",
+						"Name": "None",
+						"Condition": "TIME 1800 2600, !DAY_OF_WEEK Monday",
+						"ClosedMessage": "Sorry, we're closed for the day!",
+					},
+					{
+						"Id": "{{ModId}}_InkoClosed4",
+						"Name": "None",
+						"Condition": "DAY_OF_WEEK Monday",
+						"ClosedMessage": "Sorry, we're closed on Mondays!",
+					},
+				],
+				"Items": [
+					{
+						"Id": "{{ModId}}_InkoShop_FieldSnack",
+						"ItemId": "(O)403",
+                		"AvailableStock": 5,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_InkoShop_Bomb",
+						"ItemId": "(O)287",
+                		"AvailableStock": 5,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_InkoShop_ExploAmmo",
+						"ItemId": "(O)441",
+                		"AvailableStock": 20,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_InkoShop_Supplies",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": "12",
+						"AvailableStock": 1,
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target category_ring\" \"ITEM_CONTEXT_TAG Target category_boots\" \"ITEM_CONTEXT_TAG Target category_weapon\" \"ITEM_CONTEXT_TAG Target Si_InkoShop_Hat\" \"ITEM_CONTEXT_TAG Target Si_InkoShop_Armor\" \"ITEM_CONTEXT_TAG Target Si_InkoShop_Potions\" \"ITEM_CONTEXT_TAG Target Si_InkoShop_Explosives\" \"ITEM_CONTEXT_TAG Target category_monster_loot\"",
+					},
+					{
+						"Id": "{{ModId}}_InkoShop_BoneSword",
+						"ItemId": "(W)5",
+                		"AvailableStock": 5,
+						"AvailableStockLimit": "Player",
+					},
+				],
+			},
+		},
+	},
+
+	// Add context tags to items; armor, helmets, other supplies
+	
+	// Helmets
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(H)46", "ContextTags" ], // Dwarf Helm
+		"Entries": {
+			"Si_InkoShop_Hat": "Si_InkoShop_Hat",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(H)50", "ContextTags" ], // Knight Helmet
+		"Entries": {
+			"Si_InkoShop_Hat": "Si_InkoShop_Hat",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(H)51", "ContextTags" ], // Squire Helmet
+		"Entries": {
+			"Si_InkoShop_Hat": "Si_InkoShop_Hat",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(H)75", "ContextTags" ], // Golden Helmet
+		"Entries": {
+			"Si_InkoShop_Hat": "Si_InkoShop_Hat",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(H)87", "ContextTags" ], // Star Helmet
+		"Entries": {
+			"Si_InkoShop_Hat": "Si_InkoShop_Hat",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(H)93", "ContextTags" ], // Warrior Helmet
+		"Entries": {
+			"Si_InkoShop_Hat": "Si_InkoShop_Hat",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(H)SpaceHelmet", "ContextTags" ], // Space Helmet
+		"Entries": {
+			"Si_InkoShop_Hat": "Si_InkoShop_Hat",
+		},
+	},
+
+	// Armor
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)1148", "ContextTags" ], // Steel Breastplate
+		"Entries": {
+			"Si_InkoShop_Armor": "Si_InkoShop_Armor",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)1149", "ContextTags" ], // Copper Breastplate
+		"Entries": {
+			"Si_InkoShop_Armor": "Si_InkoShop_Armor",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)1150", "ContextTags" ], // Gold Breastplate
+		"Entries": {
+			"Si_InkoShop_Armor": "Si_InkoShop_Armor",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)1151", "ContextTags" ], // Iridium Breastplate
+		"Entries": {
+			"Si_InkoShop_Armor": "Si_InkoShop_Armor",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)1034", "ContextTags" ], // Green Tunic
+		"Entries": {
+			"Si_InkoShop_Armor": "Si_InkoShop_Armor",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)1042", "ContextTags" ], // Lime Green Tunic
+		"Entries": {
+			"Si_InkoShop_Armor": "Si_InkoShop_Armor",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)1131", "ContextTags" ], // Cowboy Poncho
+		"Entries": {
+			"Si_InkoShop_Armor": "Si_InkoShop_Armor",
+		},
+	},
+
+	// Potions
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)773", "ContextTags" ], // Life Elixir
+		"Entries": {
+			"Si_InkoShop_Potions": "Si_InkoShop_Potions",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)349", "ContextTags" ], // Energy Tonic
+		"Entries": {
+			"Si_InkoShop_Potions": "Si_InkoShop_Potions",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)772", "ContextTags" ], // Oil of Garlic
+		"Entries": {
+			"Si_InkoShop_Potions": "Si_InkoShop_Potions",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)879", "ContextTags" ], // Monster Musk
+		"Entries": {
+			"Si_InkoShop_Potions": "Si_InkoShop_Potions",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)253", "ContextTags" ], // Triple Shot Espresso
+		"Entries": {
+			"Si_InkoShop_Potions": "Si_InkoShop_Potions",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)351", "ContextTags" ], // Muscle Remedy
+		"Entries": {
+			"Si_InkoShop_Potions": "Si_InkoShop_Potions",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)903", "ContextTags" ], // Ginger Ale
+		"Entries": {
+			"Si_InkoShop_Potions": "Si_InkoShop_Potions",
+		},
+	},
+
+	// Bombs
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)287", "ContextTags" ], // Bomb
+		"Entries": {
+			"Si_InkoShop_Explosives": "Si_InkoShop_Explosives",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)286", "ContextTags" ], // Cherry Bomb
+		"Entries": {
+			"Si_InkoShop_Explosives": "Si_InkoShop_Explosives",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)288", "ContextTags" ], // Mega Bomb
+		"Entries": {
+			"Si_InkoShop_Explosives": "Si_InkoShop_Explosives",
+		},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "(S)441", "ContextTags" ], // Explosive Ammo
+		"Entries": {
+			"Si_InkoShop_Explosives": "Si_InkoShop_Explosives",
+		},
+	},
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}
