@@ -10,7 +10,7 @@
 	// Mondays go on a supplies (read: looting) run through the mines (lots of weekend adventurers with day jobs who lose stuff down there, gotta get it all first!); then spend time w Sasha (nightclub etc) or go do a thing
 	// bday spring 13
 	// Clinic day - choose 1
-	// Probably some movie nights - work out schedule
+	// Probably some movie nights - work out schedule - saturdays and tuesdays?
 
 	// Everyday schedule
 
@@ -19,8 +19,9 @@
 		"Action": "EditData",
 		"Target": "Characters/schedules/{{ModId}}_Inko",
 		"Entries": {
-
-			"spring": "0 Town 7 3 3/650 Town 47 19 2",
+			// "spring_13": "", // Birthday
+			"Mon": "720 {{ModId}}_Maimber 59 56 1/1040 {{ModId}}_StalagMap 12 6 0/1610 {{ModId}}_Maimber 59 56 1/2210 {{ModId}}_InkoHouse 3 3 1", // add hobby
+			"spring": "720 {{ModId}}_Maimber 68 28 2/1200 {{ModId}}_Maimber 59 56 1/1310 {{ModId}}_Maimber 68 28 2/1810 {{ModId}}_Maimber 59 56 1/2110 {{ModId}}_InkoHouse 3 3 1",
 
 		},
 	},
