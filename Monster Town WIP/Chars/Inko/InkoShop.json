@@ -92,12 +92,12 @@
                 		"AvailableStock": 20,
 						"AvailableStockLimit": "Player",
 					},
-					// {
-					// 	"Id": "{{ModId}}_InkoShop_Weapons",
-					// 	"ItemId": "(W){{Random:84, 86, 82}}",
-                	// 	"AvailableStock": 1,
-					// 	"AvailableStockLimit": "Player",
-					// },
+					{
+						"Id": "{{ModId}}_InkoShop_Weapons",
+						"ItemId": "(W){{Random:20, 31, 60, 2, 57, 54, 45, 46, 49, 26, 22, 19, 7, 1, 52}}",
+                		"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
 					{
 						"Id": "{{ModId}}_InkoShop_Helmets",
 						"ItemId": "(H){{Random:46, 50, 51, 75, 87, 93, SpaceHelmet}}",
@@ -112,20 +112,20 @@
 						"Price": 400,
 						"AvailableStockLimit": "Player",
 					},
-					// {
-					// 	"Id": "{{ModId}}_InkoShop_Boots",
-					// 	"ItemId": "(S){{Random:1148, 1149, 1150, 1151, 1034, 1042, 1131}}",
-                	// 	"AvailableStock": 1,
-					// 	"Price": 1200,
-					// 	"AvailableStockLimit": "Player",
-					// },
-					// {
-					// 	"Id": "{{ModId}}_InkoShop_Rings",
-					// 	"ItemId": "(S){{Random:1148, 1149, 1150, 1151, 1034, 1042, 1131}}",
-                	// 	"AvailableStock": 1,
-					// 	"Price": 1100,
-					// 	"AvailableStockLimit": "Player",
-					// },
+					{
+						"Id": "{{ModId}}_InkoShop_Boots",
+						"ItemId": "(B){{Random:504, 505, 506, 515, 806, 513, 878}}",
+                		"AvailableStock": 1,
+						"Price": 1200,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_InkoShop_Rings",
+						"ItemId": "(O){{Random:516, 517, 518, 519, 524, 523, 525, 529, 530, 531, 532, 533, 534, 859, 860, 861, 862, 863, 887}}",
+                		"AvailableStock": 1,
+						"Price": 1100,
+						"AvailableStockLimit": "Player",
+					},
 					{
 						"Id": "{{ModId}}_InkoShop_Potions",
 						"ItemId": "(O){{Random:773, 349, 772, 879, 253, 351, 903}}",
