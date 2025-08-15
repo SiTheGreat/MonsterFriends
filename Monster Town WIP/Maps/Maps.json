@@ -8,45 +8,46 @@
 
 	// Minecart Entries ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	// {
-	// 	"Action": "EditData",
-	// 	"Target": "Data/Minecarts",
-	// 	"TargetField": [ "Default", "Destinations" ],
-	// 	"Entries": {
-	// 		"{{ModId}}_StalagTown": {
-	// 			"Id": "{{ModId}}_StalagTown",
-	// 			"DisplayName": "Stalag-Town",
-	// 			// "Condition": null,
-	// 			"TargetLocation": "{{ModId}}_Maimber",
-	// 			"TargetTile": { "X": 5, "Y": 44 },
-	// 			"TargetDirection": "right",
-	// 		}
-	// 	}
-	// },
+	{
+		"Action": "EditData",
+		"Target": "Data/Minecarts",
+		"TargetField": [ "Default", "Destinations" ],
+		"Entries": {
+			"{{ModId}}_StalacTown": {
+				"Id": "{{ModId}}_StalacTown",
+				"DisplayName": "Stalac-Town",
+				// "Condition": null,
+				"TargetLocation": "{{ModId}}_Maimber",
+				"TargetTile": { "X": 48, "Y": 47 },
+				"TargetDirection": "right",
+			}
+		}
+	},
 
-	// {
-	// 	"Action": "EditMap",
-	// 	"Target": "Maps/{{ModId}}_Maimber",
-	// 	"When": {
-	// 			"Season": "spring",
-	// 			"Day": 9,
-	// 		},
-	// 	"MapTiles": [
-	// 		{
-	// 			"Position": { "X": 3, "Y": 45 },
-	// 			"Layer": "Buildings",
-	// 			"SetProperties": {
-	// 				"Action": "Action: MinecartTransport Default {{ModId}}_StalagTown"
-	// 			}
-	// 		},
-	// 		{
-	// 			"Position": { "X": 4, "Y": 45 },
-	// 			"Layer": "Buildings",
-	// 			"SetProperties": {
-	// 				"Action": "Action: MinecartTransport Default {{ModId}}_StalagTown"
-	// 			}
-	// 		},
-	// },
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_Maimber",
+		// "When": {
+		// 		"Season": "spring",
+		// 		"Day": 9,
+		// 	},
+		"MapTiles": [
+			{
+				"Position": { "X": 47, "Y": 48 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "MinecartTransport Default {{ModId}}_StalacTown"
+				}
+			},
+			{
+				"Position": { "X": 48, "Y": 48 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "MinecartTransport Default {{ModId}}_StalacTown"
+				}
+			},
+		],
+	},
 
 	// Main Warps ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -151,23 +152,23 @@
 	// 	"FromFile": "Maps/Grotto.tmx",
 	// },
 	// // Lava Tubes
-	// {
-	// 	"Action": "Load",
-	// 	"Target": "Maps/{{ModId}}_LavaTubes",
-	// 	"FromFile": "Maps/Lava Tubes.tmx",
-	// },
+	{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_LavaTubes",
+		"FromFile": "Maps/LavaTubes.tmx",
+	},
 	// // Labyrinth
 	// {
 	// 	"Action": "Load",
 	// 	"Target": "Maps/{{ModId}}_Labyrinth",
 	// 	"FromFile": "Maps/Labyrinth.tmx",
 	// },
-	// // Stalag-Map Warp Room
-	// {
-	// 	"Action": "Load",
-	// 	"Target": "Maps/{{ModId}}_StalagMap",
-	// 	"FromFile": "Maps/StalagMap.tmx",
-	// },
+	// Stalag-Map Warp Room
+	{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_StalagMap",
+		"FromFile": "Maps/StalagMap.tmx",
+	},
 
 	// Location Loads
 
@@ -200,13 +201,13 @@
 	// 			"DefaultArrivalTile": { "X": 105, "Y": 21 }
 	// 		},
 	// 		// Lava Tubes
-	// 		"{{ModId}}_LavaTubes": {
-	// 			"DisplayName": "Lava Tubes",						
-	// 			"CreateOnLoad": { 
-	// 				"MapPath": "Maps/{{ModId}}_LavaTubes" 
-	// 			},
-	// 			"DefaultArrivalTile": { "X": x, "Y": y }
-	// 		},
+			"{{ModId}}_LavaTubes": {
+				"DisplayName": "Lava Tubes",						
+				"CreateOnLoad": { 
+					"MapPath": "Maps/{{ModId}}_LavaTubes" 
+				},
+				"DefaultArrivalTile": { "X": 47, "Y": 6 }
+			},
 	//		// Labyrinth
 	// 		"{{ModId}}_Labyrinth": {
 	// 			"DisplayName": "Labyrinth",						
@@ -216,13 +217,13 @@
 	// 			"DefaultArrivalTile": { "X": 2, "Y": 41 }
 	// 		},
 	// 		// Stalag-Map Warp Room
-	// 		"{{ModId}}_StalagMap": {
-	// 			"DisplayName": "Stalag-Map - Stalac-Town's Premier Warp Room!",						
-	// 			"CreateOnLoad": { 
-	// 				"MapPath": "Maps/{{ModId}}_StalagMap" 
-	// 			},
-	// 			"DefaultArrivalTile": { "X": 17, "Y": 6 }
-	// 		},
+			"{{ModId}}_StalagMap": {
+				"DisplayName": "Stalag-Map - Stalac-Town's Premier Warp Room!",						
+				"CreateOnLoad": { 
+					"MapPath": "Maps/{{ModId}}_StalagMap" 
+				},
+				"DefaultArrivalTile": { "X": 17, "Y": 6 }
+			},
 		},
 	},
 
