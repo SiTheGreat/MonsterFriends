@@ -4,6 +4,11 @@
 
 	// Griddle's Restaurant //////////////////////////////////////////////////////////
 
+	// parsnip for parsnip soup
+	// salmon or tuna for maki/sashimi
+	// Egg for omelette
+	// carrots/beets/potatoes/onions/garlic, mushrooms, cave carrots
+
 	// Add shop actions
 	{
 		"Action": "EditMap",
