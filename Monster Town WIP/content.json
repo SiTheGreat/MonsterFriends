@@ -25,6 +25,11 @@
 		"FromFile": "Chars/Eyeball/Eyeball.json",
 	},
 
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Fizzy/Fizzy.json",
+	// },
+
 	{
 		"Action": "Include",
 		"FromFile": "Chars/Griddle/Griddle.json",
