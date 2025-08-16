@@ -38,6 +38,11 @@
 	// 	"FromFile": "Chars/Griddle/GriddleShop.json",
 	// },
 
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Griddle/GriddleRecipes.json",
+	// },
+
 	{
 		"Action": "Include",
 		"FromFile": "Chars/Griddle/GriddleQuests.json",

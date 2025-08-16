@@ -1,0 +1,48 @@
+{	
+
+	"Changes": [
+
+	// Recipes //////////////////////////////////////////////////////////
+
+	// Stone Soup
+	// stone soup is stone, carrot, garlic, onion, common mushroom, potatoes, beets
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/StoneSoup",
+			"FromFile": "StoneSoup.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Entries": {
+				"Bagel": "-5 1 -6 1 815 1 433 1/10 10/{{ModId}}_StoneSoup/s Farming 0/{{i18n:Si.bagel.name}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_StoneSoup": {
+					"Name": "{{ModId}}_StoneSoup",
+					"DisplayName": "{{i18n:Si.bagel.name}}",
+					"Description": "{{i18n:Si.bagel.descrip}}",
+					"Texture": "Mods/{{ModId}}/Objects",
+					"Type": "Cooking",
+					"Edibility": "400",
+					"Category": -7,
+					"Price": 486,
+					"SpriteIndex": 0,
+					"EdibleIsDrink": false,
+					"ContextTags": [
+						"food_breakfast",
+					],
+				}
+			}
+		}
+
+	]
+
+	// End //////////////////////////////////////////////////////////
+
+}

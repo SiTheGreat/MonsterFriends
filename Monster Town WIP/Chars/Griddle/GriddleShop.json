@@ -5,9 +5,20 @@
 	// Griddle's Restaurant //////////////////////////////////////////////////////////
 
 	// parsnip for parsnip soup
-	// salmon or tuna for maki/sashimi
-	// Egg for omelette
-	// carrots/beets/potatoes/onions/garlic, mushrooms, cave carrots
+	// salmon or tuna for maki/sashimi/fish taco
+	// Egg for fried egg or omelette
+	// bean for bean hotpot
+	// hot pepper for pepper poppers
+	// pumpkin for autumn bounty/pumpkin soup
+	// kale for stiry fry
+	// hazelnut for roasted hazelnuts
+	// fiddlehead for fiddlehead risotto
+	// eggplant for survival burger/eggplant parmesan
+	// sea cuc for lucky lunch
+	// bread algae soup pale broth chowder fried mushroom glazed yams miner's treat roots platter moss soup trout soup
+	// stone for stone soup; recipe for stone soup is stone, carrot, garlic, onion, mushrooms, potatoes, beets
+	// Sell stone soup recipe too OR maybe gift after finishing lots of quests via ActionsOnPurchase ...
+	// Also include currency need
 
 	// Add shop actions
 	{
@@ -15,17 +26,10 @@
 		"Target": "Maps/{{ModId}}_Maimber",
 		"MapTiles": [
 			{
-				"Position": { "X": 68, "Y": 29 },
+				"Position": { "X": 60, "Y": 50 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_InkoShop none 600 2600 68 29 1 1"
-				}
-			},
-			{
-				"Position": { "X": 69, "Y": 29 },
-				"Layer": "Buildings",
-				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_InkoShop none 600 2600 69 29 1 1"
+					"Action": "OpenShop {{ModId}}_GriddleShop none 600 2600 60 50 1 1"
 				}
 			},
 		],
@@ -36,78 +40,38 @@
 		"Action": "EditData",
 		"Target": "Data/Shops",
 		"Entries": {
-			"{{ModId}}_InkoShop": {
-				"Id": "{{ModId}}_InkoShop",
+			"{{ModId}}_GriddleShop": {
+				"Id": "{{ModId}}_GriddleShop",
 				"Owners": [
 					{
-						"Id": "{{ModId}}_InkoOpen",
+						"Id": "{{ModId}}_GriddleOpen",
 						"Name": "AnyOrNone",
-						"Portrait": "Portraits/{{ModId}}_Inko",
+						"Portrait": "Portraits/{{ModId}}_Griddle",
 						"Dialogues": [],
-						"Condition": "TIME 800 1200, !DAY_OF_WEEK Monday",
+						"Condition": "TIME 700 2200",
 					},
 					{
-						"Id": "{{ModId}}_InkoOpen",
-						"Name": "AnyOrNone",
-						"Portrait": "Portraits/{{ModId}}_Inko",
-						"Dialogues": [],
-						"Condition": "TIME 1330 1800, !DAY_OF_WEEK Monday",
-					},
-					{
-						"Id": "{{ModId}}_InkoClosed1",
+						"Id": "{{ModId}}_GriddleClosed1",
 						"Name": "None",
-						"Condition": "TIME 600 800, !DAY_OF_WEEK Monday",
-						"ClosedMessage": "This shop opens at 8 AM.",
+						"Condition": "TIME 600 700",
+						"ClosedMessage": "This shop opens at 7 AM.",
 					},
 					{
-						"Id": "{{ModId}}_InkoClosed2",
+						"Id": "{{ModId}}_GriddleClosed2",
 						"Name": "None",
-						"Condition": "TIME 1200 1330, !DAY_OF_WEEK Monday",
-						"ClosedMessage": "Out to lunch! Back at 1:30 PM.",
-					},
-					{
-						"Id": "{{ModId}}_InkoClosed3",
-						"Name": "None",
-						"Condition": "TIME 1800 2600, !DAY_OF_WEEK Monday",
+						"Condition": "TIME 2200 2600",
 						"ClosedMessage": "Sorry, we're closed for the day!",
-					},
-					{
-						"Id": "{{ModId}}_InkoClosed4",
-						"Name": "None",
-						"Condition": "DAY_OF_WEEK Monday",
-						"ClosedMessage": "Sorry, we're closed on Mondays!",
 					},
 				],
 				"Items": [
+					// Spring
 					{
-						"Id": "{{ModId}}_InkoShop_FieldSnack",
-						"ItemId": "(O)403",
-                		"AvailableStock": 5,
-						"AvailableStockLimit": "Player",
-					},
-					{
-						"Id": "{{ModId}}_InkoShop_Bomb",
-						"ItemId": "(O)287",
-                		"AvailableStock": 5,
-						"AvailableStockLimit": "Player",
-					},
-					{
-						"Id": "{{ModId}}_InkoShop_ExploAmmo",
-						"ItemId": "(O)441",
-                		"AvailableStock": 20,
-						"AvailableStockLimit": "Player",
-					},
-					{
-						"Id": "{{ModId}}_InkoShop_Supplies",
-						"ItemId": "RANDOM_ITEMS (O)",
-                		"MaxItems": "12",
-						"AvailableStock": 1,
-                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target category_ring\" \"ITEM_CONTEXT_TAG Target category_boots\" \"ITEM_CONTEXT_TAG Target category_weapon\" \"ITEM_CONTEXT_TAG Target Si_InkoShop_Hat\" \"ITEM_CONTEXT_TAG Target Si_InkoShop_Armor\" \"ITEM_CONTEXT_TAG Target Si_InkoShop_Potions\" \"ITEM_CONTEXT_TAG Target Si_InkoShop_Explosives\" \"ITEM_CONTEXT_TAG Target category_monster_loot\"",
-					},
-					{
-						"Id": "{{ModId}}_InkoShop_BoneSword",
-						"ItemId": "(W)5",
-                		"AvailableStock": 5,
+						"Id": "{{ModId}}_GriddleShop_SpringForage1",
+						"ItemId": "(O){{Random:378, 382}}", // Coal, Copper ore 
+						"TradeItemId": "(O){{Random:20, 22, 296}}", // Leek, Dandelion, Salmonberry
+                    	"TradeItemAmount": 1,
+						"Condition": "SEASON Spring",
+                		"AvailableStock": "{{Random: 1, 5}}",
 						"AvailableStockLimit": "Player",
 					},
 				],
