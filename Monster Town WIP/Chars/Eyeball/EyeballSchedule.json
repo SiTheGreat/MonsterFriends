@@ -22,7 +22,7 @@
 		"Target": "Characters/schedules/{{ModId}}_Eyeball",
 		"Entries": {
 
-			"Tue": "0 {{ModId}}_LavaTubes 60 41 1/850 {{ModId}}_LavaTubes 60 48 1/1010 {{ModId}}_LavaTubes 62 41 3/1110 {{ModId}}_LavaTubes 60 45 2/1140 {{ModId}}_LavaTubes 57 41 1/1210 {{ModId}}_Maimber 75 52 3/1420 {{ModId}}_EyeballHouse 5 4 0/1550 {{ModId}}_LavaTubes 61 42 0/1640 {{ModId}}_LavaTubes 60 41 1/{{ModId}}_LavaTubes 60 41 2/2200 {{ModId}}_LavaTubes 60 41 1/2220 {{ModId}}_LavaTubes 60 48 1/2240 {{ModId}}_LavaTubes 60 41 1/2310 {{ModId}}_EyeballHouse 8 4 1", // 
+			"Tue": "0 {{ModId}}_LavaTubes 60 41 1/850 {{ModId}}_LavaTubes 60 48 1/1010 {{ModId}}_LavaTubes 62 41 3/1110 {{ModId}}_LavaTubes 60 45 2/1140 {{ModId}}_LavaTubes 57 41 1/1210 {{ModId}}_Maimber 75 52 3/1420 {{ModId}}_EyeballHouse 5 4 0/1550 {{ModId}}_LavaTubes 61 42 0/1640 {{ModId}}_LavaTubes 60 41 1/1700 {{ModId}}_LavaTubes 60 41 2/2200 {{ModId}}_LavaTubes 60 41 1/2220 {{ModId}}_LavaTubes 60 48 1/2240 {{ModId}}_LavaTubes 60 41 1/2310 {{ModId}}_EyeballHouse 8 4 1", // 
 			"Sat": "GOTO Tue",
 			"Wed": "750 {{ModId}}_Maimber 75 52 3/1210 {{ModId}}_Maimber 70 30 3/1840 {{ModId}}_LavaTubes 131 14 2/2140 {{ModId}}_EyeballHouse 8 4 1", // add library
 			"Thu": "GOTO Wed", // same as wed but club instead of library
