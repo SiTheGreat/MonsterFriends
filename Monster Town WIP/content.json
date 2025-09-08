@@ -36,6 +36,11 @@
 
 	// Characters ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Briar/Briar.json",
+	// },
+
 	{
 		"Action": "Include",
 		"FromFile": "Chars/Eyeball/Eyeball.json",
@@ -56,9 +61,14 @@
 		"FromFile": "Chars/Inko/Inko.json",
 	},
 
+	{
+		"Action": "Include",
+		"FromFile": "Chars/Plague/Plague.json",
+	},
+
 	// {
 	// 	"Action": "Include",
-	// 	"FromFile": "Chars/Plague/Plague.json",
+	// 	"FromFile": "Chars/Roger/Roger.json",
 	// },
 
 	// {

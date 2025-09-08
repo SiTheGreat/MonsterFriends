@@ -72,8 +72,8 @@
 		"Action": "EditMap",
 		"Target": "Maps/{{ModId}}_Maimber",
 		"MapProperties": {
-			"Warp": "72 69 {{ModId}}_LavaTubes 47 6 73 69 {{ModId}}_LavaTubes 48 6",
-			// "Warp": "39 4 {{ModId}}_Crevasse 31 38 40 4 {{ModId}}_Crevasse 33 38 2 21 {{ModId}}_Grotto 104 20 2 22 {{ModId}}_Grotto 104 21 28 66 {{ModId}}_LavaTubes x y 29 66 {{ModId}}_LavaTubes x y 46 37 {{ModId}}_Labyrinth 2 40 46 38 {{ModId}}_Labyrinth 2 41",
+			"Warp": "72 69 {{ModId}}_LavaTubes 47 6 73 69 {{ModId}}_LavaTubes 48 6 45 24 {{ModId}}_Grotto 164 24 45 25 {{ModId}}_Grotto 164 25",
+			// "Warp": "39 4 {{ModId}}_Crevasse 31 38 40 4 {{ModId}}_Crevasse 33 38 28 66 {{ModId}}_LavaTubes x y 29 66 {{ModId}}_LavaTubes x y 46 37 {{ModId}}_Labyrinth 2 40 46 38 {{ModId}}_Labyrinth 2 41",
 			"NPCWarp": "46 47 Mine 12 9 46 49 {{ModId}}_StalagMap 17 6",
 		}
 	},
@@ -90,13 +90,13 @@
 
 	// Grotto Exits
 
-	// {
-	// 	"Action": "EditMap",
-	// 	"Target": "Maps/{{ModId}}_Grotto",
-	// 	"MapProperties": {
-	// 		"Warp": "105 20 {{ModId}}_Maimber 3 21 105 21 {{ModId}}_Maimber 3 22",
-	// 	}
-	// },
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_Grotto",
+		"MapProperties": {
+			"Warp": "165 24 {{ModId}}_Maimber 47 24 165 25 {{ModId}}_Maimber 47 25",
+		}
+	},
 
 	// Lava Tubes Exits
 
@@ -146,13 +146,13 @@
 	// 	"Target": "Maps/{{ModId}}_Crevasse",
 	// 	"FromFile": "Maps/Crevasse.tmx",
 	// },
-	// // Grotto
-	// {
-	// 	"Action": "Load",
-	// 	"Target": "Maps/{{ModId}}_Grotto",
-	// 	"FromFile": "Maps/Grotto.tmx",
-	// },
-	// // Lava Tubes
+	// Grotto
+	{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_Grotto",
+		"FromFile": "Maps/Grotto.tmx",
+	},
+	// Lava Tubes
 	{
 		"Action": "Load",
 		"Target": "Maps/{{ModId}}_LavaTubes",
@@ -193,15 +193,15 @@
 	// 			},
 	// 			"DefaultArrivalTile": { "X": 32, "Y": 38 }
 	// 		},
-	// 		// Grotto
-	// 		"{{ModId}}_Grotto": {
-	// 			"DisplayName": "Grotto",						
-	// 			"CreateOnLoad": { 
-	// 				"MapPath": "Maps/{{ModId}}_Grotto" 
-	// 			},
-	// 			"DefaultArrivalTile": { "X": 105, "Y": 21 }
-	// 		},
-	// 		// Lava Tubes
+			// Grotto
+			"{{ModId}}_Grotto": {
+				"DisplayName": "Grotto",						
+				"CreateOnLoad": { 
+					"MapPath": "Maps/{{ModId}}_Grotto" 
+				},
+				"DefaultArrivalTile": { "X": 163, "Y": 25 }
+			},
+			// Lava Tubes
 			"{{ModId}}_LavaTubes": {
 				"DisplayName": "Lava Tubes",						
 				"CreateOnLoad": { 
