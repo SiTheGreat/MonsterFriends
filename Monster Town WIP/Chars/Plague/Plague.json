@@ -145,55 +145,54 @@
 
 	// Add Clinic map
 
-	// {
-	// 	"Action": "Load",
-	// 	"Target": "Maps/{{ModId}}_Clinic",
-	// 	"FromFile": "Maps/Clinic.tmx",
-	// },
+	{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_Clinic",
+		"FromFile": "Maps/Clinic.tmx",
+	},
 
-	// {
-	// 	"Action": "EditData",
-	// 	"Target": "Data/Locations",
-	// 	"Entries": {
-	// 		"{{ModId}}_Clinic": {
-	// 			"DisplayName": "Dr. Plague's Clinic",
-	// 			"CreateOnLoad": {
-	// 				"MapPath": "Maps/{{ModId}}_Clinic"
-	// 			},
-	// 			"DefaultArrivalTile": {
-	// 				"X": 4,
-	// 				"Y": 6
-	// 			}
-	// 		}
-	// 	}
-	// },
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+			"{{ModId}}_Clinic": {
+				"DisplayName": "Dr. Plague's Clinic",
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_Clinic"
+				},
+				"DefaultArrivalTile": {
+					"X": 9,
+					"Y": 14
+				}
+			}
+		}
+	},
 
 	// Add Clinic warps
 
-	// {
-	// 	"Action": "EditMap",
-	// 	"Target": "Maps/{{ModId}}_Grotto",
-	// 	"AddWarps": [
-	// 		"1 1 {{ModId}}_Clinic 3 6"
-	// 	],
-	// },
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_Grotto",
+		"AddWarps": [
+			"155 17 {{ModId}}_Clinic 9 14"
+		],
+	},
 
-	// {
-	// 	"Action": "EditMap",
-	// 	"Target": "Maps/{{ModId}}_Clinic",
-	// 	"AddWarps": [
-	// 		"2 7 {{ModId}}_Grotto 1 1",
-	// 		"3 7 {{ModId}}_Grotto 1 1",
-	// 	],
-	// },
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_Clinic",
+		"AddWarps": [
+			"9 15 {{ModId}}_Grotto 155 18",
+		],
+	},
 
 	// Add Clinic events file
 
-	// {
-	// 	"Action": "Load",
-	// 	"Target": "Data/Events/{{ModId}}_Clinic",
-	// 	"FromFile": "Other/blank.json",
-	// },
+	{
+		"Action": "Load",
+		"Target": "Data/Events/{{ModId}}_Clinic",
+		"FromFile": "Other/blank.json",
+	},
 
 	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
