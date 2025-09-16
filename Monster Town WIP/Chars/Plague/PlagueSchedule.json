@@ -21,9 +21,9 @@
 			"fall_13": "610 {{ModId}}_PlagueHouse 4 4 0/640 {{ModId}}_PlagueHouse 2 4 3/710 {{ModId}}_Clinic 4 14 1/820 {{ModId}}_Clinic 2 5 0/850 {{ModId}}_Clinic 6 5 1/1100 {{ModId}}_Grotto 129 17 2/a1200 {{ModId}}_Clinic 4 14 1/1310 {{ModId}}_Clinic 1 7 0/1420 {{ModId}}_Clinic 4 14 1/1540 {{ModId}}_Clinic 2 5 0/1610 {{ModId}}_Clinic 2 5 3/1650 {{ModId}}_Clinic 2 5 0/1710 {{ModId}}_Clinic 4 14 1/1740 {{ModId}}_Maimber 59 54 1/2150 {{ModId}}_PlagueHouse 4 4 0/2350 {{ModId}}_PlagueHouse 8 3 1", // Inko checkup
 			"winter_11": "GOTO fall_13", // Griddle checkup
 			"summer_25": "GOTO fall_13", // Eyeball checkup
-			"winter_27": "GOTO fall_13", // Roger checkup
+			"winter_27": "GOTO fall_13", // Roger checkup - modify due to space
 			// "spring_??": "GOTO fall_13", // Briar checkup - maybe convince them to start going later in their story?
-			"fall 24": "GOTO fall_13", // Fizzy checkup
+			"fall_24": "GOTO fall_13", // Fizzy checkup
 			"summer_8": "GOTO fall_13", // Sounder checkup
 			"spring_17": "GOTO fall_13", // Sounder monthly
 			"summer_17": "GOTO fall_13", // Sounder monthly
