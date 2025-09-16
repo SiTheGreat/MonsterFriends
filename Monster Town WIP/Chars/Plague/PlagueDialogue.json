@@ -6,6 +6,8 @@
 
 	// Everyday dialogue
 
+	// Checkups loc dialogue: 'hey, you shoudn't be in here during a private checkup. Shoo!'
+
 	{
 		"LogName": "Si ST Plague Everyday Dialogue",
 		"Action": "EditData",

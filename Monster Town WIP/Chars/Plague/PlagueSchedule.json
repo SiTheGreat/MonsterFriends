@@ -6,8 +6,9 @@
 
 	// Schedules ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	// Day off is Friday
-	// Clinic days: Inko fall 13 Sounder sum 8 Roger win 28 Griddle win 11 Eyeball sum 25 Fizzy fall 24
+	// Day off is Friday; also closed crepuscule (win 19, which is friday anyway) and annual battle (summer 7, sunday)
+	// Clinic days: Inko fall 13 Sounder sum 8 (+17 each month for T) Roger win 27 Griddle win 11 Eyeball sum 25 Fizzy fall 24; briar spring?
+	// Clinic opens at 8, appts from 9 to 11, 12 to 2, and 3 to 5 (3 people per day), clinic closes at 5:30; might close earlier on certain days (only 2 appts) so she can go watch a movie
 
 	// Everyday schedule
 
@@ -17,7 +18,19 @@
 		"Target": "Characters/schedules/{{ModId}}_Plague",
 		"Entries": {
 
-			"spring": "0 Town 7 3 3/650 Town 47 19 2",
+			"fall_13": "610 {{ModId}}_PlagueHouse 4 4 0/640 {{ModId}}_PlagueHouse 2 4 3/710 {{ModId}}_Clinic 4 14 1/820 {{ModId}}_Clinic 2 5 0/850 {{ModId}}_Clinic 6 5 1/1100 {{ModId}}_Grotto 129 17 2/a1200 {{ModId}}_Clinic 4 14 1/1310 {{ModId}}_Clinic 1 7 0/1420 {{ModId}}_Clinic 4 14 1/1540 {{ModId}}_Clinic 2 5 0/1610 {{ModId}}_Clinic 2 5 3/1650 {{ModId}}_Clinic 2 5 0/1710 {{ModId}}_Clinic 4 14 1/1740 {{ModId}}_Maimber 59 54 1/2150 {{ModId}}_PlagueHouse 4 4 0/2350 {{ModId}}_PlagueHouse 8 3 1", // Inko checkup
+			"winter_11": "GOTO fall_13", // Griddle checkup
+			"summer_25": "GOTO fall_13", // Eyeball checkup
+			"winter_27": "GOTO fall_13", // Roger checkup
+			// "spring_??": "GOTO fall_13", // Briar checkup - maybe convince them to start going later in their story?
+			"fall 24": "GOTO fall_13", // Fizzy checkup
+			"summer_8": "GOTO fall_13", // Sounder checkup
+			"spring_17": "GOTO fall_13", // Sounder monthly
+			"summer_17": "GOTO fall_13", // Sounder monthly
+			"fall_17": "GOTO fall_13", // Sounder monthly
+			"winter_17": "GOTO fall_13", // Sounder monthly
+			"Fri": "710 {{ModId}}_PlagueHouse 4 4 0/740 {{ModId}}_PlagueHouse 2 4 3/830 {{ModId}}_Grotto 129 17 2/1640 {{ModId}}_Maimber 59 54 1/2150 {{ModId}}_PlagueHouse 4 4 0/2350 {{ModId}}_PlagueHouse 8 3 1", // Day off schedule; go to library?
+			"spring": "610 {{ModId}}_PlagueHouse 4 4 0/640 {{ModId}}_PlagueHouse 2 4 3/710 {{ModId}}_Clinic 4 14 1/820 {{ModId}}_Clinic 2 5 0/910 {{ModId}}_Clinic 2 5 3/940 {{ModId}}_Clinic 2 5 0/1020 {{ModId}}_Clinic 4 14 1/1100 {{ModId}}_Grotto 129 17 2/a1200 {{ModId}}_Clinic 4 14 1/1310 {{ModId}}_Clinic 1 7 0/1420 {{ModId}}_Clinic 4 14 1/1540 {{ModId}}_Clinic 2 5 0/1610 {{ModId}}_Clinic 2 5 3/1650 {{ModId}}_Clinic 2 5 0/1710 {{ModId}}_Clinic 4 14 1/1740 {{ModId}}_Maimber 59 54 1/2150 {{ModId}}_PlagueHouse 4 4 0/2350 {{ModId}}_PlagueHouse 8 3 1",
 
 		},
 	},
