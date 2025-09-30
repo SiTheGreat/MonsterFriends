@@ -1,0 +1,51 @@
+{
+
+	// All Nib schedules
+
+	"Changes": [
+
+	// Schedules ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	// Movie nights tuesday and saturday; set up w sounder in the morning, go for food, go home to pick up movie, then hold movie night
+	// Movie night starts at 5pm and goes till 9:30pm; groups may hang out afterwards to talk about it
+	// Likes going to the library and club often (and museum if installed) (doesn't stay at the club very long, too dry; same for library, too dusty)
+	// Hangs out at the magma pools
+	// Visits the market looking for cool things
+	// Also visits the slime ranch a lot, humidity helps w dry eye
+	// bday is win 25, clinic day sum 25
+
+	// Everyday schedule
+
+	{
+		"LogName": "Si ST Eyeball Everyday Schedule",
+		"Action": "EditData",
+		"Target": "Characters/schedules/{{ModId}}_Eyeball",
+		"Entries": {
+
+			"Tue": "0 {{ModId}}_LavaTubes 60 41 1/850 {{ModId}}_LavaTubes 60 48 1/1010 {{ModId}}_LavaTubes 62 41 3/1110 {{ModId}}_LavaTubes 60 45 2/1140 {{ModId}}_LavaTubes 57 41 1/1210 {{ModId}}_Maimber 75 52 3/1420 {{ModId}}_EyeballHouse 5 4 0/1550 {{ModId}}_LavaTubes 61 42 0/1640 {{ModId}}_LavaTubes 60 41 1/1700 {{ModId}}_LavaTubes 60 41 2/2200 {{ModId}}_LavaTubes 60 41 1/2220 {{ModId}}_LavaTubes 60 48 1/2240 {{ModId}}_LavaTubes 60 41 1/2310 {{ModId}}_EyeballHouse 8 4 1", // 
+			"Sat": "GOTO Tue",
+			"Wed": "750 {{ModId}}_Maimber 75 52 3/1210 {{ModId}}_Maimber 70 30 3/1840 {{ModId}}_LavaTubes 131 14 2/2140 {{ModId}}_EyeballHouse 8 4 1", // add library
+			"Thu": "GOTO Wed", // same as wed but club instead of library
+			"Fri": "GOTO Wed", // same as wed but ranch to rehumidify instead of magma pools
+			"Sun": "GOTO Wed", // same as thu but ranch instead of magma pools
+			"Mon": "GOTO Wed", // modify since Inko isn't at market; might be pun out day
+
+		},
+	},
+
+	// Blank schedule load
+
+	{
+		"LogName": "Si ST Eyeball Blank Dialogue",
+		"Action": "Load",
+		"Target": "Characters/schedules/{{ModId}}_Eyeball",
+		"FromFile": "Other/blank.json",
+	},
+
+	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	]
+
+
+
+}

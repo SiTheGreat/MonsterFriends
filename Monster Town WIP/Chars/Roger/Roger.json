@@ -1,0 +1,154 @@
+{
+
+	"Changes": [
+
+	// Images ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Load",
+		"Target": "Characters/{{ModId}}_Roger",
+		"FromFile": "Chars/Roger/RogerSprites.png",
+	},
+
+	{
+		"Action": "Load",
+		"Target": "Portraits/{{ModId}}_Roger",
+		"FromFile": "Chars/Roger/RogerPortrait.png",
+	},
+
+	// Includes ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Include",
+		"FromFile": "Chars/Roger/RogerSchedule.json",
+	},
+
+	{
+		"Action": "Include",
+		"FromFile": "Chars/Roger/RogerDialogue.json",
+	},
+
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Roger/RogerEvents.json",
+	// },
+
+	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	// Loves:  slime, slime eggs, regular eggs, fiber, radioactive ore
+	// Likes: 
+	// Neuts:
+	// Dislikes:
+	// Hates:
+
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"{{ModId}}_Roger": "Love it!/424/Like it./423/Dislike it./433/Hate it!/419/Meh./418/",
+		},
+	},
+
+	// Disposition ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"{{ModId}}_Roger": {
+				// Char
+				"DisplayName": "Angry Roger",
+				"Gender": "Male",
+				"Age": "Adult",
+				"BirthSeason": "Summer",
+				"BirthDay": 28,
+				// Attitude
+				"Manner": "Rude",
+				"SocialAnxiety": "Neutral",
+				"Optimism": "Negative",
+				"CanBeRomanced": false,
+				"CanSocialize": false,
+				// Exclusions
+				"PerfectionScore": false,
+				"IntroductionsQuest": false,
+				"ItemDeliveryQuests": false,
+				"CanVisitIsland": false,
+				"WinterStarParticipant": false,
+				"CanCommentOnPurchasedShopItems": false,
+				"CanGreetNearbyCharacters": true,
+				"SocialTab": "HiddenUntilMet",
+				"Calendar": "HiddenUntilMet",
+				// Home
+				"HomeRegion": "Other",
+				"Home": [
+					{
+						"Id": "Default",
+						"Location": "{{ModId}}_RogerHouse",
+						"Tile": { "X": 5, "Y": 4 },
+						"Direction": "Up"
+					}
+				],
+				"Size": { "X": 32, "Y": 32 },
+				"CustomFields": {
+					"poohnhi.PoohCore/WideCharacter": "true"
+				}
+			}
+		}
+	},
+
+	// Maps ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Add home map
+	{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_RogerHouse",
+		"FromFile": "Maps/RogerHouse.tmx",
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+			"{{ModId}}_RogerHouse": {
+				"DisplayName": "Giant Roger's House",
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_RogerHouse"
+				},
+				"DefaultArrivalTile": {
+					"X": 4,
+					"Y": 5
+				}
+			}
+		}
+	},
+
+	// Add home warps
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_LavaTubes",
+		"AddWarps": [
+			"69 4 {{ModId}}_RogerHouse 4 6"
+		],
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_RogerHouse",
+		"AddWarps": [
+			"4 7 {{ModId}}_LavaTubes 69 5",
+			"5 7 {{ModId}}_LavaTubes 69 5",
+		],
+	},
+
+	// Add home events file
+	{
+		"Action": "Load",
+		"Target": "Data/Events/{{ModId}}_RogerHouse",
+		"FromFile": "Other/blank.json",
+	},
+
+	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	],
+
+}

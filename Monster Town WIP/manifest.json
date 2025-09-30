@@ -12,6 +12,10 @@
 		{
 		"UniqueID": "Spiderbuttons.ArbitraryTilesheetAccess",
 		"IsRequired": true
-		},		
+		},
+		{
+		"UniqueID": "poohnhi.PoohCore",
+		"IsRequired": true
+		},
 	]
 }

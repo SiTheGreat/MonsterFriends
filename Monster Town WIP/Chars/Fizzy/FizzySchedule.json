@@ -22,6 +22,15 @@
 		},
 	},
 
+	// Animations
+	// {
+	// 	"Action": "EditData",
+	// 	"Target": "Data/animationDescriptions",
+	// 	"Entries": {
+	// 		// "pufferbob_sleep": "50/50/50" // note: make name lowercase
+	// 	}
+	// }
+
 	// Blank schedule load
 
 	{
