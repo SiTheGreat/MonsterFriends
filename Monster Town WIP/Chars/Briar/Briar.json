@@ -1,0 +1,151 @@
+{
+
+	"Changes": [
+
+	// Images ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Load",
+		"Target": "Characters/{{ModId}}_Briar",
+		"FromFile": "Chars/Briar/BriarSprites.png",
+	},
+
+	{
+		"Action": "Load",
+		"Target": "Portraits/{{ModId}}_Briar",
+		"FromFile": "Chars/Briar/BriarPortrait.png",
+	},
+
+	// Includes ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "Include",
+		"FromFile": "Chars/Briar/BriarSchedule.json",
+	},
+
+	{
+		"Action": "Include",
+		"FromFile": "Chars/Briar/BriarDialogue.json",
+	},
+
+	// {
+	// 	"Action": "Include",
+	// 	"FromFile": "Chars/Briar/BriarEvents.json",
+	// },
+
+	// Gifts ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	// Loves: supplies
+	// Likes: 
+	// Neuts: squid ink ('...where did you get this?')
+	// Dislikes:
+	// Hates:
+
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"{{ModId}}_Briar": "Love it!/424/Like it./423/Dislike it./433/Hate it!/419/Meh./418/",
+		},
+	},
+
+	// Disposition ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"{{ModId}}_Briar": {
+				// Char
+				"DisplayName": "Briar",
+				"Gender": "Undefined",
+				"Age": "Teen",
+				"BirthSeason": "Summer",
+				"BirthDay": 22,
+				// Attitude
+				"Manner": "Polite",
+				"SocialAnxiety": "Shy",
+				"Optimism": "Negative",
+				"CanBeRomanced": false,
+				"CanSocialize": false,
+				// Exclusions
+				"PerfectionScore": false,
+				"IntroductionsQuest": false,
+				"ItemDeliveryQuests": false,
+				"CanVisitIsland": false,
+				"WinterStarParticipant": false,
+				"CanCommentOnPurchasedShopItems": false,
+				"CanGreetNearbyCharacters": true,
+				"SocialTab": "HiddenUntilMet",
+				"Calendar": "HiddenUntilMet",
+				// Home
+				"HomeRegion": "Other",
+				"Home": [
+					{
+						"Id": "Default",
+						"Location": "{{ModId}}_BriarHouse",
+						"Tile": { "X": 7, "Y": 4 },
+						"Direction": "Right"
+					}
+				]
+			}
+		}
+	},
+
+	// Maps ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Add home map
+	{
+		"Action": "Load",
+		"Target": "Maps/{{ModId}}_BriarHouse",
+		"FromFile": "Maps/BriarHouse.tmx",
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"Entries": {
+			"{{ModId}}_BriarHouse": {
+				"DisplayName": "Briar's House",
+				"CreateOnLoad": {
+					"MapPath": "Maps/{{ModId}}_BriarHouse"
+				},
+				"DefaultArrivalTile": {
+					"X": 6,
+					"Y": 6
+				}
+			}
+		}
+	},
+
+	// Add home warps
+	// Change to labyrinth
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_Maimber",
+		"AddWarps": [
+			"53 7 {{ModId}}_BriarHouse 4 6"
+		],
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/{{ModId}}_BriarHouse",
+		"AddWarps": [
+			"4 7 {{ModId}}_Maimber 53 8",
+			"5 7 {{ModId}}_Maimber 53 8",
+		],
+	},
+
+	// Add home events file
+	{
+		"Action": "Load",
+		"Target": "Data/Events/{{ModId}}_BriarHouse",
+		"FromFile": "Other/blank.json",
+	},
+
+	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	],
+
+}

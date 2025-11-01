@@ -1,0 +1,41 @@
+{
+
+	"Changes": [
+	
+	// Dialogue ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Everyday dialogue
+
+	{
+		"LogName": "Si ST Briar Everyday Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/{{ModId}}_Briar",
+		"Entries": {
+
+			"Mon": "ADD WORDS HERE",
+			"Tue": "ADD WORDS HERE",
+			"Wed": "ADD WORDS HERE",
+			"Thu": "ADD WORDS HERE",
+			"Fri": "ADD WORDS HERE",
+			"Sat": "ADD WORDS HERE",
+			"Sun": "ADD WORDS HERE",
+
+		}
+
+	},
+
+	// Blank dialogue load
+
+	{
+		"LogName": "Si ST Briar Blank Dialogue",
+		"Action": "Load",
+		"Target": "Characters/Dialogue/{{ModId}}_Briar",
+		"FromFile": "Other/blank.json",
+	},
+
+	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	]
+
+
+}

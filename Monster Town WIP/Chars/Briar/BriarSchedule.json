@@ -1,0 +1,38 @@
+{
+	"Changes": [
+
+	// Schedules ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Daily: library books
+	// bday summer 22
+	// Clinic day winter 22
+	// Maybe a couple movie nights but not often?
+
+	// Everyday schedule
+
+	{
+		"LogName": "Si ST Briar Everyday Schedule",
+		"Action": "EditData",
+		"Target": "Characters/schedules/{{ModId}}_Briar",
+		"Entries": {
+			"spring": "",
+
+		},
+	},
+
+	// Blank schedule load
+
+	{
+		"LogName": "Si ST Briar Blank Dialogue",
+		"Action": "Load",
+		"Target": "Characters/schedules/{{ModId}}_Briar",
+		"FromFile": "Other/blank.json",
+	},
+
+	// End ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	]
+
+
+
+}
